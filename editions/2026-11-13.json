@@ -42,23 +42,23 @@
   },
   {
    "aud": "adults",
-   "place": "Karnataka · Teachers",
-   "title": "Karnataka will train 5,000 government school teachers in basic AI literacy during 2027.",
-   "summary": "Announced on 4 November 2026 in Bengaluru, the 12-month programme under the JanAI initiative of the Head Held High Foundation will run from January to December 2027 with the state's Department of School Education and Literacy. It covers AI fundamentals, common tools, prompting, lesson preparation and responsible use, and needs no prior AI experience.",
-   "gk": "AI literacy means understanding what AI tools can and cannot do, and using them safely. Responsible use includes checking AI output for errors and bias and protecting student data.",
-   "exam": "Useful for teaching-exam and interview preparation (CTET, state TETs, KVS/NVS): AI literacy for teachers as part of technology integration in education.",
-   "source": "Elets digitalLEARNING",
-   "url": "https://digitallearning.eletsonline.com/2026/11/karnataka-teachers-ai-literacy/",
+   "place": "CBSE · Teachers",
+   "title": "CBSE's National Teachers' Conference on Computational Thinking and AI is set for 20-21 November in Pune.",
+   "summary": "CBSE will hold its National Teachers' Conference 2026 in Pune on 20 and 21 November, on the theme of computational thinking and understanding artificial intelligence. Teachers, principals, counsellors and special educators of CBSE-affiliated schools take part as delegates or paper presenters. The seven sub-themes include AI readiness, mathematics and AI, pedagogy and assessment, and responsible use of AI.",
+   "gk": "Computational thinking means solving problems step by step in a way a computer could carry out: breaking a problem into parts, spotting patterns and writing clear instructions. CBSE is headquartered in New Delhi.",
+   "exam": "For teachers: CBSE's direction on computational thinking and AI in classrooms. For teaching exams and interviews: know the terms computational thinking, AI readiness and responsible AI.",
+   "source": "The Free Press Journal",
+   "url": "https://www.freepressjournal.in/amp/education/cbse-opens-registration-for-two-day-national-teachers-conference-2026-on-computational-thinking-ai-scheduled-for-november-2021",
    "quiz": {
-    "q": "How many government school teachers will Karnataka train in basic AI literacy in 2027?",
+    "q": "In which city is CBSE's National Teachers' Conference 2026 on computational thinking and AI being held?",
     "options": [
-     "500",
-     "5,000",
-     "50,000",
-     "5 lakh"
+     "New Delhi",
+     "Bengaluru",
+     "Pune",
+     "Lucknow"
     ],
-    "answer": 1,
-    "explain": "The programme covers 5,000 government school teachers."
+    "answer": 2,
+    "explain": "The conference is scheduled for 20-21 November 2026 in Pune."
    }
   },
   {
@@ -181,14 +181,14 @@
    "aud": "students"
   },
   {
+   "aud": "students",
    "cat": "Education",
-   "gk": "Telangana became India's 29th state on 2 June 2014, with Hyderabad as its capital. The 10+2+3 pattern was recommended by the Kothari Commission (1964-66). The National Education Policy 2020 proposes a 5+3+3+4 structure.",
-   "place": "Telangana",
-   "source": "Elets digitalLEARNING",
-   "summary": "Chief Minister A. Revanth Reddy gave the direction at a review meeting in Hyderabad on 11 November; Classes 11 and 12 will move under the School Education Department. He said about 40% of students leave after Class 10. A teachers' federation welcomed the move but asked for more classrooms and teachers, while the Intermediate Education Joint Action Committee opposed it and sought wider consultation.",
-   "title": "Telangana will replace its separate Intermediate system with a 10+2 school structure from 2027-28.",
-   "url": "https://digitallearning.eletsonline.com/2026/11/telangana-10-2-system/",
-   "aud": "students"
+   "place": "CBSE · India",
+   "title": "CBSE asks schools to nominate student innovators for the National Startup Awards 2026.",
+   "summary": "In a circular to its affiliated schools, CBSE has asked them to identify and nominate students for the sixth edition of the National Startup Awards. Students aged 10 and above can enter the Student Innovator / Aspiring Entrepreneur category, and the four student innovation categories carry a prize pool of Rs 25 lakh. The awards are run by the Department for Promotion of Industry and Internal Trade (DPIIT).",
+   "gk": "DPIIT works under the Ministry of Commerce and Industry. The Startup India initiative was launched on 16 January 2016, and 16 January is observed as National Startup Day.",
+   "source": "UNI",
+   "url": "https://www.uniindia.com/national/education-cbse-young-innovators/237022"
   },
   {
    "cat": "Sports",
@@ -408,15 +408,15 @@
   },
   {
    "answer": 1,
-   "explain": "The Chief Minister directed that the change take effect from 2027-28.",
+   "explain": "The awards are run by the Department for Promotion of Industry and Internal Trade.",
    "headline": 8,
    "options": [
-    "2026-27",
-    "2027-28",
-    "2028-29",
-    "2030-31"
+    "NITI Aayog",
+    "DPIIT",
+    "SEBI",
+    "NCERT"
    ],
-   "q": "From which academic year will Telangana adopt the 10+2 school structure?"
+   "q": "Which department runs the National Startup Awards?"
   },
   {
    "answer": 2,
@@ -564,7 +564,7 @@
   }
  ],
  "title": "Retail inflation crosses 6%; Indonesia's Vice President resigns; India in U19 final",
- "updatedAt": "2026-11-13T10:10:00+05:30",
+ "updatedAt": "2026-11-13T11:20:00+05:30",
  "weather": {
   "city": "Delhi-NCR",
   "days": [
