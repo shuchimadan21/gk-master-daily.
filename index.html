@@ -83,6 +83,12 @@ section[role=tabpanel]{display:grid;gap:18px}
 .booster{background:var(--mark);color:var(--mark-ink);border-radius:4px 14px 6px 12px;padding:12px 15px}
 .booster .label{color:var(--mark-ink);opacity:.75}
 .src{font-size:.88rem;color:var(--muted)}
+@media (max-width:640px){
+  .bar .wrap{gap:8px}
+  .tabs{margin-left:0;width:100%;flex-wrap:nowrap;overflow-x:auto;gap:2px}
+  .tab{padding:7px 8px;font-size:.9rem;white-space:nowrap;flex:1 1 auto;text-align:center}
+  .mast{padding-block:18px 4px}
+}
 .gm-hero{display:grid;gap:8px}
 .gm-hello{font-family:var(--display);font-weight:800;font-size:clamp(2.4rem,9vw,4.2rem);line-height:1;letter-spacing:-.03em}
 .gm-hero p{margin:0;font-size:1.1rem;color:var(--muted);max-width:40rem}
@@ -177,7 +183,7 @@ input[type=range]{width:100%;accent-color:var(--accent)}
     <nav class="tabs" role="tablist" aria-label="Sections">
       <button class="tab" role="tab" id="tab-morning" data-tab="morning">Good Morning</button>
       <button class="tab" role="tab" id="tab-headlines" data-tab="headlines">Headlines</button>
-      <button class="tab" role="tab" id="tab-weather" data-tab="weather">Weather &amp; AQI</button>
+      <button class="tab" role="tab" id="tab-weather" data-tab="weather">Weather</button>
       <button class="tab" role="tab" id="tab-quiz" data-tab="quiz">Quiz</button>
     </nav>
   </div>
@@ -310,7 +316,8 @@ function setTab(t,push){
   tab=["morning","headlines","weather","quiz"].includes(t)?t:"morning";
   document.querySelectorAll(".tab").forEach(b=>b.setAttribute("aria-selected",String(b.dataset.tab===tab)));
   ["morning","headlines","weather","quiz"].forEach(p=>{$("panel-"+p).hidden=!cur||p!==tab});
-  $("mastTitle").hidden=tab==="morning";
+  $("mastTitle").hidden=tab==="morning"; $("glance").hidden=tab==="morning";
+  if(cur)$("aud").hidden=tab==="morning"||!(cur.headlines||[]).some(x=>x.aud);
   if(push){try{history.replaceState(null,"","#"+tab)}catch(e){location.hash=tab}}
   if(tab==="quiz"&&cur) renderQuiz();
 }
@@ -368,6 +375,7 @@ function renderMorning(){
     let n=0, ok=0; const score=h("span",{class:"label",text:"Answer all "+qs.length+" to see your score"});
     kids.push(h("div",{style:"display:grid;gap:12px"},
       h("div",{class:"row-head"},h("h3",{style:"margin:0;font-family:var(--display);font-size:1.4rem",text:"Morning quiz"}),score),
+      H.some(x=>x.aud)?h("div",{class:"aud",role:"group","aria-label":"Quiz for"},["students","adults"].map(a=>h("button",{"aria-pressed":String(a===aud),onclick:()=>{aud=a;store.set("gk-aud",aud);openId=null;filter="All";renderEdition();}},a==="students"?"Students":"Teachers & Adults"))):null,
       qs.map(q=>question(q,right=>{n++; if(right)ok++; score.textContent=n<qs.length?(n+" of "+qs.length+" answered"):("You scored "+ok+" out of "+qs.length);})),
       h("div",null,h("button",{class:"btn",onclick:()=>setTab("quiz",true)},"Take the full quiz"))));
   }
