@@ -83,6 +83,11 @@ section[role=tabpanel]{display:grid;gap:18px}
 .booster{background:var(--mark);color:var(--mark-ink);border-radius:4px 14px 6px 12px;padding:12px 15px}
 .booster .label{color:var(--mark-ink);opacity:.75}
 .src{font-size:.88rem;color:var(--muted)}
+.aud{display:inline-flex;flex-wrap:wrap;gap:4px;background:var(--sunk);border-radius:13px;padding:4px;justify-self:start}
+.aud button{border:0;background:none;border-radius:10px;padding:9px 16px;font-weight:700;color:var(--muted)}
+.aud button[aria-pressed="true"]{background:var(--accent);color:var(--accent-ink)}
+.exam{border:1.5px solid var(--accent);background:var(--accent-soft);border-radius:10px;padding:11px 14px}
+.exam .label{color:var(--accent)}
 .ai-head{display:grid;gap:4px;margin:16px 0 10px}
 .ai-head h3{font-family:var(--display);font-size:1.5rem;margin:0;letter-spacing:-.02em}
 .ai-head h3 span{background:var(--mark);color:var(--mark-ink);padding:0 6px;border-radius:3px 8px 4px 7px}
@@ -172,6 +177,7 @@ input[type=range]{width:100%;accent-color:var(--accent)}
   <div class="mast" id="mast" hidden>
     <span class="label" id="editionLabel"></span>
     <h2 id="mastTitle"></h2>
+    <div class="aud" id="aud" role="group" aria-label="Choose your edition" hidden><button data-aud="students">Students</button><button data-aud="adults">Teachers &amp; Adults</button></div>
     <div class="glance" id="glance"></div>
   </div>
 
@@ -280,6 +286,8 @@ function icon(kind){
 
 /* ---------- state ---------- */
 let editions=[], cur=null, tab="headlines", filter="All", openId=null;
+let aud=store.get("gk-aud","students")==="adults"?"adults":"students";
+const forAud=x=>!x||!x.aud||x.aud==="all"||x.aud===aud;
 let quiz=null, quizKey="";
 const readKey=()=>"gk-read-"+(cur?cur.id:"");
 const getRead=()=>new Set(store.get(readKey(),[]));
@@ -295,6 +303,7 @@ function setTab(t,push){
 }
 document.querySelectorAll(".tab").forEach(b=>b.addEventListener("click",()=>setTab(b.dataset.tab,true)));
 window.addEventListener("hashchange",()=>setTab(location.hash.slice(1)));
+document.querySelectorAll("#aud button").forEach(b=>b.addEventListener("click",()=>{aud=b.dataset.aud;store.set("gk-aud",aud);openId=null;filter="All";if(cur)renderEdition();}));
 
 /* ---------- question widget (used inline and in the quiz) ---------- */
 function question(q,onAnswer,answered){
@@ -312,48 +321,53 @@ function question(q,onAnswer,answered){
 
 /* ---------- headlines ---------- */
 function renderHeadlines(){
-  const list=cur.headlines||[], read=getRead();
-  const cats=["All",...new Set(list.map(x=>x.cat).filter(Boolean))];
+  const list=cur.headlines||[], read=getRead(), vis=list.filter(forAud);
+  const cats=["All",...new Set(vis.map(x=>x.cat).filter(Boolean))];
   if(!cats.includes(filter))filter="All";
   $("filters").replaceChildren(...cats.map(c=>h("button",{class:"filter","aria-pressed":String(c===filter),onclick:()=>{filter=c;renderHeadlines()}},c)));
-  const done=list.filter((_,i)=>read.has(i)).length;
-  $("readLabel").textContent=done+" of "+list.length+" headlines read";
-  $("readMeter").style.width=(list.length?done/list.length*100:0)+"%";
+  const done=list.filter((x,i)=>forAud(x)&&read.has(i)).length;
+  $("readLabel").textContent=done+" of "+vis.length+" headlines read";
+  $("readMeter").style.width=(vis.length?done/vis.length*100:0)+"%";
+  let num=0;
   $("news").replaceChildren(...list.map((x,i)=>{
+    if(!forAud(x))return null; const no=++num;
     if(filter!=="All"&&x.cat!==filter)return null;
     const open=openId===i, li=h("li");
     li.append(h("button",{class:"hl"+(read.has(i)?" read":""),"aria-expanded":String(open),onclick:()=>{
         openId=open?null:i; if(!open){const r=getRead();r.add(i);store.set(readKey(),[...r]);} renderHeadlines();}},
-      h("span",{class:"n",text:String(i+1).padStart(2,"0")}),
+      h("span",{class:"n",text:String(no).padStart(2,"0")}),
       h("span",null,h("span",{class:"meta"},h("span",{class:"label",text:x.cat||""}),x.place?h("span",{class:"label",text:x.place}):null),h("span",{class:"t",text:x.title})),
       h("span",{class:"chev",text:"›"})));
     if(open){
       const q=(cur.quiz||[]).find(z=>z.headline===i+1), u=safeUrl(x.url);
       const n=h("div",{class:"notes"},h("p",{text:x.summary||""}),
-        x.gk?h("div",{class:"booster"},h("span",{class:"label",text:"GK booster"}),h("div",{text:x.gk})):null);
+        x.gk?h("div",{class:"booster"},h("span",{class:"label",text:"GK booster"}),h("div",{text:x.gk})):null,
+        x.exam?h("div",{class:"exam"},h("span",{class:"label",text:"Exam angle"}),h("div",{text:x.exam})):null);
       if(q){const slot=h("div"); slot.append(h("button",{class:"btn ghost",onclick:()=>slot.replaceChildren(question(q))},"Test yourself")); n.append(slot);}
       n.append(h("p",{class:"src"},"Source: ",u?h("a",{href:u,target:"_blank",rel:"noopener",text:x.source||"link"}):(x.source||"")));
       li.append(n);
     }
     return li;
-  }));
-  const ai=cur.ai||[]; $("aiBlock").hidden=!ai.length;
+  }).filter(Boolean));
+  const ai=cur.ai||[]; $("aiBlock").hidden=!ai.filter(forAud).length; let an=0;
   $("aiNews").replaceChildren(...ai.map((x,i)=>{
+    if(!forAud(x))return null; const ano=++an;
     const k="a"+i, open=openId===k, li=h("li");
     li.append(h("button",{class:"hl"+(read.has(k)?" read":""),"aria-expanded":String(open),onclick:()=>{
         openId=open?null:k; if(!open){const r=getRead();r.add(k);store.set(readKey(),[...r]);} renderHeadlines();}},
-      h("span",{class:"n",text:"A"+(i+1)}),
+      h("span",{class:"n",text:"A"+ano}),
       h("span",null,h("span",{class:"meta"},h("span",{class:"label",text:"AI in Education"}),x.place?h("span",{class:"label",text:x.place}):null),h("span",{class:"t",text:x.title})),
       h("span",{class:"chev",text:"›"})));
     if(open){
       const u=safeUrl(x.url), n=h("div",{class:"notes"},h("p",{text:x.summary||""}),
-        x.gk?h("div",{class:"booster"},h("span",{class:"label",text:"GK booster"}),h("div",{text:x.gk})):null);
+        x.gk?h("div",{class:"booster"},h("span",{class:"label",text:"GK booster"}),h("div",{text:x.gk})):null,
+        x.exam?h("div",{class:"exam"},h("span",{class:"label",text:"Exam angle"}),h("div",{text:x.exam})):null);
       if(x.quiz&&x.quiz.options){const slot=h("div"); slot.append(h("button",{class:"btn ghost",onclick:()=>slot.replaceChildren(question(x.quiz))},"Test yourself")); n.append(slot);}
       n.append(h("p",{class:"src"},"Source: ",u?h("a",{href:u,target:"_blank",rel:"noopener",text:x.source||"link"}):(x.source||"")));
       li.append(n);
     }
     return li;
-  }));
+  }).filter(Boolean));
 }
 
 /* ---------- weather ---------- */
@@ -405,9 +419,9 @@ function renderAqi(){
 
 /* ---------- quiz ---------- */
 function renderQuiz(){
-  const qs=(cur.quiz||[]).concat((cur.ai||[]).map(a=>a.quiz).filter(q=>q&&q.options)), key=cur.id+"|"+(cur.updatedAt||"");
+  const H=cur.headlines||[], qs=(cur.quiz||[]).filter(q=>forAud(H[q.headline-1])).concat((cur.ai||[]).filter(forAud).map(a=>a.quiz).filter(q=>q&&q.options)), key=cur.id+"|"+aud+"|"+(cur.updatedAt||"");
   if(quizKey!==key){quizKey=key; quiz={i:0,answers:[]};}
-  const box=$("quizBox"), bestKey="gk-best-"+cur.id, best=store.get(bestKey,null);
+  const box=$("quizBox"), bestKey="gk-best-"+cur.id+(aud==="adults"?"-adults":""), best=store.get(bestKey,null);
   if(!qs.length){box.replaceChildren(h("div",{class:"state"},h("h3",{text:"No quiz in this edition"}),h("p",{text:"Read the headlines; a quiz arrives with the next edition."})));return;}
   const dots=h("div",{class:"dots"},qs.map((_,i)=>{const a=quiz.answers[i];return h("i",{class:a?(a.ok?"ok":"no"):(i===quiz.i?"now":"")})}));
   const score=quiz.answers.filter(a=>a&&a.ok).length;
@@ -429,9 +443,9 @@ function renderQuiz(){
 /* ---------- assembly mode ---------- */
 let slideI=0;
 function slides(){
-  const s=(cur.headlines||[]).map((x,i)=>({k:"Headline "+(i+1)+" · "+(x.cat||""),t:x.title,p:x.summary,g:x.gk}));
+  const s=(cur.headlines||[]).filter(forAud).map((x,i)=>({k:"Headline "+(i+1)+" · "+(x.cat||""),t:x.title,p:x.summary,g:x.gk}));
   const w=cur.weather||{}, d=(w.days||[])[0];
-  (cur.ai||[]).forEach((x,i)=>s.push({k:"AI in Education "+(i+1),t:x.title,p:x.summary,g:x.gk}));
+  (cur.ai||[]).filter(forAud).forEach((x,i)=>s.push({k:"AI in Education "+(i+1),t:x.title,p:x.summary,g:x.gk}));
   if(d)s.push({k:"Weather · "+(w.city||""),t:d.condition+", "+d.min+"°C to "+d.max+"°C",p:w.note});
   const home=((cur.aqi||{}).cities||[]).find(c=>c.home);
   if(home)s.push({k:"Air quality · "+home.name,t:"AQI "+home.aqi+" — "+band(home.aqi).name,p:band(home.aqi).impact,g:band(home.aqi).todo});
@@ -455,11 +469,13 @@ document.addEventListener("keydown",e=>{ if($("stage").hidden)return;
 /* ---------- edition ---------- */
 function renderEdition(){
   $("state").hidden=true; $("mast").hidden=false;
+  $("aud").hidden=!(cur.headlines||[]).some(x=>x.aud);
+  document.querySelectorAll("#aud button").forEach(b=>b.setAttribute("aria-pressed",String(b.dataset.aud===aud)));
   $("editionLabel").textContent="Edition · "+niceDate(cur.date||cur.id);
   $("mastTitle").textContent=cur.title||"Today's ten headlines";
   const w=cur.weather||{}, d=(w.days||[])[0], home=((cur.aqi||{}).cities||[]).find(c=>c.home), g=[];
-  g.push(h("span",{class:"chip"},h("b",{text:String((cur.headlines||[]).length)}),"headlines"));
-  if((cur.ai||[]).length)g.push(h("span",{class:"chip"},h("b",{text:String(cur.ai.length)}),"AI in education updates"));
+  g.push(h("span",{class:"chip"},h("b",{text:String((cur.headlines||[]).filter(forAud).length)}),"headlines"));
+  const aiN=(cur.ai||[]).filter(forAud).length; if(aiN)g.push(h("span",{class:"chip"},h("b",{text:String(aiN)}),"AI updates"));
   if(d)g.push(h("span",{class:"chip"},(w.city||"Weather")+" ",h("b",{text:d.max+"° / "+d.min+"°"}),d.condition||""));
   if(home)g.push(h("span",{class:"chip"},h("span",{class:"dot",style:"background:"+bandColor(home.aqi)}),home.name+" AQI ",h("b",{text:String(home.aqi)}),band(home.aqi).name));
   $("glance").replaceChildren(...g);
