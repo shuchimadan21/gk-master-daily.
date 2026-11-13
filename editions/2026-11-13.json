@@ -1,0 +1,377 @@
+{
+  "ai": [
+    {
+      "gk": "IIT Madras was established in 1959 in Chennai. IIT stands for Indian Institute of Technology. AI, or Artificial Intelligence, is the ability of computer systems to perform tasks that normally need human intelligence.",
+      "place": "IIT Madras · Schools",
+      "quiz": {
+        "answer": 2,
+        "explain": "The AI Fundamentals cohort starts on 23 November 2026; 14 November is the Space Science course.",
+        "options": [
+          "14 November 2026",
+          "21 November 2026",
+          "23 November 2026",
+          "5 December 2026"
+        ],
+        "q": "On which date does the free AI Fundamentals course for school students begin?"
+      },
+      "source": "Elets digitalLEARNING",
+      "summary": "IIT Madras Pravartak Technologies Foundation, with BodhBridge Education, announced the programme on 11 November for cohorts running from November 2026 to January 2027. The AI Fundamentals course starts on 23 November; other courses cover space science, entrepreneurship, electric vehicles, financial literacy and design thinking. Registration for the live classes is free, teachers get separate courses from January 2027, and a certificate is optional through a proctored online exam.",
+      "title": "IIT Madras Pravartak opens free live online courses, including AI Fundamentals, for students of Classes 7 to 12.",
+      "url": "https://digitallearning.eletsonline.com/2026/11/iit-madras-pravartak-free-training/"
+    },
+    {
+      "gk": "SWAYAM stands for Study Webs of Active-Learning for Young Aspiring Minds, the Government of India's online course platform launched in 2017. Amaravati is the capital of Andhra Pradesh. ITI stands for Industrial Training Institute.",
+      "place": "Andhra Pradesh · India",
+      "quiz": {
+        "answer": 0,
+        "explain": "The target is 50 lakh, the state's share of the Centre's goal of one crore AI-skilled people.",
+        "options": [
+          "50 lakh",
+          "5 lakh",
+          "14 lakh",
+          "1 crore"
+        ],
+        "q": "How many students and young people does Andhra Pradesh plan to train in AI skills?"
+      },
+      "source": "Elets digitalLEARNING",
+      "summary": "The state Education Department's plan covers 14 lakh students of Classes 8 to 10, 10 lakh higher-education students, 6.5 lakh Intermediate students, 3.5 lakh polytechnic and ITI students and 16 lakh unemployed youth and others. Teachers are to be trained first, courses will run through SWAYAM Plus, and completed AI courses will be credited on mark sheets. The report notes that one in three Indian schools still has no working computer, a gap that such plans must close.",
+      "title": "Andhra Pradesh plans to give AI skills to 50 lakh students and young people.",
+      "url": "https://digitallearning.eletsonline.com/2026/11/andhra-pradesh-ai-skills/"
+    }
+  ],
+  "aqi": {
+    "asOf": "12 Nov 2026",
+    "cities": [
+      {
+        "aqi": 280,
+        "home": true,
+        "name": "Ghaziabad"
+      },
+      {
+        "aqi": 319,
+        "name": "Delhi"
+      },
+      {
+        "aqi": 284,
+        "name": "Noida"
+      },
+      {
+        "aqi": 300,
+        "name": "Gurugram"
+      }
+    ],
+    "note": "Thursday's readings: Delhi stayed 'very poor' at 319 (313 on Wednesday per CPCB) and IITM forecasts it could turn 'severe' today; GRAP Stage III remains in force. Figures for cities outside NCR could not be sourced today.",
+    "source": "National Herald (IANS), Delhi figures per CPCB",
+    "url": "https://www.nationalheraldindia.com/environment/delhis-air-quality-deteriorates-again-aqi-rises-to-319-in-very-poor-category"
+  },
+  "date": "2026-11-13",
+  "headlines": [
+    {
+      "cat": "Economy",
+      "gk": "CPI stands for Consumer Price Index. The Reserve Bank of India, set up in 1935 and headquartered in Mumbai, has an inflation target of 4% with a tolerance band of 2% to 6%.",
+      "place": "New Delhi",
+      "source": "The Tribune (ANI)",
+      "summary": "Data released by the Ministry of Statistics and Programme Implementation on 12 November show CPI inflation at 6.09% in October, up from 5.54% in September and the highest since October 2024. Food inflation rose to 8.94%, with onion prices up 116.22% over a year ago. The RBI's next Monetary Policy Committee meeting is on 2-4 December.",
+      "title": "Retail inflation rises to 6.09% in October, a 24-month high and above the RBI's 6% upper limit.",
+      "url": "https://www.tribuneindia.com/news/6inflation/retail-inflation-hits-24-month-high-of-6-09-in-october-crosses-rbis-upper-tolerance-limit-ahead-of-december-mpc-meet"
+    },
+    {
+      "cat": "Economy",
+      "gk": "GDP stands for Gross Domestic Product, the total value of goods and services produced in a country. Moody's, S&P and Fitch are known as the 'Big Three' credit rating agencies. India's financial year runs from 1 April to 31 March.",
+      "place": "India · GDP",
+      "source": "News On AIR (Akashvani)",
+      "summary": "In its Global Macro Outlook 2027-28, Moody's cited strong domestic consumption, improving investment and India's resilience to higher global energy prices. It expects growth to stay near 7% over the medium term. The agency flagged rising inflation, weaker farm output and higher interest rates as risks.",
+      "title": "Moody's Ratings raises India's growth forecast for the current financial year to 7% from 6.5%.",
+      "url": "https://newsonair.gov.in/moodys-ratings-raises-indias-gdp-growth-forecast-for-current-fiscal-year-to-7-from-6-5/"
+    },
+    {
+      "cat": "National",
+      "gk": "ASEAN is the Association of Southeast Asian Nations, founded on 8 August 1967 in Bangkok; its secretariat is in Jakarta and it now has 11 members. Manila is the capital of the Philippines. India's Look East Policy was upgraded to the Act East Policy in 2014.",
+      "place": "Manila · ASEAN",
+      "source": "The Tribune (ANI)",
+      "summary": "The Ministry of External Affairs said the Prime Minister will take part in the 23rd ASEAN-India Summit and the 21st East Asia Summit, held alongside the 49th ASEAN Summit in the Philippines. MEA Secretary (East) Rupendra Tandon called ASEAN a key building block of India's Act East Policy. The summit theme is 'Navigating the Future'.",
+      "title": "Prime Minister Narendra Modi will attend the ASEAN-India and East Asia Summits in Manila from 16 to 18 November.",
+      "url": "https://www.tribuneindia.com/news/act-east-policy/pm-modi-to-attend-49th-asean-india-and-east-asia-summits-in-manila-from-nov-16-to-18"
+    },
+    {
+      "cat": "World",
+      "gk": "Indonesia is the world's largest archipelago nation and the most populous Muslim-majority country. Its currency is the rupiah, and it is a founding member of ASEAN.",
+      "place": "Indonesia",
+      "source": "Al Jazeera (AFP, AP)",
+      "summary": "Gibran, 39, the eldest son of former President Joko Widodo, submitted his resignation to President Prabowo Subianto and parliament on 12 November. Indonesia's top courts ruled last month that his overseas education documents did not meet election requirements. The People's Consultative Assembly must now elect a replacement from two candidates named by the President within 60 days.",
+      "title": "Indonesia's Vice President Gibran Rakabuming Raka resigns two years into his five-year term.",
+      "url": "https://www.aljazeera.com/news/2026/11/12/indonesia-vice-president-resigns-amid-dispute-over-eligibility"
+    },
+    {
+      "cat": "World",
+      "gk": "Abu Dhabi is the capital of the United Arab Emirates. Kyiv is the capital of Ukraine and Moscow of Russia. The treatment of prisoners of war is governed by the Third Geneva Convention of 1949.",
+      "place": "Abu Dhabi",
+      "source": "News On AIR (Akashvani)",
+      "summary": "The agreement came after two days of talks, but there was no breakthrough on ending the nearly five-year war. US envoys Steve Witkoff and Jared Kushner called the talks difficult but productive, with final numbers still to come. Ukrainian President Volodymyr Zelenskyy welcomed the step and said European countries must be part of security negotiations.",
+      "title": "Russia and Ukraine agree in principle on a major prisoner-of-war exchange after US-mediated talks in Abu Dhabi.",
+      "url": "https://newsonair.gov.in/russia-and-ukraine-agree-on-large-scale-prisoner-exchange-as-trilateral-talks-with-us-conclude-in-abu-dhabi/"
+    },
+    {
+      "cat": "Science",
+      "gk": "Tuberculosis is caused by the bacterium Mycobacterium tuberculosis, identified by Robert Koch in 1882. World TB Day is observed on 24 March. The WHO (World Health Organization) was founded in 1948 and is headquartered in Geneva.",
+      "place": "Health · TB",
+      "source": "ANI",
+      "summary": "The report, released on 12 November, puts India's fall in TB mortality at 38% since 2015 against a global decline of 35%. The treatment success rate for drug-susceptible TB is 94%. Under the TB Mukt Bharat Abhiyaan, over 25 crore people were screened between 7 December 2024 and 8 November 2026 and 48.64 lakh new cases were found.",
+      "title": "India's tuberculosis deaths are down 38% since 2015, says a government release citing the WHO Global TB Report 2026.",
+      "url": "https://aninews.in/news/national/general-news/india-makes-major-strides-towards-tb-elimination-38-pc-decline-in-tb-mortality-94-pc-treatment-success-rate16020261112212223/"
+    },
+    {
+      "cat": "Environment",
+      "gk": "The Blue Flag is an eco-label for clean and safe beaches awarded by the Denmark-based Foundation for Environmental Education (FEE). India's first Blue Flag beaches were certified in 2020. Maharashtra's coastal strip is called the Konkan.",
+      "place": "Maharashtra",
+      "source": "News On AIR (Akashvani)",
+      "summary": "Ladghar and Guhagar beaches in Ratnagiri district and Shrivardhan beach in Raigad district received the Blue Flag for the 2026-27 season. They met standards on cleanliness, water quality, biodiversity protection and tourist safety. The Blue Flag season at the three beaches begins on 15 November.",
+      "title": "Three Konkan beaches win the international Blue Flag award, a first for Maharashtra.",
+      "url": "https://newsonair.gov.in/maharashtras-ladghar-guhagar-and-shrivardhan-beaches-receive-international-blue-flag-award-for-2026-27/"
+    },
+    {
+      "cat": "Education",
+      "gk": "Telangana became India's 29th state on 2 June 2014, with Hyderabad as its capital. The 10+2+3 pattern was recommended by the Kothari Commission (1964-66). The National Education Policy 2020 proposes a 5+3+3+4 structure.",
+      "place": "Telangana",
+      "source": "Elets digitalLEARNING",
+      "summary": "Chief Minister A. Revanth Reddy gave the direction at a review meeting in Hyderabad on 11 November; Classes 11 and 12 will move under the School Education Department. He said about 40% of students leave after Class 10. A teachers' federation welcomed the move but asked for more classrooms and teachers, while the Intermediate Education Joint Action Committee opposed it and sought wider consultation.",
+      "title": "Telangana will replace its separate Intermediate system with a 10+2 school structure from 2027-28.",
+      "url": "https://digitallearning.eletsonline.com/2026/11/telangana-10-2-system/"
+    },
+    {
+      "cat": "Sports",
+      "gk": "The Asia Cup tournaments are organised by the Asian Cricket Council (ACC), formed in 1983. Muscat is the capital of Oman. A One Day International innings lasts a maximum of 50 overs.",
+      "place": "Cricket · U19 Asia Cup",
+      "source": "CricTracker",
+      "summary": "In the semi-final at Al Amerat Cricket Ground in Oman on 12 November, India chased a target of 228, reaching 230 for 2 in 36.5 overs. Captain Lakshya Raichandani scored 93 off 90 balls and VK Vineeth made 57 not out. Pakistan beat Bangladesh by 9 wickets in the other semi-final.",
+      "title": "India beat Afghanistan by 8 wickets to reach the Under-19 Asia Cup final against Pakistan.",
+      "url": "https://www.crictracker.com/cricket-news/india-defeat-afghanistan-to-book-meeting-with-pakistan-in-u19-asia-cup-final-8107/"
+    },
+    {
+      "cat": "Sports",
+      "gk": "SAFF is the South Asian Football Federation, founded in 1997. The AIFF (All India Football Federation) was founded in 1937. Dhaka is the capital of Bangladesh and Thimphu the capital of Bhutan.",
+      "place": "Football · SAFF",
+      "source": "All India Football Federation",
+      "summary": "Suhail Ahmad Bhat's 38th-minute penalty gave India a 1-0 win over the Maldives at the National Stadium in Dhaka on 11 November. India finished Group B with 6 points, ahead of Pakistan on 3, after earlier beating Pakistan 3-2. Bhat now has three goals in the tournament.",
+      "title": "India top their group at the SAFF Championship and will play Bhutan in the semi-final on 14 November.",
+      "url": "https://www.the-aiff.com/article/suhail-bhat-penalty-takes-india-into-saff-cship-semi-finals-as-toppers"
+    }
+  ],
+  "quiz": [
+    {
+      "answer": 2,
+      "explain": "CPI inflation rose to 6.09% in October from 5.54% in September; 8.94% was food inflation.",
+      "headline": 1,
+      "options": [
+        "4.00%",
+        "5.54%",
+        "6.09%",
+        "8.94%"
+      ],
+      "q": "What was India's retail (CPI) inflation in October 2026?"
+    },
+    {
+      "answer": 0,
+      "explain": "Moody's raised the forecast to 7% from 6.5%.",
+      "headline": 2,
+      "options": [
+        "7%",
+        "6.5%",
+        "6%",
+        "8%"
+      ],
+      "q": "To what figure did Moody's raise India's growth forecast for the current financial year?"
+    },
+    {
+      "answer": 3,
+      "explain": "The Philippines is hosting the summits in its capital, Manila.",
+      "headline": 3,
+      "options": [
+        "Jakarta",
+        "Bangkok",
+        "Kuala Lumpur",
+        "Manila"
+      ],
+      "q": "In which city will the ASEAN-India and East Asia Summits be held from 16 to 18 November?"
+    },
+    {
+      "answer": 1,
+      "explain": "Gibran Rakabuming Raka resigned after courts ruled on his education documents.",
+      "headline": 4,
+      "options": [
+        "Prabowo Subianto",
+        "Gibran Rakabuming Raka",
+        "Joko Widodo",
+        "Anthony Albanese"
+      ],
+      "q": "Who resigned as Vice President of Indonesia on 12 November?"
+    },
+    {
+      "answer": 2,
+      "explain": "The two days of talks took place in Abu Dhabi, capital of the UAE.",
+      "headline": 5,
+      "options": [
+        "Geneva",
+        "Istanbul",
+        "Abu Dhabi",
+        "Dublin"
+      ],
+      "q": "Where were the US-mediated Russia-Ukraine talks that led to the prisoner exchange agreement held?"
+    },
+    {
+      "answer": 3,
+      "explain": "India's decline is 38%, against 35% globally; 94% is the treatment success rate.",
+      "headline": 6,
+      "options": [
+        "21%",
+        "35%",
+        "94%",
+        "38%"
+      ],
+      "q": "By how much has India's TB mortality fallen since 2015, according to the figures cited from the WHO report?"
+    },
+    {
+      "answer": 0,
+      "explain": "Ladghar, Guhagar and Shrivardhan are the three awarded beaches.",
+      "headline": 7,
+      "options": [
+        "Guhagar",
+        "Juhu",
+        "Alibaug",
+        "Ganpatipule"
+      ],
+      "q": "Which of these Maharashtra beaches has just received the Blue Flag award?"
+    },
+    {
+      "answer": 1,
+      "explain": "The Chief Minister directed that the change take effect from 2027-28.",
+      "headline": 8,
+      "options": [
+        "2026-27",
+        "2027-28",
+        "2028-29",
+        "2030-31"
+      ],
+      "q": "From which academic year will Telangana adopt the 10+2 school structure?"
+    },
+    {
+      "answer": 2,
+      "explain": "Captain Lakshya Raichandani made 93 off 90 balls.",
+      "headline": 9,
+      "options": [
+        "VK Vineeth",
+        "Aaryavir Sehwag",
+        "Lakshya Raichandani",
+        "Anvay Dravid"
+      ],
+      "q": "Who top-scored with 93 in India's Under-19 Asia Cup semi-final win over Afghanistan?"
+    },
+    {
+      "answer": 0,
+      "explain": "India, Group B toppers, play Group A runners-up Bhutan on 14 November.",
+      "headline": 10,
+      "options": [
+        "Bhutan",
+        "Pakistan",
+        "Maldives",
+        "Bangladesh"
+      ],
+      "q": "Which team will India face in the SAFF Championship semi-final?"
+    }
+  ],
+  "title": "Retail inflation crosses 6%; Indonesia's Vice President resigns; India in U19 final",
+  "updatedAt": "2026-11-13T07:15:00+05:30",
+  "weather": {
+    "city": "Delhi-NCR",
+    "days": [
+      {
+        "condition": "Moderate fog",
+        "date": "2026-11-13",
+        "max": 29,
+        "min": 17
+      },
+      {
+        "condition": "Morning fog/mist, partly cloudy later",
+        "date": "2026-11-14",
+        "max": 28,
+        "min": 17
+      },
+      {
+        "condition": "Morning fog/mist, partly cloudy later",
+        "date": "2026-11-15",
+        "max": 27,
+        "min": 16
+      },
+      {
+        "condition": "Morning fog/mist, mainly clear later",
+        "date": "2026-11-16",
+        "max": 27,
+        "min": 15
+      },
+      {
+        "condition": "Morning fog/mist, mainly clear later",
+        "date": "2026-11-17",
+        "max": 26,
+        "min": 14
+      }
+    ],
+    "facts": [
+      {
+        "label": "Sunrise",
+        "value": "06:41"
+      },
+      {
+        "label": "Sunset",
+        "value": "17:29"
+      },
+      {
+        "label": "Morning humidity",
+        "value": "92%"
+      },
+      {
+        "label": "Yesterday's max / min",
+        "value": "30.0 / 16.5 °C"
+      }
+    ],
+    "note": "Moderate fog this morning with a high near 29 degrees C; mornings stay foggy and nights turn cooler through the weekend, with no IMD warning.",
+    "regionSource": "The Week, citing IMD",
+    "regionUrl": "https://www.theweek.in/news/india/2026/11/12/imd-weather-forecast-another-cyclone-to-hit-andhra-pradesh-rain-alert-in-tamil-nadu-uttarakhand-and-himachal-pradesh.html",
+    "regions": [
+      {
+        "alert": true,
+        "icon": "rain",
+        "name": "Jammu & Kashmir, Ladakh",
+        "outlook": "Fairly widespread to widespread rain today, with wet weather continuing through 15 November."
+      },
+      {
+        "alert": true,
+        "icon": "storm",
+        "name": "Himachal Pradesh, Uttarakhand",
+        "outlook": "Isolated to scattered showers today with thunderstorms and lightning in places."
+      },
+      {
+        "icon": "storm",
+        "name": "Tamil Nadu, Puducherry",
+        "outlook": "Isolated to scattered showers with thunderstorms till 14 November and another spell on 16-17 November as a low-pressure area forms over the Bay of Bengal."
+      },
+      {
+        "icon": "rain",
+        "name": "Kerala",
+        "outlook": "Isolated to scattered rain is likely until 15 November."
+      },
+      {
+        "alert": true,
+        "icon": "rain",
+        "name": "Andaman & Nicobar Islands",
+        "outlook": "Rain continues until 17 November; fishermen are advised not to venture into the Andaman Sea until 16 November."
+      },
+      {
+        "icon": "sun",
+        "name": "Central & West India",
+        "outlook": "No significant weather activity is expected this week."
+      }
+    ],
+    "source": "India Meteorological Department, New Delhi (Safdarjung)",
+    "url": "https://city.imd.gov.in/citywx/city_weather_test_try_warnings.php?id=42182"
+  }
+}

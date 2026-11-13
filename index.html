@@ -1,0 +1,497 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="description" content="Daily general knowledge for students: ten headlines, AI in education, weather, AQI and a quiz.">
+<title>GK Master Daily</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Figtree:wght@400;500;600;700&family=DM+Mono:wght@400;500&display=swap">
+<style>
+html{color-scheme:light}body{margin:0}img{max-width:100%}[hidden]{display:none!important}
+
+/* Layout: a student's study sheet. Sticky bar with edition + tabs, one working column (max 980px),
+   numbered headline rows that open into notes, highlighter-yellow marks for the facts worth remembering. */
+:root{
+  --bg:#F1F4FA; --surface:#FFFFFF; --sunk:#E6EBF5; --ink:#121B33; --muted:#566282; --line:#D5DCEA;
+  --accent:#1D4BD0; --accent-ink:#FFFFFF; --accent-soft:#E3EAFD;
+  --mark:#FFD23F; --mark-ink:#2E2300; --ok:#1B8A4B; --bad:#C7362F;
+  --aq-good:#2E9E5B; --aq-sat:#8CC152; --aq-mod:#E3BC1F; --aq-poor:#F08A24; --aq-vpoor:#E0403A; --aq-sev:#8E1F2F;
+  --display:"Bricolage Grotesque","Trebuchet MS",system-ui,sans-serif;
+  --body:"Figtree",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"DM Mono",ui-monospace,Menlo,Consolas,monospace;
+  --r:14px;
+}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
+  --bg:#0D1322; --surface:#161F36; --sunk:#0A0F1C; --ink:#EAF0FF; --muted:#9BA8C8; --line:#2A3655;
+  --accent:#86A6FF; --accent-ink:#0B1124; --accent-soft:#1E2B50;
+  --mark:#FFD23F; --mark-ink:#2E2300; --ok:#4CC882; --bad:#FF7A70; color-scheme:dark } }
+:root[data-theme="dark"]{
+  --bg:#0D1322; --surface:#161F36; --sunk:#0A0F1C; --ink:#EAF0FF; --muted:#9BA8C8; --line:#2A3655;
+  --accent:#86A6FF; --accent-ink:#0B1124; --accent-soft:#1E2B50;
+  --mark:#FFD23F; --mark-ink:#2E2300; --ok:#4CC882; --bad:#FF7A70; color-scheme:dark }
+
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.5}
+button,select,input{font:inherit;color:inherit}
+button{cursor:pointer}
+:focus-visible{outline:3px solid var(--accent);outline-offset:2px;border-radius:6px}
+a{color:var(--accent)}
+.wrap{max-width:980px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.mono{font-family:var(--mono);font-variant-numeric:tabular-nums}
+.label{font-family:var(--mono);font-size:.72rem;letter-spacing:.09em;text-transform:uppercase;color:var(--muted)}
+
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--surface)}
+.bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:9;background:var(--surface);border-bottom:1px solid var(--line)}
+.bar .wrap{display:flex;flex-wrap:wrap;align-items:center;gap:10px 18px;padding-block:10px}
+.brand{font-family:var(--display);font-weight:800;font-size:1.25rem;letter-spacing:-.02em;margin:0;white-space:nowrap}
+.brand span{background:var(--mark);color:var(--mark-ink);padding:0 6px;border-radius:3px 8px 4px 7px}
+.bar select{background:var(--bg);border:1px solid var(--line);border-radius:9px;padding:6px 10px;max-width:100%}
+.tabs{display:flex;gap:4px;margin-left:auto;flex-wrap:wrap}
+.tab{background:none;border:0;border-radius:9px;padding:7px 12px;font-weight:600;color:var(--muted)}
+.tab[aria-selected="true"]{background:var(--ink);color:var(--bg)}
+.btn{background:var(--accent);color:var(--accent-ink);border:0;border-radius:10px;padding:9px 16px;font-weight:700}
+.btn.ghost{background:transparent;color:var(--accent);border:1.5px solid var(--accent)}
+.btn:disabled{opacity:.45;cursor:default}
+
+.mast{padding-block:28px 8px;display:grid;gap:14px}
+.mast h2{font-family:var(--display);font-weight:800;font-size:clamp(1.9rem,6vw,3.1rem);line-height:1.02;letter-spacing:-.03em;margin:0;text-wrap:balance}
+.glance{display:flex;flex-wrap:wrap;gap:8px}
+.chip{display:inline-flex;align-items:center;gap:8px;background:var(--surface);border:1px solid var(--line);border-radius:999px;padding:6px 13px;font-size:.9rem;min-width:0}
+.chip b{font-family:var(--mono);font-weight:500}
+.dot{width:10px;height:10px;border-radius:50%;flex:none;background:var(--muted)}
+.meter{height:8px;background:var(--sunk);border-radius:99px;overflow:hidden}
+.meter i{display:block;height:100%;background:var(--accent);border-radius:99px;transition:width .3s}
+
+main{padding-block:14px 60px}
+section[role=tabpanel]{display:grid;gap:18px}
+.row-head{display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between}
+.filters{display:flex;flex-wrap:wrap;gap:6px}
+.filter{background:var(--surface);border:1px solid var(--line);border-radius:999px;padding:5px 12px;font-size:.88rem;font-weight:600;color:var(--muted)}
+.filter[aria-pressed="true"]{background:var(--accent-soft);border-color:var(--accent);color:var(--accent)}
+
+.news{list-style:none;margin:0;padding:0;border-top:2px solid var(--ink)}
+.news li{border-bottom:1px solid var(--line)}
+.hl{display:grid;grid-template-columns:3.1rem minmax(0,1fr) auto;gap:6px 12px;align-items:start;width:100%;text-align:left;background:none;border:0;padding:16px 4px}
+.hl .n{font-family:var(--display);font-weight:800;font-size:1.9rem;line-height:1;color:var(--muted)}
+.hl.read .n{color:var(--ok)}
+.hl .t{font-family:var(--display);font-weight:700;font-size:1.16rem;line-height:1.25;text-wrap:balance}
+.hl .meta{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:4px}
+.hl .chev{font-size:1.2rem;color:var(--muted);transition:transform .2s;margin-top:14px}
+.hl[aria-expanded="true"] .chev{transform:rotate(90deg)}
+.notes{padding:0 4px 20px calc(3.1rem + 16px);display:grid;gap:14px;max-width:46rem}
+.notes p{margin:0}
+.booster{background:var(--mark);color:var(--mark-ink);border-radius:4px 14px 6px 12px;padding:12px 15px}
+.booster .label{color:var(--mark-ink);opacity:.75}
+.src{font-size:.88rem;color:var(--muted)}
+.ai-head{display:grid;gap:4px;margin:16px 0 10px}
+.ai-head h3{font-family:var(--display);font-size:1.5rem;margin:0;letter-spacing:-.02em}
+.ai-head h3 span{background:var(--mark);color:var(--mark-ink);padding:0 6px;border-radius:3px 8px 4px 7px}
+@media (max-width:560px){ .hl{grid-template-columns:2.2rem minmax(0,1fr) auto} .hl .n{font-size:1.4rem} .notes{padding-left:4px} }
+
+.q{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:16px;display:grid;gap:10px}
+.q h4{margin:0;font-family:var(--display);font-size:1.08rem;line-height:1.3}
+.opts{display:grid;gap:8px;grid-template-columns:repeat(auto-fit,minmax(210px,1fr))}
+.opt{text-align:left;background:var(--bg);border:1.5px solid var(--line);border-radius:10px;padding:10px 12px;min-width:0}
+.opt:hover:not(:disabled){border-color:var(--accent)}
+.opt:disabled{cursor:default}
+.opt.right{border-color:var(--ok);background:color-mix(in srgb,var(--ok) 16%,var(--surface));font-weight:700}
+.opt.wrong{border-color:var(--bad);background:color-mix(in srgb,var(--bad) 14%,var(--surface))}
+.verdict{font-weight:700}.verdict.ok{color:var(--ok)}.verdict.no{color:var(--bad)}
+.dots{display:flex;gap:5px;flex-wrap:wrap}
+.dots i{width:22px;height:6px;border-radius:9px;background:var(--sunk)}
+.dots i.ok{background:var(--ok)}.dots i.no{background:var(--bad)}.dots i.now{background:var(--accent)}
+.score{font-family:var(--display);font-weight:800;font-size:clamp(3rem,12vw,5rem);line-height:1;letter-spacing:-.04em}
+.score small{font-size:.4em;color:var(--muted)}
+
+.two{display:grid;gap:18px;grid-template-columns:repeat(auto-fit,minmax(min(100%,330px),1fr))}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:18px;display:grid;gap:14px;align-content:start;min-width:0}
+.panel h3{font-family:var(--display);font-size:1.3rem;margin:0;letter-spacing:-.01em}
+.big{font-family:var(--display);font-weight:800;font-size:3.4rem;line-height:1;letter-spacing:-.04em}
+.wx-now{display:flex;gap:16px;align-items:center;flex-wrap:wrap}
+.wx-now svg{width:64px;height:64px;flex:none}
+.days{display:grid;gap:2px}
+.day > :first-child{white-space:nowrap}
+.day{display:grid;grid-template-columns:5.9rem 1.6rem minmax(0,1fr) 5.4rem;gap:10px;align-items:center;padding:7px 0;border-top:1px solid var(--line);font-size:.93rem}
+.day svg{width:22px;height:22px}
+.range{position:relative;height:8px;background:var(--sunk);border-radius:9px}
+.range i{position:absolute;top:0;bottom:0;border-radius:9px;background:linear-gradient(90deg,var(--accent),var(--aq-poor))}
+.region{display:grid;grid-template-columns:1.9rem minmax(0,1fr);gap:10px;padding:9px 0;border-top:1px solid var(--line)}
+.region svg{width:26px;height:26px}
+.region b{display:block}
+.pill{display:inline-block;font-family:var(--mono);font-size:.68rem;letter-spacing:.06em;text-transform:uppercase;border-radius:99px;padding:2px 8px;background:var(--bad);color:var(--surface);margin-left:6px;vertical-align:middle}
+
+.scale{position:relative;display:flex;height:16px;border-radius:99px;overflow:hidden}
+.scale i{display:block;height:100%}
+.scale-wrap{position:relative;padding-top:14px}
+.needle{position:absolute;top:2px;width:0;height:0;border:7px solid transparent;border-top-color:var(--ink);transform:translateX(-7px);transition:left .15s}
+.ticks{display:flex;justify-content:space-between;font-family:var(--mono);font-size:.7rem;color:var(--muted)}
+input[type=range]{width:100%;accent-color:var(--accent)}
+.band-name{font-family:var(--display);font-weight:700;font-size:1.25rem;display:flex;align-items:center;gap:8px}
+.city{display:grid;grid-template-columns:minmax(5.5rem,7.5rem) minmax(0,1fr) 2.6rem;gap:10px;align-items:center;width:100%;background:none;border:0;border-top:1px solid var(--line);padding:7px 0;text-align:left;font-size:.93rem}
+.city:hover .cbar{outline:2px solid var(--accent)}
+.cbar{height:12px;border-radius:4px;background:var(--sunk);overflow:hidden}
+.cbar i{display:block;height:100%;border-radius:4px}
+.city .v{text-align:right}
+.city.home span:first-child{font-weight:700}
+.legend{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:.8rem;color:var(--muted)}
+.legend span{display:inline-flex;align-items:center;gap:5px}
+.legend .dot{width:9px;height:9px}
+
+.state{background:var(--surface);border:1px dashed var(--line);border-radius:var(--r);padding:34px 20px;text-align:center;display:grid;gap:8px;justify-items:center}
+.state h3{font-family:var(--display);margin:0;font-size:1.4rem}
+.state p{margin:0;color:var(--muted);max-width:34rem}
+
+.stage{position:fixed;inset:0;z-index:20;background:var(--ink);color:var(--bg);display:grid;grid-template-rows:auto 1fr auto;
+  padding:calc(18px + env(safe-area-inset-top,0px)) max(20px,env(safe-area-inset-right,0px)) calc(18px + env(safe-area-inset-bottom,0px)) max(20px,env(safe-area-inset-left,0px))}
+.stage .top,.stage .bottom{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+.stage .label{color:inherit;opacity:.7}
+.stage .slide{align-self:center;max-width:60rem;margin:0 auto;width:100%;display:grid;gap:22px;overflow:auto;max-height:100%}
+.stage .slide h2{font-family:var(--display);font-weight:800;font-size:clamp(1.8rem,5.4vw,4rem);line-height:1.05;letter-spacing:-.03em;margin:0;text-wrap:balance}
+.stage .slide p{font-size:clamp(1.05rem,2.2vw,1.5rem);margin:0;opacity:.9;max-width:48rem}
+.stage .slide .booster{font-size:clamp(1rem,1.9vw,1.25rem);max-width:48rem}
+.stage button{background:transparent;color:inherit;border:1.5px solid currentColor;border-radius:10px;padding:9px 16px;font-weight:700}
+.stage button:disabled{opacity:.35}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+
+<header class="bar">
+  <div class="wrap">
+    <h1 class="brand"><span>GK Master</span> Daily</h1>
+    <select id="editionSelect" aria-label="Choose an edition" hidden></select>
+    <nav class="tabs" role="tablist" aria-label="Sections">
+      <button class="tab" role="tab" id="tab-headlines" data-tab="headlines">Headlines</button>
+      <button class="tab" role="tab" id="tab-weather" data-tab="weather">Weather &amp; AQI</button>
+      <button class="tab" role="tab" id="tab-quiz" data-tab="quiz">Quiz</button>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap">
+  <div class="mast" id="mast" hidden>
+    <span class="label" id="editionLabel"></span>
+    <h2 id="mastTitle"></h2>
+    <div class="glance" id="glance"></div>
+  </div>
+
+  <main>
+    <div class="state" id="state">
+      <h3>Loading today's edition</h3>
+      <p>Ten headlines, the weather forecast and the air quality reading will appear here.</p>
+    </div>
+
+    <section role="tabpanel" id="panel-headlines" aria-labelledby="tab-headlines" hidden>
+      <div class="row-head">
+        <div class="filters" id="filters"></div>
+        <button class="btn ghost" id="assemblyBtn">Assembly mode</button>
+      </div>
+      <div>
+        <div class="row-head" style="margin-bottom:6px"><span class="label" id="readLabel"></span></div>
+        <div class="meter"><i id="readMeter" style="width:0"></i></div>
+      </div>
+      <ol class="news" id="news"></ol>
+      <div id="aiBlock" hidden>
+        <div class="ai-head"><h3><span>AI</span> in Education</h3><span class="label">Artificial intelligence in schools and colleges</span></div>
+        <ol class="news" id="aiNews"></ol>
+      </div>
+    </section>
+
+    <section role="tabpanel" id="panel-weather" aria-labelledby="tab-weather" hidden>
+      <div class="two">
+        <div class="panel" id="wxPanel"></div>
+        <div class="panel" id="regionPanel"></div>
+      </div>
+      <div class="two">
+        <div class="panel" id="aqiLab">
+          <h3>AQI Lab</h3>
+          <p style="margin:0;color:var(--muted)">Drag the slider or tap a city to see what an Air Quality Index reading means.</p>
+          <div style="display:flex;align-items:baseline;gap:14px;flex-wrap:wrap">
+            <span class="big mono" id="aqiValue">0</span>
+            <span class="band-name" id="aqiBand"></span>
+          </div>
+          <div class="scale-wrap">
+            <span class="needle" id="aqiNeedle"></span>
+            <div class="scale" id="aqiScale"></div>
+            <div class="ticks"><span>0</span><span>100</span><span>200</span><span>300</span><span>400</span><span>500</span></div>
+          </div>
+          <label class="label" for="aqiSlider">Set an AQI value</label>
+          <input type="range" id="aqiSlider" min="0" max="500" step="1" value="150">
+          <div><span class="label">Health impact</span><p id="aqiImpact" style="margin:2px 0 0"></p></div>
+          <div class="booster"><span class="label">What to do</span><div id="aqiDo"></div></div>
+          <div class="legend" id="aqiLegend"></div>
+        </div>
+        <div class="panel" id="cityPanel"></div>
+      </div>
+    </section>
+
+    <section role="tabpanel" id="panel-quiz" aria-labelledby="tab-quiz" hidden>
+      <div id="quizBox"></div>
+    </section>
+  </main>
+</div>
+
+<div class="stage" id="stage" hidden role="dialog" aria-modal="true" aria-label="Assembly mode">
+  <div class="top"><span class="label" id="stageCount"></span><button id="stageClose">Close</button></div>
+  <div class="slide" id="stageSlide"></div>
+  <div class="bottom"><button id="stagePrev">Previous</button><span class="label">Use the arrow keys</span><button id="stageNext">Next</button></div>
+</div>
+
+<script>
+(function(){
+"use strict";
+const $=id=>document.getElementById(id);
+function h(tag,attrs,...kids){
+  const e=document.createElement(tag);
+  for(const k in (attrs||{})){const v=attrs[k]; if(v==null||v===false)continue;
+    if(k==="class")e.className=v; else if(k==="text")e.textContent=v; else if(k.startsWith("on"))e.addEventListener(k.slice(2),v); else e.setAttribute(k,v===true?"":v);}
+  for(const c of kids.flat()){ if(c==null||c===false)continue; e.append(c.nodeType?c:document.createTextNode(String(c))); }
+  return e;
+}
+const safeUrl=u=>typeof u==="string"&&/^https:\/\//.test(u)?u:null;
+const store={get(k,d){try{const v=localStorage.getItem(k);return v==null?d:JSON.parse(v)}catch(e){return d}},set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}};
+function niceDate(id,opts){const m=/^(\d{4})-(\d{2})-(\d{2})$/.exec(id||""); if(!m)return id||"";
+  return new Date(+m[1],+m[2]-1,+m[3]).toLocaleDateString("en-IN",opts||{weekday:"long",day:"numeric",month:"long",year:"numeric"});}
+
+/* CPCB National Air Quality Index bands */
+const BANDS=[
+ {max:50, name:"Good",        c:"--aq-good", impact:"Minimal impact.", todo:"A great day for outdoor games and morning assembly on the ground."},
+ {max:100,name:"Satisfactory",c:"--aq-sat",  impact:"Minor breathing discomfort to sensitive people.", todo:"Outdoor activity is fine. Anyone with asthma should keep their inhaler handy."},
+ {max:200,name:"Moderate",    c:"--aq-mod",  impact:"Breathing discomfort to people with lung, asthma and heart diseases.", todo:"Sensitive students should avoid long, hard exercise outdoors."},
+ {max:300,name:"Poor",        c:"--aq-poor", impact:"Breathing discomfort to most people on prolonged exposure.", todo:"Shorten outdoor play and avoid exercising near busy roads."},
+ {max:400,name:"Very Poor",   c:"--aq-vpoor",impact:"Respiratory illness on prolonged exposure.", todo:"Move sports indoors, wear an N95 mask outside and keep windows shut at peak traffic hours."},
+ {max:500,name:"Severe",      c:"--aq-sev",  impact:"Affects healthy people and seriously impacts those with existing diseases.", todo:"Stay indoors as far as possible. No outdoor exercise. Wear an N95 mask if you must step out."}
+];
+const band=v=>BANDS.find(b=>v<=b.max)||BANDS[5];
+const bandColor=v=>"var("+band(v).c+")";
+
+function icon(kind){
+  const k=String(kind||"").toLowerCase(), s='<svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">';
+  const cloud='<path d="M9 22h14a5 5 0 0 0 .6-9.96A7 7 0 0 0 10 13.2 4.5 4.5 0 0 0 9 22z" fill="none"/>';
+  let b;
+  if(/storm|thunder/.test(k)) b=cloud.replace("22h14","19h14").replace("9 22z","9 19z")+'<path d="M17 20l-3 5h4l-2 4" />';
+  else if(/rain|shower/.test(k)) b='<path d="M9 19h14a5 5 0 0 0 .6-9.96A7 7 0 0 0 10 10.2 4.5 4.5 0 0 0 9 19z" fill="none"/><path d="M11 23l-1 3M16 23l-1 3M21 23l-1 3"/>';
+  else if(/snow/.test(k)) b='<path d="M9 19h14a5 5 0 0 0 .6-9.96A7 7 0 0 0 10 10.2 4.5 4.5 0 0 0 9 19z" fill="none"/><path d="M11 25h.01M16 26h.01M21 25h.01" stroke-width="3"/>';
+  else if(/fog|haz|mist|smog/.test(k)) b='<circle cx="16" cy="12" r="5" fill="none"/><path d="M5 21h22M8 25h16M9 17h14"/>';
+  else if(/cloud/.test(k)) b=cloud;
+  else b='<circle cx="16" cy="16" r="5.5" fill="none"/><path d="M16 4v3M16 25v3M4 16h3M25 16h3M7.5 7.5l2 2M22.5 22.5l2 2M7.5 24.5l2-2M22.5 9.5l2-2"/>';
+  const t=document.createElement("span"); t.innerHTML=s+b+"</svg>"; t.style.display="contents"; return t;
+}
+
+/* ---------- state ---------- */
+let editions=[], cur=null, tab="headlines", filter="All", openId=null;
+let quiz=null, quizKey="";
+const readKey=()=>"gk-read-"+(cur?cur.id:"");
+const getRead=()=>new Set(store.get(readKey(),[]));
+
+function showState(title,body){ $("state").hidden=false; $("state").replaceChildren(h("h3",{text:title}),h("p",{text:body})); }
+
+function setTab(t,push){
+  tab=["headlines","weather","quiz"].includes(t)?t:"headlines";
+  document.querySelectorAll(".tab").forEach(b=>b.setAttribute("aria-selected",String(b.dataset.tab===tab)));
+  ["headlines","weather","quiz"].forEach(p=>{$("panel-"+p).hidden=!cur||p!==tab});
+  if(push){try{history.replaceState(null,"","#"+tab)}catch(e){location.hash=tab}}
+  if(tab==="quiz"&&cur) renderQuiz();
+}
+document.querySelectorAll(".tab").forEach(b=>b.addEventListener("click",()=>setTab(b.dataset.tab,true)));
+window.addEventListener("hashchange",()=>setTab(location.hash.slice(1)));
+
+/* ---------- question widget (used inline and in the quiz) ---------- */
+function question(q,onAnswer,answered){
+  const box=h("div",{class:"q"}), opts=h("div",{class:"opts"}), out=h("div");
+  const reveal=pick=>{
+    [...opts.children].forEach((b,i)=>{b.disabled=true; if(i===q.answer)b.classList.add("right"); else if(i===pick)b.classList.add("wrong");});
+    const ok=pick===q.answer;
+    out.replaceChildren(h("span",{class:"verdict "+(ok?"ok":"no"),text:ok?"Correct. ":"Not quite. "}),q.explain||"");
+  };
+  (q.options||[]).forEach((o,i)=>opts.append(h("button",{class:"opt",onclick:()=>{reveal(i);onAnswer&&onAnswer(i===q.answer,i)}},String.fromCharCode(65+i)+". "+o)));
+  box.append(h("h4",{text:q.q}),opts,out);
+  if(answered!=null) reveal(answered);
+  return box;
+}
+
+/* ---------- headlines ---------- */
+function renderHeadlines(){
+  const list=cur.headlines||[], read=getRead();
+  const cats=["All",...new Set(list.map(x=>x.cat).filter(Boolean))];
+  if(!cats.includes(filter))filter="All";
+  $("filters").replaceChildren(...cats.map(c=>h("button",{class:"filter","aria-pressed":String(c===filter),onclick:()=>{filter=c;renderHeadlines()}},c)));
+  const done=list.filter((_,i)=>read.has(i)).length;
+  $("readLabel").textContent=done+" of "+list.length+" headlines read";
+  $("readMeter").style.width=(list.length?done/list.length*100:0)+"%";
+  $("news").replaceChildren(...list.map((x,i)=>{
+    if(filter!=="All"&&x.cat!==filter)return null;
+    const open=openId===i, li=h("li");
+    li.append(h("button",{class:"hl"+(read.has(i)?" read":""),"aria-expanded":String(open),onclick:()=>{
+        openId=open?null:i; if(!open){const r=getRead();r.add(i);store.set(readKey(),[...r]);} renderHeadlines();}},
+      h("span",{class:"n",text:String(i+1).padStart(2,"0")}),
+      h("span",null,h("span",{class:"meta"},h("span",{class:"label",text:x.cat||""}),x.place?h("span",{class:"label",text:x.place}):null),h("span",{class:"t",text:x.title})),
+      h("span",{class:"chev",text:"›"})));
+    if(open){
+      const q=(cur.quiz||[]).find(z=>z.headline===i+1), u=safeUrl(x.url);
+      const n=h("div",{class:"notes"},h("p",{text:x.summary||""}),
+        x.gk?h("div",{class:"booster"},h("span",{class:"label",text:"GK booster"}),h("div",{text:x.gk})):null);
+      if(q){const slot=h("div"); slot.append(h("button",{class:"btn ghost",onclick:()=>slot.replaceChildren(question(q))},"Test yourself")); n.append(slot);}
+      n.append(h("p",{class:"src"},"Source: ",u?h("a",{href:u,target:"_blank",rel:"noopener",text:x.source||"link"}):(x.source||"")));
+      li.append(n);
+    }
+    return li;
+  }));
+  const ai=cur.ai||[]; $("aiBlock").hidden=!ai.length;
+  $("aiNews").replaceChildren(...ai.map((x,i)=>{
+    const k="a"+i, open=openId===k, li=h("li");
+    li.append(h("button",{class:"hl"+(read.has(k)?" read":""),"aria-expanded":String(open),onclick:()=>{
+        openId=open?null:k; if(!open){const r=getRead();r.add(k);store.set(readKey(),[...r]);} renderHeadlines();}},
+      h("span",{class:"n",text:"A"+(i+1)}),
+      h("span",null,h("span",{class:"meta"},h("span",{class:"label",text:"AI in Education"}),x.place?h("span",{class:"label",text:x.place}):null),h("span",{class:"t",text:x.title})),
+      h("span",{class:"chev",text:"›"})));
+    if(open){
+      const u=safeUrl(x.url), n=h("div",{class:"notes"},h("p",{text:x.summary||""}),
+        x.gk?h("div",{class:"booster"},h("span",{class:"label",text:"GK booster"}),h("div",{text:x.gk})):null);
+      if(x.quiz&&x.quiz.options){const slot=h("div"); slot.append(h("button",{class:"btn ghost",onclick:()=>slot.replaceChildren(question(x.quiz))},"Test yourself")); n.append(slot);}
+      n.append(h("p",{class:"src"},"Source: ",u?h("a",{href:u,target:"_blank",rel:"noopener",text:x.source||"link"}):(x.source||"")));
+      li.append(n);
+    }
+    return li;
+  }));
+}
+
+/* ---------- weather ---------- */
+function renderWeather(){
+  const w=cur.weather||{}, days=w.days||[], t=days[0]||{};
+  const all=days.flatMap(d=>[d.min,d.max]).filter(n=>typeof n==="number");
+  const lo=Math.min(...all)-2, hi=Math.max(...all)+2;
+  const wx=$("wxPanel"); wx.replaceChildren(
+    h("div",null,h("span",{class:"label",text:"Forecast"}),h("h3",{text:w.city||"Weather"})),
+    h("div",{class:"wx-now"},icon(t.condition),
+      h("div",null,h("div",{class:"big mono",text:(t.max!=null?t.max:"–")+"°"}),h("div",{class:"mono",style:"color:var(--muted)",text:"Low "+(t.min!=null?t.min:"–")+"°C"})),
+      h("div",{style:"min-width:0;flex:1 1 10rem"},h("b",{text:t.condition||""}),h("div",{style:"color:var(--muted)",text:w.note||""}))),
+    h("div",{class:"days"},days.map(d=>h("div",{class:"day"},
+      h("span",{text:niceDate(d.date,{weekday:"short",day:"numeric",month:"short"})}),icon(d.condition),
+      all.length?h("span",{class:"range",title:d.condition||""},h("i",{style:"left:"+((d.min-lo)/(hi-lo)*100)+"%;right:"+((hi-d.max)/(hi-lo)*100)+"%"})):h("span"),
+      h("span",{class:"mono",style:"text-align:right",text:d.min+"° / "+d.max+"°"})))),
+    w.facts?h("div",{class:"glance"},w.facts.map(f=>h("span",{class:"chip"},f.label+" ",h("b",{text:f.value})))):null,
+    srcLine(w.source,w.url));
+  $("regionPanel").replaceChildren(
+    h("div",null,h("span",{class:"label",text:"Across India"}),h("h3",{text:"Regional outlook"})),
+    h("div",null,(w.regions||[]).map(r=>h("div",{class:"region"},icon(r.icon),h("div",null,
+      h("b",null,r.name,r.alert?h("span",{class:"pill",text:"Alert"}):null),h("span",{style:"color:var(--muted)",text:r.outlook||""}))))),
+    srcLine(w.regionSource,w.regionUrl));
+}
+function srcLine(name,url){const u=safeUrl(url); return name?h("p",{class:"src",style:"margin:0"},"Source: ",u?h("a",{href:u,target:"_blank",rel:"noopener",text:name}):name):null;}
+
+/* ---------- AQI ---------- */
+function setAqi(v){
+  v=Math.max(0,Math.min(500,Math.round(+v)||0)); const b=band(v);
+  $("aqiSlider").value=v; $("aqiValue").textContent=v;
+  $("aqiBand").replaceChildren(h("span",{class:"dot",style:"width:14px;height:14px;background:var("+b.c+")"}),b.name);
+  $("aqiNeedle").style.left=(v/500*100)+"%";
+  $("aqiImpact").textContent=b.impact; $("aqiDo").textContent=b.todo;
+}
+$("aqiSlider").addEventListener("input",e=>setAqi(e.target.value));
+(function(){let prev=0; $("aqiScale").replaceChildren(...BANDS.map(b=>{const w=(b.max-prev)/5; prev=b.max; return h("i",{style:"width:"+w+"%;background:var("+b.c+")",title:b.name});}));
+  let p=0; $("aqiLegend").replaceChildren(...BANDS.map(b=>{const s=h("span",null,h("span",{class:"dot",style:"background:var("+b.c+")"}),b.name+" "+(p?p+1:0)+"–"+b.max); p=b.max; return s;}));})();
+function renderAqi(){
+  const a=cur.aqi||{}, cities=[...(a.cities||[])].sort((x,y)=>y.aqi-x.aqi), home=cities.find(c=>c.home)||cities[0];
+  $("cityPanel").replaceChildren(
+    h("div",null,h("span",{class:"label",text:a.asOf?"Readings · "+a.asOf:"Readings"}),h("h3",{text:"City air quality"})),
+    h("div",null,cities.map(c=>h("button",{class:"city"+(c.home?" home":""),title:"Show "+c.name+" in the AQI Lab",onclick:()=>setAqi(c.aqi)},
+      h("span",{text:c.name}),h("span",{class:"cbar"},h("i",{style:"width:"+Math.min(100,c.aqi/5)+"%;background:"+bandColor(c.aqi)})),
+      h("span",{class:"mono v",text:c.aqi})))),
+    a.note?h("p",{style:"margin:0;color:var(--muted);font-size:.9rem",text:a.note}):null,
+    srcLine(a.source,a.url));
+  if(home) setAqi(home.aqi);
+}
+
+/* ---------- quiz ---------- */
+function renderQuiz(){
+  const qs=(cur.quiz||[]).concat((cur.ai||[]).map(a=>a.quiz).filter(q=>q&&q.options)), key=cur.id+"|"+(cur.updatedAt||"");
+  if(quizKey!==key){quizKey=key; quiz={i:0,answers:[]};}
+  const box=$("quizBox"), bestKey="gk-best-"+cur.id, best=store.get(bestKey,null);
+  if(!qs.length){box.replaceChildren(h("div",{class:"state"},h("h3",{text:"No quiz in this edition"}),h("p",{text:"Read the headlines; a quiz arrives with the next edition."})));return;}
+  const dots=h("div",{class:"dots"},qs.map((_,i)=>{const a=quiz.answers[i];return h("i",{class:a?(a.ok?"ok":"no"):(i===quiz.i?"now":"")})}));
+  const score=quiz.answers.filter(a=>a&&a.ok).length;
+  if(quiz.i>=qs.length){
+    const pct=score/qs.length, msg=pct===1?"Perfect score. You are today's GK Master.":pct>=.7?"Strong work. Review the ones you missed below.":pct>=.4?"Good start. Open the headlines once more and try again.":"Read the ten headlines first, then retry.";
+    if(best==null||score>best)store.set(bestKey,score);
+    box.replaceChildren(h("div",{class:"panel"},h("span",{class:"label",text:"Your score"}),
+      h("div",{class:"score mono"},String(score),h("small",{text:" / "+qs.length})),dots,h("p",{style:"margin:0",text:msg}),
+      h("div",null,h("button",{class:"btn",onclick:()=>{quiz={i:0,answers:[]};renderQuiz()}},"Try again"))),
+      h("div",{style:"display:grid;gap:12px;margin-top:18px"},qs.map((q,i)=>question(q,null,quiz.answers[i].pick))));
+    return;
+  }
+  const q=qs[quiz.i], next=h("button",{class:"btn",disabled:true,onclick:()=>{quiz.i++;renderQuiz()}},quiz.i===qs.length-1?"See my score":"Next question");
+  box.replaceChildren(h("div",{style:"display:grid;gap:14px"},
+    h("div",{class:"row-head"},h("span",{class:"label",text:"Question "+(quiz.i+1)+" of "+qs.length+" · Score "+score}),best!=null?h("span",{class:"label",text:"Best "+best+"/"+qs.length}):null),
+    dots,question(q,(ok,pick)=>{quiz.answers[quiz.i]={ok,pick};next.disabled=false;next.focus();}),h("div",null,next)));
+}
+
+/* ---------- assembly mode ---------- */
+let slideI=0;
+function slides(){
+  const s=(cur.headlines||[]).map((x,i)=>({k:"Headline "+(i+1)+" · "+(x.cat||""),t:x.title,p:x.summary,g:x.gk}));
+  const w=cur.weather||{}, d=(w.days||[])[0];
+  (cur.ai||[]).forEach((x,i)=>s.push({k:"AI in Education "+(i+1),t:x.title,p:x.summary,g:x.gk}));
+  if(d)s.push({k:"Weather · "+(w.city||""),t:d.condition+", "+d.min+"°C to "+d.max+"°C",p:w.note});
+  const home=((cur.aqi||{}).cities||[]).find(c=>c.home);
+  if(home)s.push({k:"Air quality · "+home.name,t:"AQI "+home.aqi+" — "+band(home.aqi).name,p:band(home.aqi).impact,g:band(home.aqi).todo});
+  return s;
+}
+function showSlide(){
+  const s=slides(); slideI=Math.max(0,Math.min(s.length-1,slideI)); const x=s[slideI];
+  $("stageCount").textContent=(slideI+1)+" / "+s.length+" · "+x.k;
+  $("stageSlide").replaceChildren(h("h2",{text:x.t}),x.p?h("p",{text:x.p}):null,x.g?h("div",{class:"booster",text:x.g}):null);
+  $("stagePrev").disabled=slideI===0; $("stageNext").disabled=slideI===s.length-1;
+}
+$("assemblyBtn").addEventListener("click",()=>{slideI=0;$("stage").hidden=false;showSlide();$("stageNext").focus();
+  const el=document.documentElement; if(el.requestFullscreen)el.requestFullscreen().catch(()=>{});});
+function closeStage(){$("stage").hidden=true; if(document.fullscreenElement&&document.exitFullscreen)document.exitFullscreen().catch(()=>{}); $("assemblyBtn").focus();}
+$("stageClose").addEventListener("click",closeStage);
+$("stagePrev").addEventListener("click",()=>{slideI--;showSlide()});
+$("stageNext").addEventListener("click",()=>{slideI++;showSlide()});
+document.addEventListener("keydown",e=>{ if($("stage").hidden)return;
+  if(e.key==="Escape")closeStage(); else if(e.key==="ArrowRight"||e.key==="PageDown"){slideI++;showSlide()} else if(e.key==="ArrowLeft"||e.key==="PageUp"){slideI--;showSlide()} });
+
+/* ---------- edition ---------- */
+function renderEdition(){
+  $("state").hidden=true; $("mast").hidden=false;
+  $("editionLabel").textContent="Edition · "+niceDate(cur.date||cur.id);
+  $("mastTitle").textContent=cur.title||"Today's ten headlines";
+  const w=cur.weather||{}, d=(w.days||[])[0], home=((cur.aqi||{}).cities||[]).find(c=>c.home), g=[];
+  g.push(h("span",{class:"chip"},h("b",{text:String((cur.headlines||[]).length)}),"headlines"));
+  if((cur.ai||[]).length)g.push(h("span",{class:"chip"},h("b",{text:String(cur.ai.length)}),"AI in education updates"));
+  if(d)g.push(h("span",{class:"chip"},(w.city||"Weather")+" ",h("b",{text:d.max+"° / "+d.min+"°"}),d.condition||""));
+  if(home)g.push(h("span",{class:"chip"},h("span",{class:"dot",style:"background:"+bandColor(home.aqi)}),home.name+" AQI ",h("b",{text:String(home.aqi)}),band(home.aqi).name));
+  $("glance").replaceChildren(...g);
+  renderHeadlines(); renderWeather(); renderAqi(); setTab(tab);
+}
+function pick(id){ const e=editions.find(x=>x.id===id)||editions[0]; if(!e)return;
+  const changed=!cur||cur.id!==e.id; cur=e; if(changed){openId=null;filter="All";} $("editionSelect").value=e.id; renderEdition(); }
+$("editionSelect").addEventListener("change",e=>pick(e.target.value));
+
+function onEditions(docs){
+  editions=docs.map(d=>Object.assign({},d.data,{id:d.id})).sort((a,b)=>a.id<b.id?1:-1);
+  const sel=$("editionSelect");
+  if(!editions.length){ sel.hidden=true; $("mast").hidden=true; cur=null; setTab(tab);
+    showState("No edition published yet","Today's ten headlines, weather forecast and AQI reading will appear here once the morning update is written."); return; }
+  sel.hidden=false;
+  sel.replaceChildren(...editions.map((e,i)=>h("option",{value:e.id},niceDate(e.id,{weekday:"short",day:"numeric",month:"short",year:"numeric"})+(i===0?" (latest)":""))));
+  pick(cur&&editions.some(e=>e.id===cur.id)?cur.id:editions[0].id);
+}
+
+/* ---------- boot ---------- */
+tab=location.hash.slice(1)||"headlines"; setTab(tab);
+async function boot(){
+  const get=async u=>{const r=await fetch(u,{cache:"no-store"}); if(!r.ok)throw new Error(u); return r.json();};
+  try{
+    const ids=((await get("editions/index.json")).editions||[]).slice(0,30);
+    const docs=(await Promise.all(ids.map(id=>get("editions/"+id+".json").then(data=>({id,data})).catch(()=>null)))).filter(Boolean);
+    onEditions(docs);
+  }catch(e){ showState("Edition can't be loaded right now","Please check your internet connection and open the page again."); }
+}
+boot();
+})();
+</script>
+
+</body>
+</html>

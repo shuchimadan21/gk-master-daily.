@@ -1,0 +1,403 @@
+{
+  "ai": [
+    {
+      "gk": "Gemini is Google's AI chatbot. It was launched as Bard in 2023 and renamed Gemini in February 2024. 'K-12' means kindergarten to Class 12. AI Overviews are the AI-written summaries shown at the top of Google Search results.",
+      "place": "Google · Schools",
+      "quiz": {
+        "answer": 1,
+        "explain": "Google said Gemini and Search will be off by default; a school administrator can turn them back on.",
+        "options": [
+          "Gmail and Drive",
+          "Gemini and Google Search",
+          "YouTube and Maps",
+          "Classroom and Meet"
+        ],
+        "q": "Which two Google tools will be switched off by default for school (K-12) student accounts?"
+      },
+      "source": "Education Week",
+      "summary": "On 3 November, Google said it will turn off its Gemini chatbot and Google Search by default for K-12 student accounts from early next year. A school administrator can switch either or both back on, but Search without AI summaries will not be offered. Google says schools asked for more control; critics, including some US senators and child-safety groups, say schools are being pushed to accept AI in order to keep Search.",
+      "title": "Google to switch off Gemini and Search by default for school student accounts",
+      "url": "https://www.edweek.org/technology/googles-new-rules-hand-schools-hard-choices-about-ai-and-search/2026/11"
+    },
+    {
+      "gk": "The Hour of Code was started in 2013 by the non-profit Code.org to introduce students to computer science in one hour. Minecraft has been owned by Microsoft since 2014, when it bought the game's maker Mojang. OpenAI is the company that makes ChatGPT.",
+      "place": "Hour of AI · Global",
+      "quiz": {
+        "answer": 2,
+        "explain": "The Hour of AI took the place of the Hour of Code, which began in 2013.",
+        "options": [
+          "Science Olympiad",
+          "Earth Hour",
+          "Hour of Code",
+          "Safer Internet Day"
+        ],
+        "q": "The 'Hour of AI' replaced which earlier worldwide classroom event?"
+      },
+      "source": "Slashdot",
+      "summary": "The Hour of AI is an AI-literacy activity for school students that replaced the well-known Hour of Code last year. OpenAI is the Lead Partner for the 2026 edition and Microsoft is a supporter. Microsoft will show teachers a Minecraft-themed Hour of AI activity in a webinar on 17 November. The push comes soon after two of the largest US school districts restricted generative AI for students.",
+      "title": "OpenAI is Lead Partner for the 2026 'Hour of AI'; Microsoft plans a Minecraft AI lesson",
+      "url": "https://news.slashdot.org/story/26/11/01/0211213/amid-ai-bans-microsoft-and-openai-plan-a-joyful-hour-of-ai-for-kids"
+    }
+  ],
+  "aqi": {
+    "asOf": "9 Nov 2026",
+    "cities": [
+      {
+        "aqi": 363,
+        "home": true,
+        "name": "Ghaziabad"
+      },
+      {
+        "aqi": 370,
+        "name": "Delhi"
+      },
+      {
+        "aqi": 340,
+        "name": "Noida"
+      },
+      {
+        "aqi": 328,
+        "name": "Gurugram"
+      },
+      {
+        "aqi": 250,
+        "name": "Lucknow"
+      },
+      {
+        "aqi": 223,
+        "name": "Jaipur"
+      },
+      {
+        "aqi": 231,
+        "name": "Ahmedabad"
+      },
+      {
+        "aqi": 211,
+        "name": "Chennai"
+      },
+      {
+        "aqi": 171,
+        "name": "Mumbai"
+      },
+      {
+        "aqi": 164,
+        "name": "Kolkata"
+      },
+      {
+        "aqi": 129,
+        "name": "Bengaluru"
+      },
+      {
+        "aqi": 122,
+        "name": "Hyderabad"
+      }
+    ],
+    "note": "City averages from CPCB as reported on 9 November, the day after Diwali. Individual stations can read much higher.",
+    "source": "The Daily Jagran, citing CPCB",
+    "url": "https://www.thedailyjagran.com/india/news/delhi-air-pollution-severe-aqi-post-diwali-delhi-ncr-chokes-under-thick-smog-bengaluru-kolkata-ahmedabad-jaipur-noida-gurgaon-10335629"
+  },
+  "date": "2026-11-09",
+  "headlines": [
+    {
+      "cat": "National",
+      "gk": "Nyoma is in eastern Ladakh, close to the Line of Actual Control with China. The IL-76 is a Russian-origin four-engine heavy-lift aircraft that the IAF calls 'Gajraj'.",
+      "place": "Ladakh",
+      "source": "Careerindia",
+      "summary": "An IL-76MD heavy transport aircraft of the Indian Air Force landed at the Nyoma airbase in eastern Ladakh, which sits at 13,629 feet. The landing is being described as an aviation record for the Air Force.",
+      "title": "Indian Air Force lands IL-76MD transport aircraft at Nyoma airbase, 13,629 feet up",
+      "url": "https://careerindia.com/news/school-assembly-news-headlines-today-november-9-2026-national-international-education-sports-068351.html"
+    },
+    {
+      "cat": "Environment",
+      "gk": "COP stands for Conference of the Parties to the UNFCCC, the UN climate convention adopted in 1992. The Paris Agreement of 2015 aims to hold warming well below 2°C and pursue 1.5°C. COP30 was held in Belém, Brazil, in 2025.",
+      "place": "Antalya, Türkiye",
+      "source": "Careerindia",
+      "summary": "The 31st United Nations climate conference, COP31, is set to open in the Turkish city of Antalya, where countries will negotiate the next steps on cutting emissions and climate finance.",
+      "title": "COP31 climate summit set to open in Antalya",
+      "url": "https://careerindia.com/news/school-assembly-news-headlines-today-november-9-2026-national-international-education-sports-068351.html"
+    },
+    {
+      "cat": "Environment",
+      "gk": "India's National Air Quality Index was launched in 2014. It has six bands from Good (0–50) to Severe (401–500) and tracks eight pollutants, including PM2.5 and PM10. In Delhi-NCR, curbs are triggered under GRAP, the Graded Response Action Plan.",
+      "place": "Delhi-NCR",
+      "source": "The Daily Jagran",
+      "summary": "A day after Diwali, CPCB data put Delhi's Air Quality Index at 370, Ghaziabad at 363 and Noida at 340, all in the 'very poor' band. Several monitoring stations, including New Tehsil-Loni in Ghaziabad (463), crossed 400 into 'severe'.",
+      "title": "Post-Diwali smog: Delhi's AQI at 370, Ghaziabad and Noida also 'very poor'",
+      "url": "https://www.thedailyjagran.com/india/news/delhi-air-pollution-severe-aqi-post-diwali-delhi-ncr-chokes-under-thick-smog-bengaluru-kolkata-ahmedabad-jaipur-noida-gurgaon-10335629"
+    },
+    {
+      "cat": "Education",
+      "gk": "CBSE is a national school board under the Union Ministry of Education, headquartered in New Delhi. It took its present name in 1952.",
+      "place": "New Delhi",
+      "source": "Careerindia",
+      "summary": "The Central Board of Secondary Education has released the timetable for the 2027 Class 10 and Class 12 board examinations. Class 12 exams are scheduled from February 16 to April 8.",
+      "title": "CBSE releases 2027 board exam timetable; Class 12 papers run 16 February to 8 April",
+      "url": "https://careerindia.com/news/school-assembly-news-headlines-today-november-9-2026-national-international-education-sports-068351.html"
+    },
+    {
+      "cat": "Education",
+      "gk": "The UPSC is a constitutional body set up under Article 315. The Civil Services Examination has three stages: Preliminary, Main and the Personality Test (interview). It recruits for services such as the IAS, IPS and IFS.",
+      "place": "India",
+      "source": "Careerindia",
+      "summary": "The Union Public Service Commission has announced the result of the Civil Services (Main) Examination 2026. A total of 2,526 candidates have qualified for the interview round, the final stage of the exam.",
+      "title": "UPSC Civil Services Mains 2026 result out; 2,526 candidates qualify for the interview",
+      "url": "https://careerindia.com/news/school-assembly-news-headlines-today-november-9-2026-national-international-education-sports-068351.html"
+    },
+    {
+      "cat": "Sports",
+      "gk": "Grandmaster is the highest title in chess and is awarded by FIDE, the world chess federation. India's first Grandmaster was Viswanathan Anand, in 1988.",
+      "place": "Chess",
+      "source": "Careerindia",
+      "summary": "Anuj Shrivatri has become India's 100th Grandmaster. He is also the first Grandmaster from Madhya Pradesh.",
+      "title": "Anuj Shrivatri becomes India's 100th chess Grandmaster",
+      "url": "https://careerindia.com/news/school-assembly-news-headlines-today-november-9-2026-national-international-education-sports-068351.html"
+    },
+    {
+      "cat": "Sports",
+      "gk": "WTA is the Women's Tennis Association, the body that runs the women's professional tour. It was founded in 1973 by Billie Jean King.",
+      "place": "Chennai",
+      "source": "Careerindia",
+      "summary": "At the Chennai Open, Vaishnavi Adkar and Rutuja Bhosale reached the doubles final, becoming the first all-Indian pair to do so at a WTA Tour-level tennis event.",
+      "title": "Vaishnavi Adkar and Rutuja Bhosale are the first all-Indian pair in a WTA Tour-level doubles final",
+      "url": "https://careerindia.com/news/school-assembly-news-headlines-today-november-9-2026-national-international-education-sports-068351.html"
+    },
+    {
+      "cat": "Sports",
+      "gk": "The São Paulo Grand Prix is run at Interlagos, officially the Autódromo José Carlos Pace. Lando Norris is a British driver, and McLaren is a British team based in Woking.",
+      "place": "São Paulo, Brazil",
+      "source": "DT Next",
+      "summary": "McLaren driver Lando Norris won the Formula 1 São Paulo Grand Prix.",
+      "title": "Lando Norris wins the Formula 1 São Paulo Grand Prix for McLaren",
+      "url": "https://dtnext.in/videos/dt-next-news-recap-what-are-the-top-headlines-of-today-november-9-2026"
+    },
+    {
+      "cat": "World",
+      "gk": "Midterm elections are held halfway through a US president's four-year term. All 435 seats of the House of Representatives and about one-third of the 100 Senate seats are contested.",
+      "place": "United States",
+      "source": "DT Next",
+      "summary": "In the November 3 US midterm elections, the Democratic Party won control of both the House of Representatives and the Senate. President Donald Trump has since said his immigration policy was 'too tough' and that he is ready to work with Democrats.",
+      "title": "After Democrats win the US House and Senate, Trump says he is ready to work with them",
+      "url": "https://dtnext.in/videos/dt-next-news-recap-what-are-the-top-headlines-of-today-november-9-2026"
+    },
+    {
+      "cat": "Economy",
+      "gk": "E20 means petrol blended with 20% ethanol. Ethanol is a biofuel made in India mainly from sugarcane and grains, and blending it reduces crude oil imports. Oil marketing companies include IOCL, BPCL and HPCL.",
+      "place": "Karnataka",
+      "source": "DT Next",
+      "summary": "Karnataka minister Rizwan Arshad said the state stands by its finding that oil marketing companies blended more than the prescribed 20% ethanol in petrol. The state tested 63 samples from pumps, and some reached 31.2%.",
+      "title": "Karnataka says petrol samples had up to 31.2% ethanol against the 20% limit",
+      "url": "https://dtnext.in/videos/dt-next-news-recap-what-are-the-top-headlines-of-today-november-9-2026"
+    }
+  ],
+  "quiz": [
+    {
+      "answer": 2,
+      "explain": "The aircraft landed at Nyoma airbase in eastern Ladakh.",
+      "headline": 1,
+      "options": [
+        "Leh",
+        "Thoise",
+        "Nyoma",
+        "Daulat Beg Oldie"
+      ],
+      "q": "At which airbase in eastern Ladakh did the IAF land an IL-76MD at 13,629 feet?"
+    },
+    {
+      "answer": 0,
+      "explain": "COP31 is set to open in Antalya. Belém hosted COP30 in 2025.",
+      "headline": 2,
+      "options": [
+        "Antalya, Türkiye",
+        "Belém, Brazil",
+        "Baku, Azerbaijan",
+        "Dubai, UAE"
+      ],
+      "q": "COP31, the UN climate summit, is being hosted in which city?"
+    },
+    {
+      "answer": 3,
+      "explain": "301 to 400 is 'Very Poor'. 'Severe' starts at 401.",
+      "headline": 3,
+      "options": [
+        "Moderate",
+        "Poor",
+        "Severe",
+        "Very Poor"
+      ],
+      "q": "Delhi's AQI of 370 falls in which band of India's Air Quality Index?"
+    },
+    {
+      "answer": 1,
+      "explain": "Class 12 exams run from 16 February to 8 April 2027.",
+      "headline": 4,
+      "options": [
+        "1 February",
+        "16 February",
+        "1 March",
+        "15 March"
+      ],
+      "q": "According to the CBSE timetable, the 2027 Class 12 board exams begin on which date?"
+    },
+    {
+      "answer": 1,
+      "explain": "2,526 candidates qualified for the Personality Test.",
+      "headline": 5,
+      "options": [
+        "1,009",
+        "2,526",
+        "5,000",
+        "14,627"
+      ],
+      "q": "How many candidates qualified for the interview in the UPSC Civil Services Mains 2026?"
+    },
+    {
+      "answer": 0,
+      "explain": "He is the first Grandmaster from Madhya Pradesh.",
+      "headline": 6,
+      "options": [
+        "Madhya Pradesh",
+        "Tamil Nadu",
+        "Maharashtra",
+        "West Bengal"
+      ],
+      "q": "Anuj Shrivatri, India's 100th Grandmaster, is the first GM from which state?"
+    },
+    {
+      "answer": 2,
+      "explain": "They reached the doubles final at the Chennai Open, a WTA Tour-level event.",
+      "headline": 7,
+      "options": [
+        "Mumbai Open",
+        "Wimbledon",
+        "Chennai Open",
+        "Australian Open"
+      ],
+      "q": "At which tournament did Vaishnavi Adkar and Rutuja Bhosale reach a historic doubles final?"
+    },
+    {
+      "answer": 3,
+      "explain": "Norris drives for McLaren.",
+      "headline": 8,
+      "options": [
+        "Ferrari",
+        "Red Bull",
+        "Mercedes",
+        "McLaren"
+      ],
+      "q": "Lando Norris, winner of the São Paulo Grand Prix, drives for which Formula 1 team?"
+    },
+    {
+      "answer": 2,
+      "explain": "All 435 House seats are contested every two years.",
+      "headline": 9,
+      "options": [
+        "100",
+        "270",
+        "435",
+        "538"
+      ],
+      "q": "In US midterm elections, how many seats of the House of Representatives are contested?"
+    },
+    {
+      "answer": 0,
+      "explain": "E20 is petrol blended with 20% ethanol.",
+      "headline": 10,
+      "options": [
+        "Petrol with 20% ethanol",
+        "Petrol with 20% less tax",
+        "Engine oil grade 20",
+        "Euro 20 emission norm"
+      ],
+      "q": "What does 'E20' petrol mean?"
+    }
+  ],
+  "title": "Air Force lands at 13,629 ft, COP31 opens, and India gets its 100th Grandmaster",
+  "updatedAt": "2026-11-10T00:55:00+05:30",
+  "weather": {
+    "city": "Delhi-NCR",
+    "days": [
+      {
+        "condition": "Moderate fog",
+        "date": "2026-11-10",
+        "max": 28,
+        "min": 15
+      },
+      {
+        "condition": "Shallow fog",
+        "date": "2026-11-11",
+        "max": 28,
+        "min": 15
+      },
+      {
+        "condition": "Shallow fog",
+        "date": "2026-11-12",
+        "max": 28,
+        "min": 16
+      },
+      {
+        "condition": "Shallow fog",
+        "date": "2026-11-13",
+        "max": 29,
+        "min": 16
+      },
+      {
+        "condition": "Shallow fog",
+        "date": "2026-11-14",
+        "max": 29,
+        "min": 16
+      }
+    ],
+    "facts": [
+      {
+        "label": "Sunrise",
+        "value": "06:38"
+      },
+      {
+        "label": "Sunset",
+        "value": "17:32"
+      },
+      {
+        "label": "Morning humidity",
+        "value": "96%"
+      }
+    ],
+    "note": "Moderate fog in the morning, then hazy sunshine. No rain expected.",
+    "regionSource": "India.com, citing IMD",
+    "regionUrl": "https://www.india.com/news/india/weather-tomorrow-november-10-imd-issues-heavy-rain-thunderstorm-alerts-in-several-states-check-forecast-for-delhi-maharashtra-tamil-nadu-kashmir-kerala-andhra-8543478/",
+    "regions": [
+      {
+        "alert": true,
+        "icon": "storm",
+        "name": "Tamil Nadu, Puducherry and Karaikal",
+        "outlook": "Isolated heavy rainfall with thunderstorms, lightning and gusty winds."
+      },
+      {
+        "icon": "rain",
+        "name": "Kerala",
+        "outlook": "Cloudy with a chance of rain; evening thunderstorms in a few parts. 23°C to 31–32°C."
+      },
+      {
+        "icon": "rain",
+        "name": "Andhra Pradesh",
+        "outlook": "Rainfall forecast for both coastal and inland areas."
+      },
+      {
+        "icon": "rain",
+        "name": "Jammu & Kashmir and Ladakh",
+        "outlook": "Showers and strong winds; temperatures drop after 3 pm."
+      },
+      {
+        "icon": "rain",
+        "name": "East and North-East India",
+        "outlook": "Showers expected."
+      },
+      {
+        "icon": "sun",
+        "name": "Maharashtra",
+        "outlook": "Sunny days and clear nights; about 16°C to 32°C."
+      }
+    ],
+    "source": "India Meteorological Department, New Delhi (Safdarjung)",
+    "url": "https://city.imd.gov.in/citywx/city_weather_test_try_warnings.php?id=42182"
+  }
+}

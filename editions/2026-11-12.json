@@ -1,0 +1,380 @@
+{
+  "ai": [
+    {
+      "gk": "Adaptive or personalised learning software changes the questions it asks based on how a student answers. UDISE+ stands for Unified District Information System for Education Plus, the Education Ministry's yearly database of India's schools.",
+      "place": "Tamil Nadu · Govt schools",
+      "quiz": {
+        "answer": 2,
+        "explain": "It covers 25,140 students of Classes 6 to 8 in 500 government middle schools.",
+        "options": [
+          "Classes 1 to 5",
+          "Classes 9 and 10",
+          "Classes 6 to 8",
+          "Classes 11 and 12"
+        ],
+        "q": "Tamil Nadu's new AI self-learning scheme is for students of which classes?"
+      },
+      "source": "Elets digitalLEARNING",
+      "summary": "The Thannilai Katral Thittam, launched on 6 November at a middle school in Kancheepuram district by School Education Minister Rajmohan Arumugam, covers 25,140 students in 500 government middle schools across 15 districts. The software, Mindspark from Educational Initiatives (deployed as TN PAL), finds each child's learning pace and gaps and gives matched practice in Tamil, English and Mathematics under a teacher's guidance. The company says it plans to scale to over 7,000 schools; the report also notes UDISE+ 2025-26 data that about one in three schools lacks a working computer.",
+      "title": "Tamil Nadu launches an AI-based self-learning scheme for Classes 6 to 8 in 500 government schools.",
+      "url": "https://digitallearning.eletsonline.com/2026/11/tamil-nadu-ai-learning-schools/"
+    },
+    {
+      "gk": "AI literacy means understanding what AI tools can and cannot do and using them safely and responsibly. Vidhana Soudha in Bengaluru is the seat of Karnataka's state legislature.",
+      "place": "Karnataka · Teachers",
+      "quiz": {
+        "answer": 1,
+        "explain": "The 12-month programme in 2027 is for 5,000 government school teachers.",
+        "options": [
+          "500",
+          "5,000",
+          "50,000",
+          "25,140"
+        ],
+        "q": "How many government school teachers does Karnataka plan to train in basic AI literacy?"
+      },
+      "source": "Elets digitalLEARNING",
+      "summary": "The programme was announced on 4 November at the Namma Shaale, Namma Javabdari event at Vidhana Soudha, Bengaluru. It will be run under JanAI, an initiative of the Head Held High Foundation, with the state's Department of School Education and Literacy, from January to December 2027. Modules cover AI basics, common tools, prompting and lesson preparation, plus responsible use: the limits of AI answers, misinformation, bias and protecting student data. The report gives no budget for the programme.",
+      "title": "Karnataka to train 5,000 government school teachers in basic AI literacy.",
+      "url": "https://digitallearning.eletsonline.com/2026/11/karnataka-teachers-ai-literacy/"
+    }
+  ],
+  "aqi": {
+    "asOf": "11 Nov 2026",
+    "cities": [
+      {
+        "aqi": 297,
+        "home": true,
+        "name": "Ghaziabad"
+      },
+      {
+        "aqi": 313,
+        "name": "Delhi"
+      },
+      {
+        "aqi": 291,
+        "name": "Noida"
+      },
+      {
+        "aqi": 147,
+        "name": "Lucknow"
+      }
+    ],
+    "note": "CPCB 24-hour averages released at 4 pm on Wednesday: Delhi is back in 'very poor' while Ghaziabad and Noida are at the top of the 'poor' band; figures for other metros were not available from a reliable source today.",
+    "source": "ThePrint (PTI), citing CPCB",
+    "url": "https://theprint.in/india/adityanath-dismisses-post-diwali-pollution-concerns-aqi-still-high-in-parts-of-up/3096277/"
+  },
+  "date": "2026-11-12",
+  "headlines": [
+    {
+      "cat": "National",
+      "gk": "Swachh Survekshan is the annual urban cleanliness survey run by the Ministry of Housing and Urban Affairs; it began in 2016. It is part of the Swachh Bharat Mission, launched on 2 October 2014, the birth anniversary of Mahatma Gandhi.",
+      "place": "New Delhi · Swachh Survekshan",
+      "source": "India TV News",
+      "summary": "President Droupadi Murmu presented the Swachh Survekshan 2025-26 awards at Vigyan Bhawan, New Delhi, on 11 November. Navi Mumbai topped the Clean City League, followed by Surat and Vijayawada; Indore, the cleanest city for eight years in a row, is now placed in the Super Swachh League. The survey assessed 4,909 cities on 43 parameters, and Visakhapatnam led the over-10-lakh population category.",
+      "title": "Navi Mumbai is named India's cleanest city as Indore's eight-year run at the top ends.",
+      "url": "https://www.indiatvnews.com/news/india/indore-loses-cleanest-city-title-after-8-years-as-navi-mumbai-emerges-winner-in-swachh-survekshan-awards-2026-11-11-1059204"
+    },
+    {
+      "cat": "Economy",
+      "gk": "Rabi crops such as wheat, mustard and gram are sown in winter and harvested in spring. MUDRA stands for Micro Units Development and Refinance Agency; the Pradhan Mantri Mudra Yojana was launched in April 2015 to give small loans to non-farm micro enterprises.",
+      "place": "Union Cabinet",
+      "source": "The Daily Jagran",
+      "summary": "The Cabinet, chaired by Prime Minister Narendra Modi, approved a Rs 62,370 crore subsidy on phosphatic and potassic fertilisers for the rabi season on 11 November. It also cleared Rs 2,390 crore for an 8.449 km extension of the Noida Aqua Line metro with five elevated stations, credit guarantee funds of Rs 5,000 crore for PM Mudra Yojana and Rs 4,111 crore for Stand-Up India, and Rs 3,230 crore for the Yuge Yugeen Bharat Museum in Delhi's North and South Blocks.",
+      "title": "Union Cabinet clears five proposals worth Rs 77,101 crore, including the rabi fertiliser subsidy and a Noida metro extension.",
+      "url": "https://www.thedailyjagran.com/business/news/rs-77101-crore-boost-cabinet-approves-fertiliser-subsidy-noida-metro-expansion-and-small-business-support-10335951"
+    },
+    {
+      "cat": "Education",
+      "gk": "GRAP stands for Graded Response Action Plan, a set of anti-pollution steps for Delhi-NCR that get stricter in four stages as the air worsens. The Commission for Air Quality Management (CAQM) is the statutory body, set up by a 2021 Act of Parliament, that enforces it.",
+      "place": "Ghaziabad · Noida",
+      "source": "India TV News",
+      "summary": "Directions from the Commission for Air Quality Management make hybrid (online plus in-person) classes mandatory up to Class 5 in Delhi, Gurugram, Faridabad, Ghaziabad and Gautam Buddh Nagar. Gautam Buddh Nagar's Basic Education Officer Rahul Panwar has ordered schools in Noida and Greater Noida to comply. After a review on 11 November, Ghaziabad's District Magistrate ordered all construction and demolition work suspended until 20 November and told civic agencies to double road sweeping and water sprinkling.",
+      "title": "Hybrid classes up to Class 5 continue across Delhi-NCR under GRAP-III; Ghaziabad halts construction till 20 November.",
+      "url": "https://www.indiatvnews.com/news/india/noida-schools-shift-to-hybrid-classes-ghaziabad-halts-construction-till-november-20-amid-grap-iii-curbs-2026-11-11-1059195"
+    },
+    {
+      "cat": "Environment",
+      "gk": "India's Air Quality Index runs from 0 to 500: 0-50 good, 51-100 satisfactory, 101-200 moderate, 201-300 poor, 301-400 very poor and 401-500 severe. It is published by the Central Pollution Control Board (CPCB), set up in 1974.",
+      "place": "Delhi · Air quality",
+      "source": "ThePrint (PTI)",
+      "summary": "Delhi's 24-hour average AQI was 313 on Wednesday, 11 November, up from 299 on Tuesday when stronger winds had briefly improved it. Of 58 monitoring stations, one was in the severe range, 34 very poor, 22 poor and one moderate. Forecast models expect the share of stubble-burning smoke to rise on Thursday; 9,592 farm fires were recorded across six states between 15 September and 10 November.",
+      "title": "Delhi's air slips back to 'very poor' with an AQI of 313 after one day in the 'poor' band.",
+      "url": "https://theprint.in/india/delhis-air-quality-back-in-very-poor-category-aqi-at-313/3096270/"
+    },
+    {
+      "cat": "World",
+      "gk": "Spain is a constitutional monarchy in south-western Europe; its capital is Madrid, its currency is the euro and its parliament is called the Cortes Generales. A general strike is one in which workers across many industries stop work at the same time.",
+      "place": "Spain",
+      "source": "Al Jazeera",
+      "summary": "A 24-hour nationwide strike began at midnight on Wednesday, disrupting public transport and closing many factories and shops. The two main unions, UGT and CCOO, reported 90 percent participation in the automotive and port sectors, while opposition leader Alberto Nunez Feijoo called the strike a serious mistake. Prime Minister Pedro Sanchez has called a snap election for 29 November after his minority government failed to pass a housing package.",
+      "title": "Spain holds its first general strike in 14 years, over the cost of housing.",
+      "url": "https://www.aljazeera.com/news/2026/11/11/spains-first-general-strike-in-14-years-begins"
+    },
+    {
+      "cat": "World",
+      "gk": "The Knesset is Israel's single-chamber parliament with 120 members, so a government needs the support of at least 61. Israel's President is the ceremonial head of state, while the Prime Minister heads the government.",
+      "place": "Israel",
+      "source": "Associated Press via WBAL-TV",
+      "summary": "The 120-member Knesset elected on 27 October was sworn in on Tuesday. President Isaac Herzog has given Gadi Eisenkot, leader of the Yashar party, the first chance to build a coalition; his bloc won 48 seats, Benjamin Netanyahu's bloc 53 and Arab parties 19. Eisenkot introduced bills for an inquiry into the 7 October 2023 attacks, term limits for the prime minister and a reversal of recent judicial changes, while Netanyahu stays on as caretaker prime minister.",
+      "title": "Israel's new parliament is sworn in as Gadi Eisenkot gets up to six weeks to form a government.",
+      "url": "https://www.wbaltv.com/article/israel-parliament-sworn-in-eisenkot-netanyahu-policies/74393655"
+    },
+    {
+      "cat": "Science",
+      "gk": "The first-ever image of a black hole was released on 10 April 2019 by the Event Horizon Telescope, a network of radio telescopes around the world working as one Earth-sized telescope. The black hole lies at the centre of the galaxy Messier 87 (M87), about 55 million light years away.",
+      "place": "Astronomy · Black hole",
+      "source": "The Register",
+      "summary": "A four-member Australian team led by Samuel Lai of CSIRO has published a paper in the journal Nature that reproduces the Event Horizon Telescope's ring image of the M87 black hole. They applied a new machine-learning imaging method to the original data, combining signals from sets of three telescopes to reduce errors. Lai called it the first truly independent validation of the image, and EHT director Laurent Loinard welcomed the study.",
+      "title": "An independent team confirms the famous 2019 image of the M87 black hole.",
+      "url": "https://www.theregister.com/science/2026/11/11/scientists-check-their-work-and-confirm-it-with-update-on-iconic-black-hole-image/5309183"
+    },
+    {
+      "cat": "Science",
+      "gk": "A cryogenic engine burns liquid hydrogen with liquid oxygen, both stored at extremely low temperatures. GSLV stands for Geosynchronous Satellite Launch Vehicle and NavIC for Navigation with Indian Constellation. ISRO was founded on 15 August 1969 and is headquartered in Bengaluru.",
+      "place": "ISRO · Space",
+      "source": "NewsBytes",
+      "summary": "The Indian Space Research Organisation fired its cryogenic engine for 200 seconds at a test facility in Tamil Nadu, according to a report published on 11 November. The engine will power the upper stage of the GSLV-F19 rocket, which is to launch NVS-04, a satellite for India's NavIC navigation system. No launch date was given in the report.",
+      "title": "ISRO completes a 200-second cryogenic engine test ahead of the GSLV-F19 launch.",
+      "url": "https://www.newsbytesapp.com/news/science/isro-completes-200-seconds-cryogenic-engine-test-for-gslv-f19-launch/tldr"
+    },
+    {
+      "cat": "Sports",
+      "gk": "The Indian Premier League (IPL) is a Twenty20 cricket league run by the BCCI; its first season was in 2008. Players can move between teams through the auction or through a trading window between seasons.",
+      "place": "Cricket · IPL",
+      "source": "Outlook India",
+      "summary": "Mumbai Indians and Punjab Kings completed the trade on 11 November, ahead of the IPL 2027 mini-auction, with both players valued at Rs 18 crore. Pandya had captained Mumbai Indians since 2024; the team finished ninth in 2026. Arshdeep made his IPL debut for Punjab in 2019 and took 111 wickets in 96 matches for the side.",
+      "title": "Hardik Pandya moves to Punjab Kings and Arshdeep Singh to Mumbai Indians in an IPL 2027 swap.",
+      "url": "https://www.outlookindia.com/sports/cricket/hardik-pandya-joins-punjab-kings-arshdeep-singh-mumbai-indians-ipl-2027-trade"
+    },
+    {
+      "cat": "Sports",
+      "gk": "Sachin Tendulkar is the only cricketer to score 100 international centuries and the only one to play 200 Test matches. In 2014 he became the first sportsperson to receive the Bharat Ratna, India's highest civilian award.",
+      "place": "Mumbai · Cricket",
+      "source": "Onmanorama",
+      "summary": "The bats, from different phases of his career, will go on show at the Sharad Pawar Cricket Museum in an exhibition called Batography, along with helmets, jerseys and personal notes. The display opens on 16 November, the 13th anniversary of his final Test, his 200th, against the West Indies at Wankhede Stadium in 2013. MCA president Ajinkya Naik said the association was honoured by the gesture.",
+      "title": "Sachin Tendulkar to gift 26 of his bats to the Mumbai Cricket Association's museum.",
+      "url": "https://www.onmanorama.com/sports/cricket/2026/11/11/sachin-tendulkar-to-gift-26-bats-for-batography-display-at-mumbai-museum.html"
+    }
+  ],
+  "quiz": [
+    {
+      "answer": 2,
+      "explain": "Navi Mumbai came first, ahead of Surat and Vijayawada, ending Indore's eight-year run.",
+      "headline": 1,
+      "options": [
+        "Indore",
+        "Surat",
+        "Navi Mumbai",
+        "Vijayawada"
+      ],
+      "q": "Which city topped the Clean City League in the Swachh Survekshan 2025-26 awards?"
+    },
+    {
+      "answer": 0,
+      "explain": "The subsidy on phosphatic and potassic fertilisers is for the winter-sown rabi season.",
+      "headline": 2,
+      "options": [
+        "Rabi",
+        "Kharif",
+        "Zaid",
+        "Monsoon"
+      ],
+      "q": "The Cabinet's Rs 62,370 crore fertiliser subsidy is for which crop season?"
+    },
+    {
+      "answer": 3,
+      "explain": "GRAP is the Graded Response Action Plan, the staged anti-pollution plan for Delhi-NCR.",
+      "headline": 3,
+      "options": [
+        "Green Road Action Programme",
+        "General Response to Air Pollution",
+        "Ground Report on Air Purity",
+        "Graded Response Action Plan"
+      ],
+      "q": "What does GRAP stand for?"
+    },
+    {
+      "answer": 1,
+      "explain": "Readings from 301 to 400 are classed as very poor.",
+      "headline": 4,
+      "options": [
+        "Poor",
+        "Very poor",
+        "Severe",
+        "Moderate"
+      ],
+      "q": "On India's AQI scale, a reading of 313 falls in which category?"
+    },
+    {
+      "answer": 2,
+      "explain": "Unions called the 24-hour strike over the high cost of housing.",
+      "headline": 5,
+      "options": [
+        "Fuel prices",
+        "School fees",
+        "Housing costs",
+        "Farm laws"
+      ],
+      "q": "What was the main issue behind Spain's first general strike in 14 years?"
+    },
+    {
+      "answer": 3,
+      "explain": "The Knesset has 120 seats, so 61 are needed for a majority.",
+      "headline": 6,
+      "options": [
+        "100",
+        "150",
+        "545",
+        "120"
+      ],
+      "q": "How many members does Israel's parliament, the Knesset, have?"
+    },
+    {
+      "answer": 0,
+      "explain": "The Event Horizon Telescope imaged the black hole in the galaxy M87.",
+      "headline": 7,
+      "options": [
+        "Messier 87",
+        "Andromeda",
+        "The Milky Way",
+        "Triangulum"
+      ],
+      "q": "The black hole first imaged in 2019 lies at the centre of which galaxy?"
+    },
+    {
+      "answer": 1,
+      "explain": "Cryogenic engines use liquid hydrogen as fuel and liquid oxygen as oxidiser.",
+      "headline": 8,
+      "options": [
+        "Kerosene and nitrogen",
+        "Liquid hydrogen and liquid oxygen",
+        "Solid fuel and air",
+        "Petrol and helium"
+      ],
+      "q": "Which two propellants does a cryogenic rocket engine burn?"
+    },
+    {
+      "answer": 2,
+      "explain": "He was traded from Mumbai Indians to Punjab Kings, with Arshdeep Singh going the other way.",
+      "headline": 9,
+      "options": [
+        "Gujarat Titans",
+        "Mumbai Indians",
+        "Punjab Kings",
+        "Delhi Capitals"
+      ],
+      "q": "Which IPL team has Hardik Pandya joined for the 2027 season?"
+    },
+    {
+      "answer": 0,
+      "explain": "He is giving 26 bats from different phases of his career.",
+      "headline": 10,
+      "options": [
+        "26",
+        "100",
+        "16",
+        "200"
+      ],
+      "q": "How many bats is Sachin Tendulkar gifting to the MCA museum for the Batography exhibition?"
+    }
+  ],
+  "title": "Navi Mumbai is cleanest city; Cabinet clears Rs 77,101 crore; Delhi air 'very poor'",
+  "updatedAt": "2026-11-12T06:56:10+05:30",
+  "weather": {
+    "city": "Delhi-NCR",
+    "days": [
+      {
+        "condition": "Morning fog/mist, partly cloudy later",
+        "date": "2026-11-12",
+        "max": 28,
+        "min": 16
+      },
+      {
+        "condition": "Morning fog/mist, partly cloudy later",
+        "date": "2026-11-13",
+        "max": 29,
+        "min": 16
+      },
+      {
+        "condition": "Morning fog/mist, partly cloudy later",
+        "date": "2026-11-14",
+        "max": 29,
+        "min": 16
+      },
+      {
+        "condition": "Morning fog/mist, partly cloudy later",
+        "date": "2026-11-15",
+        "max": 28,
+        "min": 15
+      },
+      {
+        "condition": "Morning fog/mist, mainly clear later",
+        "date": "2026-11-16",
+        "max": 27,
+        "min": 14
+      }
+    ],
+    "facts": [
+      {
+        "label": "Sunrise",
+        "value": "06:40"
+      },
+      {
+        "label": "Sunset",
+        "value": "17:30"
+      },
+      {
+        "label": "Morning humidity",
+        "value": "94%"
+      },
+      {
+        "label": "Wednesday's minimum",
+        "value": "14.8°C"
+      }
+    ],
+    "note": "Fog or mist in the morning and a partly cloudy sky later, with a high near 28 degrees C and no IMD warning for Delhi.",
+    "regionSource": "Business Today, citing IMD",
+    "regionUrl": "https://www.businesstoday.in/india/story/weather-forecast-heavy-rain-in-tamil-nadu-kerala-snowfall-in-kashmir-fog-in-delhi-heres-what-imd-predicts-for-november-11-15-566766-2026-11-11",
+    "regions": [
+      {
+        "alert": true,
+        "icon": "snow",
+        "name": "Jammu & Kashmir, Ladakh",
+        "outlook": "A western disturbance brings widespread rain on 12-13 November, with heavy rain and snowfall likely in the Kashmir Valley on 12 November."
+      },
+      {
+        "alert": false,
+        "icon": "rain",
+        "name": "Himachal Pradesh, Uttarakhand",
+        "outlook": "Rain in Himachal Pradesh through the week and in Uttarakhand on 12-13 November."
+      },
+      {
+        "alert": true,
+        "icon": "storm",
+        "name": "Tamil Nadu, Puducherry",
+        "outlook": "Thunderstorms with lightning and winds of 40-50 kmph on 12 November; heavy rain is forecast to return on 15-16 November."
+      },
+      {
+        "alert": true,
+        "icon": "rain",
+        "name": "Andaman & Nicobar Islands",
+        "outlook": "Heavy rain with thunderstorms and gusty winds until 14 November; a low-pressure area is likely over the southeast Bay of Bengal around 13 November."
+      },
+      {
+        "alert": false,
+        "icon": "rain",
+        "name": "Northeast India",
+        "outlook": "Light to moderate rain over Arunachal Pradesh, Assam, Meghalaya, Nagaland, Manipur, Mizoram and Tripura until 12 November."
+      },
+      {
+        "alert": false,
+        "icon": "cloud",
+        "name": "Kerala",
+        "outlook": "No warning for now; IMD expects heavy rain in Kerala and Mahe on 16 November."
+      }
+    ],
+    "source": "India Meteorological Department, New Delhi (Safdarjung)",
+    "url": "https://city.imd.gov.in/citywx/city_weather_test_try_warnings.php?id=42182"
+  }
+}

@@ -1,0 +1,375 @@
+{
+  "ai": [
+    {
+      "gk": "IIT Roorkee began in 1847 as the Thomason College of Civil Engineering and became an IIT in 2001. Its E&ICT Academy is supported by MeitY, the Ministry of Electronics and Information Technology.",
+      "place": "IIT Roorkee · India",
+      "quiz": {
+        "answer": 2,
+        "explain": "It was founded in 1847 and was made an IIT in 2001.",
+        "options": [
+          "1947",
+          "1901",
+          "1847",
+          "2001"
+        ],
+        "q": "In which year did the institution now called IIT Roorkee begin, as Thomason College of Civil Engineering?"
+      },
+      "source": "Elets digitalLEARNING",
+      "summary": "The E&ICT Academy at IIT Roorkee is offering five online courses, including Generative AI and Prompt Engineering, Machine Learning and Agentic AI, and Data Science using Python, at a fee of Rs 8,000 each. Batches begin on 14 December 2026 and 4 January 2027, with four weeks of live evening classes followed by two weeks of project work. Undergraduate, postgraduate and PhD students can apply and no coding experience is needed; most reports give 30 November as the last date, so applicants should confirm on the academy's website.",
+      "title": "IIT Roorkee opens applications for six-week online AI winter training for college students.",
+      "url": "https://digitallearning.eletsonline.com/2026/11/iit-roorkee-ai-winter-training/"
+    },
+    {
+      "gk": "OpenAI is a US artificial intelligence company founded in 2015; it released the chatbot ChatGPT in November 2022. AI literacy means understanding how AI tools work, checking their answers and using them responsibly.",
+      "place": "OpenAI · Schools",
+      "quiz": {
+        "answer": 0,
+        "explain": "79% use AI for schoolwork but only 47% had been given guidance.",
+        "options": [
+          "47%",
+          "79%",
+          "90%",
+          "25%"
+        ],
+        "q": "According to the OpenAI report, what share of surveyed students said they had been shown how to use AI tools effectively?"
+      },
+      "source": "TUN (The University Network)",
+      "summary": "In a report published on 10 November, OpenAI describes an 'AI guidance gap' in education. Citing research by ThinkYoung, it says 79% of surveyed students use AI for homework or assignments, but only 47% had been shown how to use such tools well. Drawing on its work with Estonia, Slovakia, Greece and Italy, OpenAI proposes that governments lead with equal access, AI literacy in local languages and teacher training. Critics worry that AI lets students skip the thinking that learning requires, which the report treats as an open research question.",
+      "title": "OpenAI report says most students use AI for schoolwork but fewer than half are taught how to use it.",
+      "url": "https://www.tun.com/home/openai-report-flags-ai-guidance-gap-in-schools/"
+    }
+  ],
+  "aqi": {
+    "asOf": "10 Nov 2026 (morning)",
+    "cities": [
+      {
+        "aqi": 252,
+        "home": true,
+        "name": "Ghaziabad"
+      },
+      {
+        "aqi": 304,
+        "name": "Delhi"
+      },
+      {
+        "aqi": 306,
+        "name": "Noida"
+      },
+      {
+        "aqi": 321,
+        "name": "Gurugram"
+      },
+      {
+        "aqi": 191,
+        "name": "Lucknow"
+      }
+    ],
+    "note": "Morning CPCB readings from Tuesday 10 November; Delhi's figure (8 am) is from Business Standard. Today's figures and other cities were not available from a reliable source at the time of writing.",
+    "source": "Business Today, citing CPCB",
+    "url": "https://www.businesstoday.in/india/story/north-india-gasps-delhi-air-improves-slightly-ncr-up-remain-in-toxic-grip-566619-2026-11-10"
+  },
+  "date": "2026-11-11",
+  "headlines": [
+    {
+      "cat": "Education",
+      "gk": "Maulana Abul Kalam Azad was independent India's first Education Minister, serving from 1947 to 1958. National Education Day has been observed since 2008. He was awarded the Bharat Ratna posthumously in 1992.",
+      "place": "India",
+      "source": "Dainik Jagran English",
+      "summary": "11 November is marked across India as National Education Day in honour of Maulana Abul Kalam Azad, who was born on 11 November 1888. Schools and colleges hold talks, essays and debates on the value of education. This year the day also coincides with Bhai Dooj.",
+      "title": "India observes National Education Day today, the birth anniversary of Maulana Abul Kalam Azad.",
+      "url": "https://english.dainikjagranmpcg.com/national/november-11-events-national-education-day-bhai-dooj/article-43640"
+    },
+    {
+      "cat": "National",
+      "gk": "Swachh Survekshan is the annual cleanliness survey of the Ministry of Housing and Urban Affairs (MoHUA). The Swachh Bharat Mission was launched on 2 October 2014, the birth anniversary of Mahatma Gandhi.",
+      "place": "New Delhi",
+      "source": "IANS",
+      "summary": "The awards of the 10th edition of Swachh Survekshan will be given at Vigyan Bhawan, New Delhi, in the presence of Union Minister Manohar Lal and Minister of State Tokhan Sahu. The survey has grown from 73 urban local bodies in 2016 to over 4,751 cities, judged on 43 indicators by more than 3,000 assessors. Top performers of the Swachh Shehar Jodi initiative, which pairs 70 mentor cities with 191 mentee cities, will also be honoured.",
+      "title": "President Droupadi Murmu to confer the Swachh Survekshan 2025-26 awards on India's cleanest cities today.",
+      "url": "https://ianslive.in/president-droupadi-murmu-to-honour-cleanest-cities-at-swachh-survekshan-event--20261109133449"
+    },
+    {
+      "cat": "National",
+      "gk": "In a 'digital arrest' scam, fraudsters pose as police or officials on a video call and demand money; no law in India allows an arrest over a video call. I4C works under the Ministry of Home Affairs, and the national cybercrime helpline number is 1930. 'Suo motu' means a court acting on its own initiative.",
+      "place": "Supreme Court",
+      "source": "News On AIR",
+      "summary": "A bench headed by Chief Justice of India Surya Kant asked WhatsApp and similar intermediaries to submit their proposed measures to the Indian Cybercrime Coordination Centre (I4C). WhatsApp told the court it had acted against 9,400 accounts and would file an affidavit. The court is hearing the matter on its own motion, and the next hearing is on 23 November.",
+      "title": "Supreme Court asks WhatsApp and other platforms to list steps to curb 'digital arrest' scams.",
+      "url": "https://newsonair.gov.in/sc-asks-whatsapp-other-intermediaries-to-outline-steps-to-curb-digital-arrest-scams/"
+    },
+    {
+      "cat": "World",
+      "gk": "Abu Dhabi is the capital of the United Arab Emirates, a federation of seven emirates. Kyiv is the capital of Ukraine and Moscow is the capital of Russia.",
+      "place": "Abu Dhabi",
+      "source": "The Kyiv Independent",
+      "summary": "The talks began on 10 November and are the first trilateral meeting since February, when talks in Geneva failed. Ukraine's team is led by Rustem Umerov and Russia's by presidential aide Vladimir Medinsky, with US envoys Steve Witkoff and Jared Kushner taking part. The focus is on humanitarian issues such as prisoner-of-war exchanges, while the question of territory remains the main sticking point.",
+      "title": "Ukraine, Russia and the United States resume three-way peace talks in Abu Dhabi after a nine-month pause.",
+      "url": "https://kyivindependent.com/ukraine-russia-us-resume-trilateral-peace-talks-in-abu-dhabi-after-9-month-pause/"
+    },
+    {
+      "cat": "Environment",
+      "gk": "COP stands for Conference of the Parties to the UNFCCC, the United Nations Framework Convention on Climate Change, adopted in 1992. The Paris Agreement of 2015 aims to limit global warming to well below 2°C, and preferably to 1.5°C.",
+      "place": "COP31 · Antalya",
+      "source": "News On AIR",
+      "summary": "Environment Secretary Narendra Bhooshan delivered India's opening statement at the UN climate summit in Antalya, which began on 9 November. India reaffirmed its commitment to climate multilateralism and to the principle of equity and Common But Differentiated Responsibilities and Respective Capabilities. It said public finance from developed countries remains central to climate action in developing countries, and flagged the growing risk of crossing 1.5°C of warming.",
+      "title": "At COP31 in Türkiye, India calls for a fair and ambitious outcome and for rich nations to deliver climate finance.",
+      "url": "https://newsonair.gov.in/india-reaffirms-commitment-to-climate-multilateralism-and-fair-ambitious-outcome-at-unfccc-cop31-in-antalya/"
+    },
+    {
+      "cat": "Economy",
+      "gk": "Exports are goods and services sold to other countries; imports are those bought from them. When imports are greater than exports, the gap is called a trade deficit. India's financial year runs from 1 April to 31 March.",
+      "place": "Exports",
+      "source": "GoodReturns (with PTI inputs)",
+      "summary": "Mr Goyal said India's goods and services exports were about 480 billion US dollars in April to September of 2026-27, roughly 48% of the annual target of 1 trillion dollars. He was speaking at the curtain-raiser for the Bharat Mobility Global Expo 2027. Trade figures for October are due on 13 November.",
+      "title": "India is on track for its 1 trillion dollar export target this year, says Commerce Minister Piyush Goyal.",
+      "url": "https://www.goodreturns.in/news/india-exports-on-track-for-usd-1-trillion-target-says-piyush-goyal-011-1546271.html"
+    },
+    {
+      "cat": "Economy",
+      "gk": "NPPA stands for National Pharmaceutical Pricing Authority. It was set up in 1997 and works under the Department of Pharmaceuticals, Ministry of Chemicals and Fertilizers. MRP stands for Maximum Retail Price.",
+      "place": "Medicine prices",
+      "source": "The Tribune",
+      "summary": "The National Pharmaceutical Pricing Authority (NPPA) capped the trade margin on 137 non-scheduled anti-cancer drugs at 30% of the maximum retail price. The revised prices took effect on 9 November and stay in force until further orders. Medicines covered include pembrolizumab, nivolumab, osimertinib and bevacizumab.",
+      "title": "Trade margins on 137 anti-cancer medicines are now capped at 30% of MRP under an NPPA order.",
+      "url": "https://www.tribuneindia.com/news/india/nppa-caps-trade-margins-at-30-for-137-anti-cancer-drugs-revised-prices-from-november-9/"
+    },
+    {
+      "cat": "Science",
+      "gk": "A gravity assist uses a planet's gravity to change a spacecraft's speed and direction without using much fuel. Mars, the Red Planet, is the fourth planet from the Sun and has two moons, Phobos and Deimos. India's Mars Orbiter Mission (Mangalyaan) reached Mars orbit in September 2014.",
+      "place": "NASA · Mars",
+      "source": "Space.com",
+      "summary": "The two ESCAPADE spacecraft, launched in November 2025 on Blue Origin's New Glenn rocket, returned to Earth after a long looping orbit. Each fired its engine during a close Earth flyby, the first on 7 November and the second on 9 November, and NASA says both burns went perfectly. NASA calls it the first time it has used a powered Earth flyby to send a spacecraft towards Mars; arrival is expected in September 2027.",
+      "title": "NASA's twin ESCAPADE probes swing past Earth with engine burns and head for Mars.",
+      "url": "https://www.space.com/astronomy/mars/nasas-escapade-twin-mars-probes-execute-a-1st-of-its-kind-gravity-slingshot-around-earth"
+    },
+    {
+      "cat": "Sports",
+      "gk": "ODI stands for One Day International, a match of 50 overs per side. Wellington is the capital of New Zealand. The BCCI, the Board of Control for Cricket in India, has its headquarters in Mumbai.",
+      "place": "Cricket · Hamilton",
+      "source": "WION",
+      "summary": "The match at Seddon Park, Hamilton, on 10 November was first cut to 40 overs a side and then abandoned. Shubman Gill had won the toss and chosen to bowl. Shreyas Iyer will lead India in the last two ODIs at Mount Maunganui, and a two-Test series begins on 19 November.",
+      "title": "Rain washes out the third India-New Zealand ODI; India keep a 2-0 lead in the five-match series.",
+      "url": "https://www.wionews.com/sports/ind-vs-nz-3rd-odi-hamilton-washed-out-rain-india-lead-2-0-1794295865412"
+    },
+    {
+      "cat": "Sports",
+      "gk": "The Asia Cup is organised by the Asian Cricket Council (ACC), founded in 1983. Muscat is the capital of Oman. Aryavir is the son of Virender Sehwag, the first Indian to score a triple century in Test cricket.",
+      "place": "Cricket · Oman",
+      "source": "News On AIR",
+      "summary": "Batting first at the Al Amerat Cricket Ground in Oman, India scored 309 for 7 in 50 overs and then restricted the United Arab Emirates to 239. Aryavir Sehwag was Player of the Match for his 160 off 168 balls. India will play Afghanistan in the semi-final on Thursday.",
+      "title": "India beat UAE by 70 runs to reach the Under-19 Asia Cup semi-finals; Aryavir Sehwag hits 160.",
+      "url": "https://newsonair.gov.in/india-enter-under-19-asia-cup-semi-finals-with-70-run-win/"
+    }
+  ],
+  "quiz": [
+    {
+      "answer": 1,
+      "explain": "Maulana Azad, India's first Education Minister, was born on 11 November 1888.",
+      "headline": 1,
+      "options": [
+        "Dr S. Radhakrishnan",
+        "Maulana Abul Kalam Azad",
+        "Dr A.P.J. Abdul Kalam",
+        "Swami Vivekananda"
+      ],
+      "q": "Whose birth anniversary is observed as National Education Day on 11 November?"
+    },
+    {
+      "answer": 3,
+      "explain": "Swachh Survekshan is run by the Ministry of Housing and Urban Affairs (MoHUA).",
+      "headline": 2,
+      "options": [
+        "Ministry of Jal Shakti",
+        "Ministry of Rural Development",
+        "Ministry of Environment, Forest and Climate Change",
+        "Ministry of Housing and Urban Affairs"
+      ],
+      "q": "Which ministry conducts the Swachh Survekshan cleanliness survey?"
+    },
+    {
+      "answer": 0,
+      "explain": "Cyber fraud can be reported on 1930; 1098 is the child helpline and 112 the emergency number.",
+      "headline": 3,
+      "options": [
+        "1930",
+        "1098",
+        "112",
+        "181"
+      ],
+      "q": "What is India's national cybercrime helpline number?"
+    },
+    {
+      "answer": 2,
+      "explain": "Abu Dhabi is the capital of the United Arab Emirates.",
+      "headline": 4,
+      "options": [
+        "Qatar",
+        "Saudi Arabia",
+        "United Arab Emirates",
+        "Oman"
+      ],
+      "q": "Abu Dhabi, where the peace talks are being held, is the capital of which country?"
+    },
+    {
+      "answer": 1,
+      "explain": "COP is the Conference of the Parties to the UNFCCC.",
+      "headline": 5,
+      "options": [
+        "Council of Presidents",
+        "Conference of the Parties",
+        "Committee on Pollution",
+        "Convention on Oceans and Planet"
+      ],
+      "q": "In climate talks, what does COP stand for?"
+    },
+    {
+      "answer": 3,
+      "explain": "Piyush Goyal put it at about 480 billion dollars, around 48% of the 1 trillion dollar target.",
+      "headline": 6,
+      "options": [
+        "48 billion dollars",
+        "1 trillion dollars",
+        "750 billion dollars",
+        "480 billion dollars"
+      ],
+      "q": "About how much did India export in goods and services in April-September 2026-27, according to the Commerce Minister?"
+    },
+    {
+      "answer": 0,
+      "explain": "NPPA, set up in 1997, regulates medicine prices in India.",
+      "headline": 7,
+      "options": [
+        "National Pharmaceutical Pricing Authority",
+        "National Public Pharmacy Association",
+        "National Patent and Price Agency",
+        "National Programme for Patient Assistance"
+      ],
+      "q": "What does NPPA stand for?"
+    },
+    {
+      "answer": 2,
+      "explain": "ESCAPADE is due to arrive at Mars in September 2027.",
+      "headline": 8,
+      "options": [
+        "Venus",
+        "Jupiter",
+        "Mars",
+        "Mercury"
+      ],
+      "q": "NASA's twin ESCAPADE spacecraft are travelling to which planet?"
+    },
+    {
+      "answer": 1,
+      "explain": "The match at Seddon Park in Hamilton was abandoned because of rain.",
+      "headline": 9,
+      "options": [
+        "Eden Park, Auckland",
+        "Seddon Park, Hamilton",
+        "Basin Reserve, Wellington",
+        "Hagley Oval, Christchurch"
+      ],
+      "q": "At which ground was the rained-out third India-New Zealand ODI to be played?"
+    },
+    {
+      "answer": 3,
+      "explain": "Aryavir Sehwag made 160 off 168 balls and was Player of the Match.",
+      "headline": 10,
+      "options": [
+        "Vaibhav Suryavanshi",
+        "Ayush Mhatre",
+        "Shubman Gill",
+        "Aryavir Sehwag"
+      ],
+      "q": "Who scored 160 in India's Under-19 Asia Cup win over the UAE?"
+    }
+  ],
+  "title": "National Education Day; Abu Dhabi peace talks resume; Swachh awards today",
+  "updatedAt": "2026-11-11T07:15:00+05:30",
+  "weather": {
+    "city": "Delhi-NCR",
+    "days": [
+      {
+        "condition": "Moderate fog",
+        "date": "2026-11-11",
+        "max": 28,
+        "min": 15
+      },
+      {
+        "condition": "Moderate fog",
+        "date": "2026-11-12",
+        "max": 28,
+        "min": 16
+      },
+      {
+        "condition": "Moderate fog",
+        "date": "2026-11-13",
+        "max": 29,
+        "min": 16
+      },
+      {
+        "condition": "Moderate fog",
+        "date": "2026-11-14",
+        "max": 29,
+        "min": 16
+      },
+      {
+        "condition": "Moderate fog",
+        "date": "2026-11-15",
+        "max": 29,
+        "min": 15
+      }
+    ],
+    "facts": [
+      {
+        "label": "Morning humidity (forecast)",
+        "value": "95%"
+      },
+      {
+        "label": "Evening humidity (forecast)",
+        "value": "65%"
+      },
+      {
+        "label": "Rain",
+        "value": "None expected"
+      },
+      {
+        "label": "Forecast issued",
+        "value": "9 Nov (latest on IMD page)"
+      }
+    ],
+    "note": "Moderate fog in the morning, then a hazy, dry day with a high near 28°C; no rain and no IMD warning.",
+    "regionSource": "India.com, citing IMD",
+    "regionUrl": "https://www.india.com/news/india/weather-tomorrow-november-11-forecast-imd-issues-heavy-rain-warning-for-tamil-nadu-west-bengal-and-uttarakhand-8543714/",
+    "regions": [
+      {
+        "alert": true,
+        "icon": "storm",
+        "name": "Tamil Nadu, Puducherry and Karaikal",
+        "outlook": "Heavy rain with lightning and gusty winds of up to 60 km/h."
+      },
+      {
+        "alert": true,
+        "icon": "rain",
+        "name": "Andaman & Nicobar Islands",
+        "outlook": "Continuous heavy rain with strong winds."
+      },
+      {
+        "icon": "snow",
+        "name": "J&K, Ladakh, Himachal and Uttarakhand",
+        "outlook": "Rain and snowfall under a western disturbance, with a marked drop in temperature."
+      },
+      {
+        "icon": "rain",
+        "name": "Gangetic West Bengal",
+        "outlook": "Rain at some places."
+      },
+      {
+        "icon": "storm",
+        "name": "Northeast India",
+        "outlook": "Light to moderate rain with thunderstorms and lightning in Assam, Meghalaya, Nagaland, Manipur, Mizoram and Tripura."
+      }
+    ],
+    "source": "India Meteorological Department, New Delhi (Safdarjung)",
+    "url": "https://city.imd.gov.in/citywx/city_weather_test_try_warnings.php?id=42182"
+  }
+}
