@@ -83,6 +83,15 @@ section[role=tabpanel]{display:grid;gap:18px}
 .booster{background:var(--mark);color:var(--mark-ink);border-radius:4px 14px 6px 12px;padding:12px 15px}
 .booster .label{color:var(--mark-ink);opacity:.75}
 .src{font-size:.88rem;color:var(--muted)}
+.gm-hero{display:grid;gap:8px}
+.gm-hello{font-family:var(--display);font-weight:800;font-size:clamp(2.4rem,9vw,4.2rem);line-height:1;letter-spacing:-.03em}
+.gm-hero p{margin:0;font-size:1.1rem;color:var(--muted);max-width:40rem}
+.gm-quote{font-family:var(--display);font-weight:700;font-size:1.35rem;line-height:1.3;margin-top:4px}
+.gm-share textarea{width:100%;min-height:10rem;background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:10px;resize:vertical}
+.gm-row{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.gm-done{display:flex;gap:10px;align-items:center;font-weight:600}
+.gm-done input{width:20px;height:20px;accent-color:var(--accent)}
+a.btn{text-decoration:none;display:inline-block}
 .aud{display:inline-flex;flex-wrap:wrap;gap:4px;background:var(--sunk);border-radius:13px;padding:4px;justify-self:start}
 .aud button{border:0;background:none;border-radius:10px;padding:9px 16px;font-weight:700;color:var(--muted)}
 .aud button[aria-pressed="true"]{background:var(--accent);color:var(--accent-ink)}
@@ -166,6 +175,7 @@ input[type=range]{width:100%;accent-color:var(--accent)}
     <h1 class="brand"><span>GK Master</span> Daily</h1>
     <select id="editionSelect" aria-label="Choose an edition" hidden></select>
     <nav class="tabs" role="tablist" aria-label="Sections">
+      <button class="tab" role="tab" id="tab-morning" data-tab="morning">Good Morning</button>
       <button class="tab" role="tab" id="tab-headlines" data-tab="headlines">Headlines</button>
       <button class="tab" role="tab" id="tab-weather" data-tab="weather">Weather &amp; AQI</button>
       <button class="tab" role="tab" id="tab-quiz" data-tab="quiz">Quiz</button>
@@ -186,6 +196,8 @@ input[type=range]{width:100%;accent-color:var(--accent)}
       <h3>Loading today's edition</h3>
       <p>Ten headlines, the weather forecast and the air quality reading will appear here.</p>
     </div>
+
+    <section role="tabpanel" id="panel-morning" aria-labelledby="tab-morning" hidden><div id="morningBox"></div></section>
 
     <section role="tabpanel" id="panel-headlines" aria-labelledby="tab-headlines" hidden>
       <div class="row-head">
@@ -295,9 +307,10 @@ const getRead=()=>new Set(store.get(readKey(),[]));
 function showState(title,body){ $("state").hidden=false; $("state").replaceChildren(h("h3",{text:title}),h("p",{text:body})); }
 
 function setTab(t,push){
-  tab=["headlines","weather","quiz"].includes(t)?t:"headlines";
+  tab=["morning","headlines","weather","quiz"].includes(t)?t:"morning";
   document.querySelectorAll(".tab").forEach(b=>b.setAttribute("aria-selected",String(b.dataset.tab===tab)));
-  ["headlines","weather","quiz"].forEach(p=>{$("panel-"+p).hidden=!cur||p!==tab});
+  ["morning","headlines","weather","quiz"].forEach(p=>{$("panel-"+p).hidden=!cur||p!==tab});
+  $("mastTitle").hidden=tab==="morning";
   if(push){try{history.replaceState(null,"","#"+tab)}catch(e){location.hash=tab}}
   if(tab==="quiz"&&cur) renderQuiz();
 }
@@ -317,6 +330,59 @@ function question(q,onAnswer,answered){
   box.append(h("h4",{text:q.q}),opts,out);
   if(answered!=null) reveal(answered);
   return box;
+}
+
+/* ---------- good morning ---------- */
+const shareUrl=window.claude?"":location.origin+location.pathname;
+const streak=(function(){
+  const pad=n=>String(n).padStart(2,"0"), iso=d=>d.getFullYear()+"-"+pad(d.getMonth()+1)+"-"+pad(d.getDate());
+  const now=new Date(), today=iso(now), y=new Date(now); y.setDate(y.getDate()-1);
+  const s=store.get("gk-streak",null)||{last:"",n:0};
+  if(s.last!==today){ s.n=s.last===iso(y)?s.n+1:1; s.last=today; store.set("gk-streak",s); }
+  return s.n;
+})();
+function renderMorning(){
+  const m=cur.morning||{}, box=$("morningBox"), H=cur.headlines||[];
+  const qs=(cur.quiz||[]).filter(q=>forAud(H[q.headline-1])).slice(0,3);
+  const kids=[];
+  kids.push(h("div",{class:"gm-hero"},
+    h("div",{class:"gm-hello",text:m.greeting||"Good morning!"}),
+    m.line?h("p",{text:m.line}):null,
+    h("div",{class:"glance"},h("span",{class:"chip"},h("b",{text:String(streak)}),streak===1?"day streak: come back tomorrow":"day streak"))));
+  if(m.thought) kids.push(h("div",{class:"booster"},h("span",{class:"label",text:"Thought for the day"}),h("div",{class:"gm-quote",text:m.thought})));
+  const pair=[];
+  if(m.day&&m.day.name) pair.push(h("div",{class:"panel"},h("span",{class:"label",text:"Today is special"}),h("h3",{text:m.day.name}),m.day.about?h("p",{style:"margin:0",text:m.day.about}):null));
+  if(m.word&&m.word.word){
+    const slot=h("div"); slot.append(h("button",{class:"btn ghost",onclick:()=>slot.replaceChildren(
+      h("p",{style:"margin:0"},h("b",{text:"Meaning: "}),m.word.meaning||""),
+      m.word.example?h("p",{style:"margin:6px 0 0;color:var(--muted)",text:"Example: "+m.word.example}):null)},"Show meaning"));
+    pair.push(h("div",{class:"panel"},h("span",{class:"label",text:"Word of the day"}),h("h3",{text:m.word.word}),slot));
+  }
+  if(pair.length) kids.push(h("div",{class:"two"},pair));
+  if(m.task){
+    const k="gk-task-"+cur.id, cb=h("input",{type:"checkbox",id:"gmTask"}); cb.checked=!!store.get(k,false);
+    cb.addEventListener("change",()=>store.set(k,cb.checked));
+    kids.push(h("div",{class:"panel"},h("span",{class:"label",text:"Today's small challenge"}),h("p",{style:"margin:0",text:m.task}),h("label",{class:"gm-done",for:"gmTask"},cb,"I did it")));
+  }
+  if(qs.length){
+    let n=0, ok=0; const score=h("span",{class:"label",text:"Answer all "+qs.length+" to see your score"});
+    kids.push(h("div",{style:"display:grid;gap:12px"},
+      h("div",{class:"row-head"},h("h3",{style:"margin:0;font-family:var(--display);font-size:1.4rem",text:"Morning quiz"}),score),
+      qs.map(q=>question(q,right=>{n++; if(right)ok++; score.textContent=n<qs.length?(n+" of "+qs.length+" answered"):("You scored "+ok+" out of "+qs.length);})),
+      h("div",null,h("button",{class:"btn",onclick:()=>setTab("quiz",true)},"Take the full quiz"))));
+  }
+  const q0=qs[0];
+  const txt=[m.greeting||"Good morning!", m.thought?("Thought for the day: "+m.thought):"", m.day&&m.day.name?("Today is "+m.day.name+"."):"",
+    q0?("GK question of the day:\n"+q0.q+"\n"+q0.options.map((o,i)=>String.fromCharCode(65+i)+") "+o).join("\n")):"",
+    shareUrl?("Check your answer and read today's news: "+shareUrl):""].filter(Boolean).join("\n\n");
+  const ta=h("textarea",{id:"gmText",readonly:true,"aria-label":"Good morning message"}); ta.value=txt;
+  const note=h("span",{class:"label"});
+  kids.push(h("div",{class:"panel gm-share"},h("span",{class:"label",text:"Send this good morning"}),ta,
+    h("div",{class:"gm-row"},
+      h("a",{class:"btn",href:"https://wa.me/?text="+encodeURIComponent(txt),target:"_blank",rel:"noopener"},"Share on WhatsApp"),
+      h("button",{class:"btn ghost",onclick:()=>{ const done=()=>{note.textContent="Copied"}, fail=()=>{ta.focus();ta.select();note.textContent="Press and hold to copy"};
+        try{navigator.clipboard.writeText(txt).then(done,fail)}catch(e){fail()} }},"Copy message"),note)));
+  box.replaceChildren(h("div",{style:"display:grid;gap:18px"},kids));
 }
 
 /* ---------- headlines ---------- */
@@ -479,7 +545,7 @@ function renderEdition(){
   if(d)g.push(h("span",{class:"chip"},(w.city||"Weather")+" ",h("b",{text:d.max+"° / "+d.min+"°"}),d.condition||""));
   if(home)g.push(h("span",{class:"chip"},h("span",{class:"dot",style:"background:"+bandColor(home.aqi)}),home.name+" AQI ",h("b",{text:String(home.aqi)}),band(home.aqi).name));
   $("glance").replaceChildren(...g);
-  renderHeadlines(); renderWeather(); renderAqi(); setTab(tab);
+  renderMorning(); renderHeadlines(); renderWeather(); renderAqi(); setTab(tab);
 }
 function pick(id){ const e=editions.find(x=>x.id===id)||editions[0]; if(!e)return;
   const changed=!cur||cur.id!==e.id; cur=e; if(changed){openId=null;filter="All";} $("editionSelect").value=e.id; renderEdition(); }
@@ -496,7 +562,7 @@ function onEditions(docs){
 }
 
 /* ---------- boot ---------- */
-tab=location.hash.slice(1)||"headlines"; setTab(tab);
+tab=location.hash.slice(1)||"morning"; setTab(tab);
 async function boot(){
   const get=async u=>{const r=await fetch(u,{cache:"no-store"}); if(!r.ok)throw new Error(u); return r.json();};
   try{

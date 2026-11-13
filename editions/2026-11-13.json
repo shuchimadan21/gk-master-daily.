@@ -564,7 +564,7 @@
   }
  ],
  "title": "Retail inflation crosses 6%; Indonesia's Vice President resigns; India in U19 final",
- "updatedAt": "2026-11-13T11:20:00+05:30",
+ "updatedAt": "2026-11-13T12:20:00+05:30",
  "weather": {
   "city": "Delhi-NCR",
   "days": [
@@ -657,5 +657,20 @@
   ],
   "source": "India Meteorological Department, New Delhi (Safdarjung)",
   "url": "https://city.imd.gov.in/citywx/city_weather_test_try_warnings.php?id=42182"
+ },
+ "morning": {
+  "greeting": "Good morning!",
+  "line": "It's Friday. Finish the week the way you would like to start the next one.",
+  "thought": "Small steps taken every day travel farther than big plans left for tomorrow.",
+  "day": {
+   "name": "World Kindness Day",
+   "about": "13 November is observed as World Kindness Day. It was started in 1998 by the World Kindness Movement to encourage everyday acts of kindness."
+  },
+  "word": {
+   "word": "Resilient",
+   "meaning": "able to recover quickly after a difficulty or setback.",
+   "example": "She stayed resilient after a poor test and improved in the next one."
+  },
+  "task": "Do one kind thing for someone today without being asked."
  }
 }
