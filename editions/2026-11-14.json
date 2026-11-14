@@ -1,0 +1,337 @@
+{
+ "date": "2026-11-14",
+ "title": "Cabinet clears Noida Metro extension; Nvidia's CEO forced out; India meet Pakistan in the U19 final today",
+ "updatedAt": "2026-11-14T11:30:00+05:30",
+ "morning": {
+  "greeting": "Good morning, and Happy Children's Day!",
+  "line": "It's Saturday. A good day to learn one thing just because you are curious about it.",
+  "thought": "Every expert was once a beginner who did not give up.",
+  "day": {
+   "name": "Children's Day (Bal Diwas)",
+   "about": "14 November is celebrated in India as Children's Day, the birth anniversary of Jawaharlal Nehru, India's first Prime Minister, born in 1889 in Allahabad (now Prayagraj). Children fondly called him 'Chacha Nehru'. 14 November is also World Diabetes Day."
+  },
+  "word": {
+   "word": "Curious",
+   "meaning": "eager to know or learn something.",
+   "example": "A curious student asks 'why?' even after the lesson is over."
+  },
+  "task": "Ask one 'why' question today and find its answer before bedtime."
+ },
+ "headlines": [
+  {
+   "aud": "students",
+   "cat": "National",
+   "place": "Noida · New Delhi",
+   "title": "Union Cabinet approves a Rs 2,390 crore extension of the Noida Metro Aqua Line to Greater Noida.",
+   "summary": "At its meeting on 11 November, the Cabinet cleared an 8.449 km elevated stretch from Noida Sector 51 to Greater Noida Sector 4, with five stations, expected to take about four years to build. It links with the Delhi Metro Blue Line at Noida Sector 61. The Cabinet Committee on Economic Affairs also approved Rs 3,230 crore for the Yuge Yugeen Bharat Museum in the North and South Block buildings in New Delhi.",
+   "gk": "The Union Cabinet is chaired by the Prime Minister. North Block and South Block on Raisina Hill were designed by Herbert Baker. The Aqua Line is run by the Noida Metro Rail Corporation (NMRC).",
+   "source": "Outlook India",
+   "url": "https://www.outlookindia.com/national/noida-metro-extension-yuge-yugeen-bharat-museum-and-62370-crore-subsidy-cabinet-approves-5-key-decisions"
+  },
+  {
+   "aud": "students",
+   "cat": "National",
+   "place": "Coastal India",
+   "title": "Indian Navy leads Sea Vigil-26, the pan-India coastal defence exercise, from 11 to 19 November.",
+   "summary": "This is the fifth edition of the exercise, which is held every two years. The first phase, a check of coastal security readiness, runs until 17 November, followed by a sea phase on 18 and 19 November. The Coast Guard, coastal police, Customs, other maritime agencies and fishing communities take part.",
+   "gk": "India has a coastline of about 11,098 km. The Indian Coast Guard was set up in 1977. Indian Navy Day is observed on 4 December.",
+   "source": "AffairsCloud",
+   "url": "https://affairscloud.com/current-affairs-13-november-2026/"
+  },
+  {
+   "aud": "students",
+   "cat": "World",
+   "place": "Istanbul",
+   "title": "Türkiye and Qatar sign a mutual defence agreement after a meeting of their leaders in Istanbul.",
+   "summary": "Turkish President Recep Tayyip Erdogan and Qatar's Emir Sheikh Tamim bin Hamad Al Thani signed the pact on 13 November along with other agreements. Erdogan's office said it adds a new dimension to ties, and the Emir described it as a strategic partnership. Türkiye already has troops stationed in Qatar.",
+   "gk": "Doha is the capital of Qatar and Ankara the capital of Türkiye; Istanbul is Türkiye's largest city. Qatar hosted the FIFA World Cup in 2022.",
+   "source": "Al Jazeera",
+   "url": "https://www.aljazeera.com/news/2026/11/13/turkiye-and-qatar-sign-mutual-defence-agreement"
+  },
+  {
+   "aud": "students",
+   "cat": "World",
+   "place": "Colombo · BIMSTEC",
+   "title": "The first BIMSTEC Health Ministers' Meeting is held in Colombo; India to host a centre for traditional medicine.",
+   "summary": "Union Health Minister J.P. Nadda represented India at the 11 November meeting, which adopted a joint statement and a revised regional plan for public health for 2026-2030. India will host the first BIMSTEC Centre of Excellence in Traditional Medicine at ITRA, Jamnagar. India also agreed to give Sri Lanka 100 ambulances and support for 50 health kiosks.",
+   "gk": "BIMSTEC stands for Bay of Bengal Initiative for Multi-Sectoral Technical and Economic Cooperation. Formed in 1997, it has seven members: India, Bangladesh, Bhutan, Nepal, Sri Lanka, Myanmar and Thailand. Its secretariat is in Dhaka.",
+   "source": "AffairsCloud",
+   "url": "https://affairscloud.com/current-affairs-13-november-2026/"
+  },
+  {
+   "aud": "students",
+   "cat": "Environment",
+   "place": "Kerala · Indian Ocean",
+   "title": "Scientists name a new deep-sea shark, the Indian Bramble Shark (Echinorhinus roinee).",
+   "summary": "Researchers from the Zoological Survey of India and ICAR-CMFRI found that sharks caught off Kollam, Kerala, long thought to be the Atlantic bramble shark, are a separate Indian Ocean species. DNA barcoding confirmed it. The shark grows up to 3 metres and lives 350-450 metres deep. The study was funded under the Deep Ocean Mission.",
+   "gk": "The Zoological Survey of India was founded in 1916 and is headquartered in Kolkata. A species' scientific name has two parts, genus and species, a system called binomial nomenclature introduced by Carl Linnaeus.",
+   "source": "AffairsCloud",
+   "url": "https://affairscloud.com/current-affairs-13-november-2026/"
+  },
+  {
+   "aud": "students",
+   "cat": "Sports",
+   "place": "Cricket · Oman",
+   "title": "India take on Pakistan in the Under-19 Asia Cup final in Oman today.",
+   "summary": "India, led by Lakshya Raichandani, reached the final by beating Afghanistan by eight wickets, while Pakistan beat Bangladesh in the other semi-final. The title match is being played at Al Amerat in Oman on Saturday, 14 November.",
+   "gk": "The Asian Cricket Council (ACC), formed in 1983, organises the Asia Cup. Muscat is the capital of Oman. India have won the Under-19 Asia Cup more times than any other team.",
+   "source": "Gulf Insider",
+   "url": "https://www.gulf-insider.com/oman-to-host-india-pakistan-u-19-asia-cup/"
+  },
+  {
+   "aud": "adults",
+   "cat": "Economy",
+   "place": "Stand-Up India",
+   "title": "Cabinet extends the Stand-Up India scheme to 31 March 2031 with a Rs 4,111 crore credit guarantee corpus.",
+   "summary": "The scheme gives bank loans to women and SC/ST entrepreneurs for first-time (greenfield) ventures in manufacturing, services, trading and agri-allied activities. The extension aims to support 2.5 lakh more entrepreneurs. In non-individual enterprises, at least 51% of shareholding and control must be with an SC/ST or woman entrepreneur.",
+   "gk": "Stand-Up India was launched on 5 April 2016 and is run by the Department of Financial Services, Ministry of Finance, through Scheduled Commercial Banks.",
+   "exam": "Schemes are asked in every exam: note the launch date, the beneficiaries (women, SC, ST), the greenfield condition, the 51% rule and the new end date of 2031.",
+   "source": "AffairsCloud",
+   "url": "https://affairscloud.com/current-affairs-13-november-2026/"
+  },
+  {
+   "aud": "adults",
+   "cat": "Economy",
+   "place": "MUDRA",
+   "title": "Credit Guarantee Fund for Micro Units under PM Mudra Yojana continued till March 2031 with a Rs 5,000 crore corpus.",
+   "summary": "The Cabinet approved five more years for the fund, which is expected to back about Rs 12.6 lakh crore of MUDRA loans from FY27 to FY31. It covers loans up to Rs 20 lakh to micro enterprises, Jan Dhan overdrafts up to Rs 10,000 and certain Self-Help Group loans.",
+   "gk": "CGFMU was launched in January 2016 and is managed by the National Credit Guarantee Trustee Company (NCGTC). PMMY was launched in 2015; MUDRA stands for Micro Units Development and Refinance Agency.",
+   "exam": "Banking awareness for IBPS, SBI and RBI exams: the fund's manager (NCGTC), the corpus, the loan ceiling and the full form of MUDRA.",
+   "source": "AffairsCloud",
+   "url": "https://affairscloud.com/current-affairs-13-november-2026/"
+  },
+  {
+   "aud": "adults",
+   "cat": "Economy",
+   "place": "Fertilisers",
+   "title": "Cabinet approves Rabi 2026-27 Nutrient Based Subsidy rates for P&K fertilisers, budgeted at Rs 62,370 crore.",
+   "summary": "The rates apply to phosphatic and potassic fertilisers from 1 October 2026 to 31 March 2027. The estimated outlay of Rs 62,370.02 crore is about Rs 24,418 crore more than in Rabi 2025-26.",
+   "gk": "The Nutrient Based Subsidy scheme began in April 2010 and is run by the Department of Fertilizers, Ministry of Chemicals and Fertilizers. Urea is not covered by NBS. Rabi crops such as wheat and mustard are sown in winter.",
+   "exam": "Agriculture and economy questions: the NBS start year, which fertilisers it covers (P and K, not urea) and the Rabi season months.",
+   "source": "AffairsCloud",
+   "url": "https://affairscloud.com/current-affairs-13-november-2026/"
+  },
+  {
+   "aud": "adults",
+   "cat": "Economy",
+   "place": "Medical devices",
+   "title": "PLI scheme for medical devices (PLI-MD 2.0) extended to FY 2035-36 with a Rs 2,700 crore outlay.",
+   "summary": "The Department of Pharmaceuticals is inviting fresh applications online. Selected firms get three years to set up facilities in four target segments, from consumables and implants to high-end devices, with incentives of about 5% to 9%.",
+   "gk": "PLI stands for Production Linked Incentive: firms get incentives on their additional sales of goods made in India. The Department of Pharmaceuticals is under the Ministry of Chemicals and Fertilizers.",
+   "exam": "Economy and Make in India questions: what PLI means, the ministry in charge and the new end year (FY36).",
+   "source": "AffairsCloud",
+   "url": "https://affairscloud.com/current-affairs-13-november-2026/"
+  },
+  {
+   "aud": "adults",
+   "cat": "Business",
+   "place": "Tata group",
+   "title": "Bahram Vakil succeeds Noel Tata as Chairman of Tata Investment Corporation.",
+   "summary": "Bahram N. Vakil, co-founder of the law firm AZB & Partners, took charge on 12 November after Noel Tata retired on 11 November. Noel Tata, chairman since 2010, becomes Chairman Emeritus and continues as Chairman of Tata Trusts.",
+   "gk": "Tata Investment Corporation was established in 1937 and is headquartered in Mumbai. The Tata group was founded by Jamsetji Tata in 1868.",
+   "exam": "Appointments section of banking and SSC exams: the new chairman, the company and the person he succeeds.",
+   "source": "AffairsCloud",
+   "url": "https://affairscloud.com/current-affairs-13-november-2026/"
+  },
+  {
+   "aud": "adults",
+   "cat": "Economy",
+   "place": "Commodity markets",
+   "title": "NCDEX launches India's first steel scrap futures contract with BigMint as price reporting agency.",
+   "summary": "Launched on 11 November, the cash-settled contract is based on Heavy Melting Scrap 80:20, with a trading unit of 10 tonnes. It targets steel clusters including Delhi-NCR, Punjab, Rajasthan and Gujarat. India produced 168.4 million tonnes of crude steel in FY 2025-26, making it the world's second-largest producer.",
+   "gk": "NCDEX (National Commodity and Derivatives Exchange) was set up in 2003, is regulated by SEBI and is headquartered in Mumbai. China is the world's largest steel producer.",
+   "exam": "Banking and economy: commodity exchanges (NCDEX, MCX), their regulator (SEBI) and India's rank in steel production.",
+   "source": "AffairsCloud",
+   "url": "https://affairscloud.com/current-affairs-13-november-2026/"
+  }
+ ],
+ "quiz": [
+  {
+   "headline": 1,
+   "q": "The approved Noida Metro Aqua Line extension will run from Noida Sector 51 to where?",
+   "options": ["Botanical Garden", "Greater Noida Sector 4", "Jewar Airport", "Noida Sector 142"],
+   "answer": 1,
+   "explain": "The 8.449 km stretch runs from Noida Sector 51 to Greater Noida Sector 4."
+  },
+  {
+   "headline": 2,
+   "q": "Which force is the lead agency for the coastal defence exercise Sea Vigil-26?",
+   "options": ["Indian Coast Guard", "Indian Army", "Indian Navy", "BSF"],
+   "answer": 2,
+   "explain": "The Indian Navy coordinates Sea Vigil, with the Coast Guard and other agencies taking part."
+  },
+  {
+   "headline": 3,
+   "q": "Türkiye signed a mutual defence agreement with which country on 13 November?",
+   "options": ["Qatar", "Saudi Arabia", "Egypt", "Pakistan"],
+   "answer": 0,
+   "explain": "Erdogan and Qatar's Emir signed the pact in Istanbul."
+  },
+  {
+   "headline": 4,
+   "q": "Where will India host the first BIMSTEC Centre of Excellence in Traditional Medicine?",
+   "options": ["Haridwar", "Jamnagar", "Pune", "Kochi"],
+   "answer": 1,
+   "explain": "It will be at ITRA (Institute of Teaching and Research in Ayurveda), Jamnagar, Gujarat."
+  },
+  {
+   "headline": 5,
+   "q": "Which organisation, along with ICAR-CMFRI, identified the new Indian Bramble Shark?",
+   "options": ["Botanical Survey of India", "ISRO", "Wildlife Institute of India", "Zoological Survey of India"],
+   "answer": 3,
+   "explain": "Scientists from the Zoological Survey of India and ICAR-CMFRI described the species."
+  },
+  {
+   "headline": 6,
+   "q": "Whom do India face in the Under-19 Asia Cup final today?",
+   "options": ["Afghanistan", "Bangladesh", "Pakistan", "Sri Lanka"],
+   "answer": 2,
+   "explain": "India beat Afghanistan and Pakistan beat Bangladesh in the semi-finals."
+  },
+  {
+   "headline": 7,
+   "q": "Till when has the Stand-Up India scheme been extended?",
+   "options": ["31 March 2028", "31 March 2030", "31 March 2031", "31 December 2035"],
+   "answer": 2,
+   "explain": "The Cabinet extended it for five years, to 31 March 2031."
+  },
+  {
+   "headline": 8,
+   "q": "Which company manages the Credit Guarantee Fund for Micro Units (CGFMU)?",
+   "options": ["NCGTC", "SIDBI", "NABARD", "MUDRA Ltd"],
+   "answer": 0,
+   "explain": "The National Credit Guarantee Trustee Company Limited manages CGFMU."
+  },
+  {
+   "headline": 9,
+   "q": "Which fertiliser is NOT covered under the Nutrient Based Subsidy scheme?",
+   "options": ["DAP", "MOP (potash)", "Complex NPK", "Urea"],
+   "answer": 3,
+   "explain": "NBS covers phosphatic and potassic fertilisers; urea is priced separately."
+  },
+  {
+   "headline": 10,
+   "q": "PLI-MD 2.0 for medical devices has been extended to which financial year?",
+   "options": ["FY 2029-30", "FY 2035-36", "FY 2030-31", "FY 2040-41"],
+   "answer": 1,
+   "explain": "It now runs to FY 2035-36 with a Rs 2,700 crore outlay."
+  },
+  {
+   "headline": 11,
+   "q": "Who is the new Chairman of Tata Investment Corporation?",
+   "options": ["N. Chandrasekaran", "Noel Tata", "Bahram Vakil", "Venu Srinivasan"],
+   "answer": 2,
+   "explain": "Bahram N. Vakil succeeded Noel Tata, who becomes Chairman Emeritus."
+  },
+  {
+   "headline": 12,
+   "q": "Which exchange launched India's first steel scrap futures contract?",
+   "options": ["MCX", "NSE", "BSE", "NCDEX"],
+   "answer": 3,
+   "explain": "NCDEX launched it with BigMint as the price reporting agency."
+  }
+ ],
+ "ai": [
+  {
+   "aud": "students",
+   "place": "Kendriya Vidyalayas · India",
+   "title": "Kendriya Vidyalayas launch an AI-based Vidya Samiksha Kendra to track attendance and student performance.",
+   "summary": "Union Education Minister Pralhad Joshi launched it in New Delhi on 12 November. Dashboards show attendance, academic results, infrastructure and admissions, and an AI 'Samiksha Bot' studies the data, flags problem areas and suggests action. A KVS Samvaad parent app and an alumni portal were launched too; all were built in-house by the KVS IT cell.",
+   "gk": "Kendriya Vidyalaya Sangathan (KVS) was set up in 1963 and runs schools mainly for children of central government employees, including defence personnel.",
+   "source": "Bombay Samachar",
+   "url": "https://english.bombaysamachar.com/education/kendriya-vidyalayas-ai-system-student-performance-attendance/",
+   "quiz": {
+    "q": "What is the name of the AI bot in the new Kendriya Vidyalaya system?",
+    "options": ["Saathi Bot", "Samiksha Bot", "Vidya Bot", "Gyan Bot"],
+    "answer": 1,
+    "explain": "The Samiksha Bot analyses data in the Vidya Samiksha Kendra and flags areas of concern."
+   }
+  },
+  {
+   "aud": "students",
+   "place": "Andhra Pradesh",
+   "title": "Andhra Pradesh signs an MoU with Vision Digital India to set up AI training centres for students.",
+   "summary": "The agreement was announced at the CII Partnership Summit on 13 November in the presence of Chief Minister N. Chandrababu Naidu and Minister Nara Lokesh. Centres will come up in select educational institutions, with a focus on Visakhapatnam and Vizianagaram, to train students from less privileged backgrounds.",
+   "gk": "An MoU is a Memorandum of Understanding, a written agreement on shared aims. CII stands for Confederation of Indian Industry, founded in 1895.",
+   "source": "NewsBytes",
+   "url": "https://newsbytesapp.com/news/science/andhra-pradesh-vision-digital-india-announce-ai-training-centers/tldr",
+   "quiz": {
+    "q": "At which event was the Andhra Pradesh AI training centre MoU announced?",
+    "options": ["CII Partnership Summit", "India AI Impact Summit", "Vibrant Gujarat", "World Economic Forum"],
+    "answer": 0,
+    "explain": "It was announced at the CII Partnership Summit on 13 November."
+   }
+  },
+  {
+   "aud": "adults",
+   "place": "Google · Schools",
+   "title": "Google will switch Search and AI tools off by default on school student accounts, sparking debate in New York.",
+   "summary": "Google said on 3 November that from early next year Search and several AI products will be off by default for K-12 student accounts until administrators turn them on. Because Search and AI are closely linked, schools that block AI could lose Search too. New York City council leaders wrote to Sundar Pichai on 12 November asking for Search without AI features. Google says the change gives educators more control.",
+   "gk": "K-12 refers to school education from kindergarten to Class 12. Sundar Pichai is the CEO of Google and its parent company Alphabet.",
+   "exam": "For teachers: a live example of the debate on how much AI students should get by default and who decides. Useful for discussions on digital safety and school technology policy.",
+   "source": "amNY",
+   "url": "https://www.amny.com/politics/googles-ai-push-nyc-school-search-access/",
+   "quiz": {
+    "q": "Under Google's change, who must turn on Search and AI tools for school student accounts?",
+    "options": ["Parents", "Students", "School administrators", "The government"],
+    "answer": 2,
+    "explain": "They will be off by default until school administrators enable them."
+   }
+  },
+  {
+   "aud": "adults",
+   "place": "Nvidia · USA",
+   "title": "Jensen Huang is forced out as Nvidia CEO; CFO Colette Kress named interim chief.",
+   "summary": "Nvidia's board removed its co-founder from the CEO post and the board on 13 November, after an independent investigation into his conduct and his ties to an executive linked to a firm that bought large volumes of Nvidia chips headed for China. The AI chipmaker's shares fell about 11% over the week. The board will search for a permanent successor.",
+   "gk": "Nvidia makes the GPUs (graphics processing units) that power most AI training. It was founded in 1993 and is headquartered in Santa Clara, California.",
+   "exam": "Business and current-affairs rounds: who leads Nvidia now, what a GPU is, and why AI chips are part of US-China export-control rules.",
+   "source": "Al Jazeera",
+   "url": "https://www.aljazeera.com/news/2026/11/13/nvidia-scandal-whats-next-for-the-us-tech-company",
+   "quiz": {
+    "q": "Who has been named interim CEO of Nvidia?",
+    "options": ["Colette Kress", "Lisa Su", "Kimberly Powell", "Satya Nadella"],
+    "answer": 0,
+    "explain": "Chief Financial Officer Colette Kress is the interim CEO."
+   }
+  }
+ ],
+ "weather": {
+  "city": "Delhi-NCR",
+  "days": [
+   {"date": "2026-11-14", "condition": "Morning haze/fog, partly cloudy", "max": 28, "min": 17},
+   {"date": "2026-11-15", "condition": "Very light rain or drizzle possible, breezy", "max": 27, "min": 16},
+   {"date": "2026-11-16", "condition": "Mainly clear, cooler nights", "max": 27, "min": 15},
+   {"date": "2026-11-17", "condition": "Morning mist, mainly clear", "max": 26, "min": 14},
+   {"date": "2026-11-18", "condition": "Morning mist, mainly clear", "max": 25, "min": 13}
+  ],
+  "facts": [
+   {"label": "Sunrise", "value": "06:42"},
+   {"label": "Sunset", "value": "17:28"},
+   {"label": "Yesterday's max / min", "value": "31.4 / 16.2 °C"},
+   {"label": "Sunday wind", "value": "15-20 km/h"}
+  ],
+  "note": "Partly cloudy today with morning haze and fog, high 27-29 °C. A Western Disturbance may bring very light rain on Sunday, and nights turn 3-5 degrees cooler from 16 November. Daily figures after Sunday are taken from IMD's forecast ranges.",
+  "regionSource": "The Week and ETV Bharat, citing IMD",
+  "regionUrl": "https://www.theweek.in/news/india/2026/11/14/delhi-weather-update-imd-predicts-rain-on-sunday-will-it-bring-respite-from-toxic-air.html",
+  "regions": [
+   {"icon": "rain", "name": "Northwest India", "outlook": "A fresh Western Disturbance may bring very light rain or drizzle to isolated parts of Delhi and nearby areas on Sunday, 15 November."},
+   {"alert": true, "icon": "smog", "name": "Punjab, Haryana", "outlook": "North-westerly winds of 10-15 km/h could carry smoke from farm fires towards Delhi-NCR."},
+   {"icon": "sun", "name": "Delhi-NCR (next week)", "outlook": "Cooler nights from 16 November, with minimums of 13-16 °C and days of 25-28 °C."}
+  ],
+  "source": "India Meteorological Department (via The Week, ETV Bharat)",
+  "url": "https://www.theweek.in/news/india/2026/11/14/delhi-weather-update-imd-predicts-rain-on-sunday-will-it-bring-respite-from-toxic-air.html"
+ },
+ "aqi": {
+  "asOf": "14 Nov 2026, 7 am",
+  "cities": [
+   {"name": "Ghaziabad", "aqi": 315, "home": true},
+   {"name": "Delhi", "aqi": 349},
+   {"name": "Noida", "aqi": 328},
+   {"name": "Gurugram", "aqi": 333},
+   {"name": "Faridabad", "aqi": 318}
+  ],
+  "note": "All NCR cities are 'very poor'. Delhi's AQI had crossed 400 on Friday; GRAP Stage III remains in force. IMD expects some relief over the next two days with Sunday's winds and drizzle.",
+  "source": "ETV Bharat, citing CPCB",
+  "url": "https://www.etvbharat.com/en/bharat/air-quality-in-delhi-aqi-today-pollution-levels-updates-november-14-enn26111400647"
+ }
+}
