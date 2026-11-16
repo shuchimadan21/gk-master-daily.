@@ -138,6 +138,11 @@ a.btn{text-decoration:none;display:inline-block}
 .region{display:grid;grid-template-columns:1.9rem minmax(0,1fr);gap:10px;padding:9px 0;border-top:1px solid var(--line)}
 .region svg{width:26px;height:26px}
 .region b{display:block}
+.loc{display:grid;gap:8px;background:var(--sunk);border-radius:10px;padding:10px 12px;font-size:.9rem}
+.loc-row{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.loc-row input{flex:1 1 9rem;min-width:0;background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:6px 10px}
+.loc-btn{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:6px 11px;font-weight:600;font-size:.88rem}
+.loc-hits{display:flex;flex-wrap:wrap;gap:6px}
 .pill{display:inline-block;font-family:var(--mono);font-size:.68rem;letter-spacing:.06em;text-transform:uppercase;border-radius:99px;padding:2px 8px;background:var(--bad);color:var(--surface);margin-left:6px;vertical-align:middle}
 
 .scale{position:relative;display:flex;height:16px;border-radius:99px;overflow:hidden}
@@ -444,13 +449,94 @@ function renderHeadlines(){
   }).filter(Boolean));
 }
 
+/* ---------- your area: live weather + AQI for the viewer's location ---------- */
+const WMO={0:"Clear sky",1:"Mainly clear",2:"Partly cloudy",3:"Cloudy",45:"Fog",48:"Freezing fog",51:"Light drizzle",53:"Drizzle",55:"Heavy drizzle",
+ 56:"Freezing drizzle",57:"Freezing drizzle",61:"Light rain",63:"Rain",65:"Heavy rain",66:"Freezing rain",67:"Freezing rain",71:"Light snow",73:"Snow",75:"Heavy snow",
+ 77:"Snow grains",80:"Light showers",81:"Rain showers",82:"Heavy showers",85:"Snow showers",86:"Heavy snow showers",95:"Thunderstorm",96:"Thunderstorm with hail",99:"Thunderstorm with hail"};
+/* CPCB breakpoints: concentration (µg/m³, 24-h mean) → AQI */
+const PM25=[[0,30,0,50],[30,60,50,100],[60,90,100,200],[90,120,200,300],[120,250,300,400],[250,380,400,500]];
+const PM10=[[0,50,0,50],[50,100,50,100],[100,250,100,200],[250,350,200,300],[350,430,300,400],[430,510,400,500]];
+const subIndex=(c,t)=>{ if(c==null||isNaN(c))return null; for(const [cl,ch,il,ih] of t) if(c<=ch) return Math.round(il+(c-cl)*(ih-il)/(ch-cl)); return 500; };
+let local=null, locMsg="", locHits=null;
+const isLatest=()=>cur&&editions[0]&&cur.id===editions[0].id;
+const useLocal=()=>!!(local&&local.weather&&isLatest());
+const wxData=()=>useLocal()?local.weather:(cur.weather||{});
+const homeAqi=()=>{ if(useLocal()&&local.aqi!=null)return {name:local.name,aqi:local.aqi,home:true,est:true};
+  return ((cur.aqi||{}).cities||[]).find(c=>c.home); };
+
+async function getJSON(u){ const r=await fetch(u); if(!r.ok)throw new Error(r.status); return r.json(); }
+async function placeName(lat,lon){
+  try{ const g=await getJSON("https://api.bigdatacloud.net/data/reverse-geocode-client?latitude="+lat+"&longitude="+lon+"&localityLanguage=en");
+    return g.city||g.locality||g.principalSubdivision||"Your area"; }catch(e){ return "Your area"; }
+}
+async function loadLocal(loc){
+  locMsg="Getting the weather for "+(loc.name||"your area")+"…"; if(cur)renderWeather();
+  try{
+    const q="latitude="+loc.lat.toFixed(3)+"&longitude="+loc.lon.toFixed(3)+"&timezone=auto";
+    const [f,a]=await Promise.all([
+      getJSON("https://api.open-meteo.com/v1/forecast?"+q+"&current=temperature_2m,apparent_temperature,relative_humidity_2m,weather_code&daily=weather_code,temperature_2m_max,temperature_2m_min,sunrise,sunset&forecast_days=5"),
+      getJSON("https://air-quality-api.open-meteo.com/v1/air-quality?"+q+"&hourly=pm10,pm2_5&past_days=1&forecast_days=1").catch(()=>null)]);
+    const d=f.daily||{}, c=f.current||{}, R=Math.round, tm=x=>x?String(x).slice(11,16):"–";
+    const days=(d.time||[]).map((t,i)=>({date:t,condition:WMO[d.weather_code[i]]||"",max:R(d.temperature_2m_max[i]),min:R(d.temperature_2m_min[i])}));
+    let aqi=null;
+    if(a&&a.hourly){ const H=a.hourly, now=(c.time||"").slice(0,13); let end=H.time.findIndex(t=>t.slice(0,13)===now); if(end<0)end=Math.min(H.time.length-1,47);
+      const win=i=>H.time.slice(Math.max(0,end-23),end+1).map((_,k)=>Math.max(0,end-23)+k).map(j=>i[j]).filter(v=>v!=null);
+      const avg=arr=>arr.length?arr.reduce((x,y)=>x+y,0)/arr.length:null;
+      const s1=subIndex(avg(win(H.pm2_5)),PM25), s2=subIndex(avg(win(H.pm10)),PM10);
+      if(s1!=null||s2!=null) aqi=Math.max(s1||0,s2||0); }
+    local={name:loc.name||"Your area",aqi,weather:{city:loc.name||"Your area",days,
+      facts:[{label:"Now",value:R(c.temperature_2m)+" °C"},{label:"Feels like",value:R(c.apparent_temperature)+" °C"},
+             {label:"Humidity",value:R(c.relative_humidity_2m)+"%"},{label:"Sunrise",value:tm((d.sunrise||[])[0])},{label:"Sunset",value:tm((d.sunset||[])[0])}],
+      note:"Live forecast for your location, refreshed every time you open the page.",
+      source:"Open-Meteo (live forecast for your location)",url:"https://open-meteo.com/"}};
+    locMsg="";
+  }catch(e){ console.error("local",e); local=null; locMsg="Couldn't load your local weather, so Delhi-NCR is shown. Check your internet and try again."; }
+  if(cur)renderEdition();
+}
+function askGps(fromTap){
+  if(!navigator.geolocation){ locMsg="This browser can't share location. Type your city below."; if(cur)renderWeather(); return; }
+  if(fromTap){ locMsg="Finding your location…"; if(cur)renderWeather(); }
+  navigator.geolocation.getCurrentPosition(async p=>{
+    const lat=p.coords.latitude, lon=p.coords.longitude, name=await placeName(lat,lon), loc={lat,lon,name,gps:true};
+    store.set("gk-loc",loc); loadLocal(loc);
+  },()=>{ store.set("gk-loc-asked",true); locMsg=fromTap?"Location is blocked. Allow it in your browser settings, or type your city below.":""; if(cur)renderWeather(); },
+  {enableHighAccuracy:false,timeout:12000,maximumAge:30*60*1000});
+}
+async function searchCity(name){
+  name=name.trim(); if(name.length<2)return;
+  locMsg="Searching…"; locHits=null; renderWeather();
+  try{ const r=await getJSON("https://geocoding-api.open-meteo.com/v1/search?count=5&language=en&name="+encodeURIComponent(name));
+    locHits=(r.results||[]); locMsg=locHits.length?"Pick your city:":"No city found with that name. Check the spelling."; }
+  catch(e){ locMsg="Search failed. Check your internet and try again."; }
+  renderWeather();
+}
+function locBar(){
+  const inp=h("input",{type:"search",placeholder:"Type your city",'aria-label':"Type your city",onkeydown:e=>{if(e.key==="Enter")searchCity(inp.value)}});
+  return h("div",{class:"loc"},
+    h("div",{class:"loc-row"},
+      h("span",{style:"flex:1 1 12rem"},useLocal()?"📍 Showing weather for "+local.name:"Showing Delhi-NCR."+(isLatest()?" See your own city's weather:":"")),
+      isLatest()?h("button",{class:"loc-btn",onclick:()=>askGps(true)},"📍 Use my location"):null),
+    isLatest()?h("div",{class:"loc-row"},inp,h("button",{class:"loc-btn",onclick:()=>searchCity(inp.value)},"Search")):null,
+    locMsg?h("div",{style:"color:var(--muted)",text:locMsg}):null,
+    locHits&&locHits.length?h("div",{class:"loc-hits"},locHits.map(r=>h("button",{class:"loc-btn",onclick:()=>{
+      const loc={lat:r.latitude,lon:r.longitude,name:r.name}; store.set("gk-loc",loc); locHits=null; loadLocal(loc);}},
+      r.name+(r.admin1?", "+r.admin1:"")+(r.country_code&&r.country_code!=="IN"?" ("+r.country_code+")":"")))):null);
+}
+function startLocal(){
+  const saved=store.get("gk-loc",null);
+  if(saved&&saved.gps&&navigator.permissions){ navigator.permissions.query({name:"geolocation"}).then(st=>{ if(st.state==="granted")askGps(false); else loadLocal(saved); }).catch(()=>loadLocal(saved)); return; }
+  if(saved){ loadLocal(saved); return; }
+  if(!store.get("gk-loc-asked",false)) askGps(false);
+}
+
 /* ---------- weather ---------- */
 function renderWeather(){
-  const w=cur.weather||{}, days=w.days||[], t=days[0]||{};
+  const w=wxData(), days=w.days||[], t=days[0]||{};
   const all=days.flatMap(d=>[d.min,d.max]).filter(n=>typeof n==="number");
   const lo=Math.min(...all)-2, hi=Math.max(...all)+2;
   const wx=$("wxPanel"); wx.replaceChildren(
-    h("div",null,h("span",{class:"label",text:"Forecast"}),h("h3",{text:w.city||"Weather"})),
+    h("div",null,h("span",{class:"label",text:useLocal()?"Your area · live":"Forecast"}),h("h3",{text:w.city||"Weather"})),
+    locBar(),
     h("div",{class:"wx-now"},icon(t.condition),
       h("div",null,h("div",{class:"big mono",text:(t.max!=null?t.max:"–")+"°"}),h("div",{class:"mono",style:"color:var(--muted)",text:"Low "+(t.min!=null?t.min:"–")+"°C"})),
       h("div",{style:"min-width:0;flex:1 1 10rem"},h("b",{text:t.condition||""}),h("div",{style:"color:var(--muted)",text:w.note||""}))),
@@ -480,14 +566,18 @@ $("aqiSlider").addEventListener("input",e=>setAqi(e.target.value));
 (function(){let prev=0; $("aqiScale").replaceChildren(...BANDS.map(b=>{const w=(b.max-prev)/5; prev=b.max; return h("i",{style:"width:"+w+"%;background:var("+b.c+")",title:b.name});}));
   let p=0; $("aqiLegend").replaceChildren(...BANDS.map(b=>{const s=h("span",null,h("span",{class:"dot",style:"background:var("+b.c+")"}),b.name+" "+(p?p+1:0)+"–"+b.max); p=b.max; return s;}));})();
 function renderAqi(){
-  const a=cur.aqi||{}, cities=[...(a.cities||[])].sort((x,y)=>y.aqi-x.aqi), home=cities.find(c=>c.home)||cities[0];
-  $("cityPanel").replaceChildren(
+  const a=cur.aqi||{}, mine=useLocal()&&local.aqi!=null?homeAqi():null;
+  const cities=[...(a.cities||[]).map(c=>mine?Object.assign({},c,{home:false}):c)].sort((x,y)=>y.aqi-x.aqi);
+  if(mine)cities.unshift(Object.assign({},mine,{name:mine.name+" (you)"}));
+  const home=cities.find(c=>c.home)||cities[0];
+  $("cityPanel").replaceChildren(...[
     h("div",null,h("span",{class:"label",text:a.asOf?"Readings · "+a.asOf:"Readings"}),h("h3",{text:"City air quality"})),
     h("div",null,cities.map(c=>h("button",{class:"city"+(c.home?" home":""),title:"Show "+c.name+" in the AQI Lab",onclick:()=>setAqi(c.aqi)},
       h("span",{text:c.name}),h("span",{class:"cbar"},h("i",{style:"width:"+Math.min(100,c.aqi/5)+"%;background:"+bandColor(c.aqi)})),
       h("span",{class:"mono v",text:c.aqi})))),
+    mine?h("p",{style:"margin:0;color:var(--muted);font-size:.9rem",text:"Your area's AQI is an estimate on the Indian (CPCB) scale, worked out from 24-hour PM2.5 and PM10 model data (Copernicus, via Open-Meteo). Official station readings may differ. The NCR cities below are "+(a.asOf?"CPCB readings from "+a.asOf+".":"CPCB readings.")}):null,
     a.note?h("p",{style:"margin:0;color:var(--muted);font-size:.9rem",text:a.note}):null,
-    srcLine(a.source,a.url));
+    srcLine(a.source,a.url)].filter(Boolean));
   if(home) setAqi(home.aqi);
 }
 
@@ -518,10 +608,10 @@ function renderQuiz(){
 let slideI=0;
 function slides(){
   const s=(cur.headlines||[]).filter(forAud).map((x,i)=>({k:"Headline "+(i+1)+" · "+(x.cat||""),t:x.title,p:x.summary,g:x.gk}));
-  const w=cur.weather||{}, d=(w.days||[])[0];
+  const w=wxData(), d=(w.days||[])[0];
   (cur.ai||[]).filter(forAud).forEach((x,i)=>s.push({k:"AI in Education "+(i+1),t:x.title,p:x.summary,g:x.gk}));
   if(d)s.push({k:"Weather · "+(w.city||""),t:d.condition+", "+d.min+"°C to "+d.max+"°C",p:w.note});
-  const home=((cur.aqi||{}).cities||[]).find(c=>c.home);
+  const home=homeAqi();
   if(home)s.push({k:"Air quality · "+home.name,t:"AQI "+home.aqi+" — "+band(home.aqi).name,p:band(home.aqi).impact,g:band(home.aqi).todo});
   return s;
 }
@@ -547,7 +637,7 @@ function renderEdition(){
   document.querySelectorAll("#aud button").forEach(b=>b.setAttribute("aria-pressed",String(b.dataset.aud===aud)));
   $("editionLabel").textContent="Edition · "+niceDate(cur.date||cur.id);
   $("mastTitle").textContent=cur.title||"Today's ten headlines";
-  const w=cur.weather||{}, d=(w.days||[])[0], home=((cur.aqi||{}).cities||[]).find(c=>c.home), g=[];
+  const w=wxData(), d=(w.days||[])[0], home=homeAqi(), g=[];
   g.push(h("span",{class:"chip"},h("b",{text:String((cur.headlines||[]).filter(forAud).length)}),"headlines"));
   const aiN=(cur.ai||[]).filter(forAud).length; if(aiN)g.push(h("span",{class:"chip"},h("b",{text:String(aiN)}),"AI updates"));
   if(d)g.push(h("span",{class:"chip"},(w.city||"Weather")+" ",h("b",{text:d.max+"° / "+d.min+"°"}),d.condition||""));
@@ -576,7 +666,7 @@ async function boot(){
   try{
     const ids=((await get("editions/index.json")).editions||[]).slice(0,30);
     const docs=(await Promise.all(ids.map(id=>get("editions/"+id+".json").then(data=>({id,data})).catch(()=>null)))).filter(Boolean);
-    onEditions(docs);
+    onEditions(docs); startLocal();
   }catch(e){ showState("Edition can't be loaded right now","Please check your internet connection and open the page again."); }
 }
 boot();
