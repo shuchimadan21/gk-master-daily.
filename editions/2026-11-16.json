@@ -1,0 +1,496 @@
+{
+ "date": "2026-11-16",
+ "title": "Lakshya Sen wins Kumamoto Masters; India clinch ODI series in New Zealand 3-1; PM Modi heads to Manila for ASEAN-India Summit",
+ "updatedAt": "2026-11-16T05:49:47+05:30",
+ "morning": {
+  "greeting": "Good morning, and happy National Press Day!",
+  "line": "It's Monday, the start of a new school week. Carry a handkerchief or mask for the foggy, smoggy morning.",
+  "thought": "A newspaper tells you what happened; a curious mind asks why. Read the news, and then ask one good question about it.",
+  "day": {
+   "name": "National Press Day",
+   "about": "16 November is National Press Day in India. On this day in 1966, the Press Council of India began work to protect press freedom and keep journalism fair and accurate. 16 November is also the UN's International Day for Tolerance."
+  },
+  "word": {
+   "word": "Credible",
+   "meaning": "able to be believed or trusted.",
+   "example": "Before sharing a news story, check that it comes from a credible source."
+  },
+  "task": "Pick one headline from today's page and write the 5 Ws for it: Who, What, When, Where and Why."
+ },
+ "headlines": [
+  {
+   "aud": "students",
+   "cat": "Sports",
+   "place": "Kumamoto · Japan",
+   "title": "Lakshya Sen wins the Kumamoto Masters Japan badminton title.",
+   "summary": "India's Lakshya Sen beat Japan's Koki Watanabe 13-21, 21-18, 21-14 in the men's singles final on 15 November. He lost the first game but fought back to win in one hour and four minutes. He is the first Indian to win this tournament, which began in 2023. It is his second BWF Super 500 title in a row after the Hylo Open in Germany earlier this month.",
+   "gk": "BWF stands for Badminton World Federation. This was Lakshya Sen's sixth BWF World Tour title, and the win earned him 9,200 ranking points.",
+   "source": "News On AIR",
+   "url": "https://newsonair.gov.in/lakshya-sen-clinches-kumamoto-masters-japan-mens-singles-title/"
+  },
+  {
+   "aud": "students",
+   "cat": "Sports",
+   "place": "Mount Maunganui · New Zealand",
+   "title": "India beat New Zealand in the fifth ODI to win the series 3-1.",
+   "summary": "India were bowled out for 209, with Axar Patel and Ishan Kishan scoring 46 each. New Zealand, chasing 210, were all out for 187, so India won by 22 runs. Arshdeep Singh took three wickets and was Player of the Match, while Gurnoor Brar was Player of the Series. The win ended New Zealand's run of 11 home series without defeat.",
+   "gk": "ODI means One Day International, a 50-overs-a-side match. Mount Maunganui is on the North Island of New Zealand.",
+   "source": "News On AIR",
+   "url": "https://newsonair.gov.in/fourth-odi-between-india-new-zealand-underway-in-mount-maunganui/"
+  },
+  {
+   "aud": "students",
+   "cat": "National",
+   "place": "New Delhi · Manila",
+   "title": "PM Modi leaves for a two-day visit to the Philippines for the ASEAN-India and East Asia Summits.",
+   "summary": "Prime Minister Narendra Modi begins a two-day visit to the Philippines today (16 November). In Manila he will attend the 23rd ASEAN-India Summit and the 21st East Asia Summit. He will hold talks on strengthening India's ties with the Philippines and other ASEAN countries. The Philippines chairs ASEAN this year.",
+   "gk": "ASEAN (Association of Southeast Asian Nations) has 11 members, was set up in 1967 and has its secretariat in Jakarta, Indonesia. India's 'Act East Policy' focuses on this region.",
+   "source": "News On AIR",
+   "url": "https://newsonair.gov.in/pm-modi-to-embark-on-two-day-visit-to-philippines-tomorrow-to-attend-asean-india-summit-and-east-asia-summit/"
+  },
+  {
+   "aud": "students",
+   "cat": "Environment",
+   "place": "Bay of Bengal · Andaman & Nicobar",
+   "title": "Depression over the Bay of Bengal may become a cyclonic storm today, says IMD.",
+   "summary": "A low-pressure system over the south-east Bay of Bengal is expected to strengthen into a cyclonic storm by this evening. IMD has forecast heavy rain over the Andaman and Nicobar Islands today, with winds up to 60 km/h. Winds may reach 80 km/h over the central Bay of Bengal from Tuesday. Fishermen at sea have been told to return to the coast at once.",
+   "gk": "IMD (India Meteorological Department) was set up in 1875 and works under the Ministry of Earth Sciences. Cyclones in the Bay of Bengal and Arabian Sea are named from a list prepared by 13 member countries.",
+   "source": "News On AIR",
+   "url": "https://newsonair.gov.in/low-pressure-area-over-bay-of-bengal-likely-to-intensify-into-cyclonic-storm/"
+  },
+  {
+   "aud": "students",
+   "cat": "Science",
+   "place": "Texas · USA",
+   "title": "SpaceX catches its Starship spacecraft with launch-pad 'chopstick' arms after it returns from orbit.",
+   "summary": "For the first time, a Starship coming back from space was caught in mid-air by giant mechanical arms above a launch pad in Texas. The upper stage had reached orbit and released 26 Starlink satellites. The first-stage booster, however, exploded after lift-off, so SpaceX missed a double catch. Catching rockets lets them be reused, which can make space travel cheaper.",
+   "gk": "Starship is about 124 metres tall and is called the world's largest and most powerful rocket. It is being built for travel to the Moon and Mars.",
+   "source": "Al Jazeera (AP, Reuters)",
+   "url": "https://www.aljazeera.com/news/2026/11/15/spacexs-starship-captured-by-launchpad-arms-in-dramatic-first"
+  },
+  {
+   "aud": "students",
+   "cat": "World",
+   "place": "United Nations · New York",
+   "title": "The UN Security Council holds secret 'straw polls' to choose the next UN Secretary-General.",
+   "summary": "Antonio Guterres must step down by 31 December 2026, and eight candidates are in the race to replace him. In the latest poll, Rebeca Grynspan got 12 'encourage' and three 'discourage' votes, but no one has reached agreement yet. A candidate needs nine votes in the 15-member Security Council and no veto from any of the five permanent members. The General Assembly then gives final approval.",
+   "gk": "The five permanent members (P5) with veto power are China, France, Russia, the UK and the USA. The UN was founded in 1945 and has its headquarters in New York.",
+   "source": "Al Jazeera",
+   "url": "https://www.aljazeera.com/news/2026/11/15/secret-votes-and-vetoes-how-will-the-next-un-chief-be-picked"
+  },
+  {
+   "aud": "adults",
+   "cat": "Economy",
+   "place": "SBI Research",
+   "title": "SBI Research projects India's Q2 FY27 GDP growth at 7.8%.",
+   "summary": "SBI's Ecowrap report estimates real GDP growth of 7.8% for July-September 2026, 60 basis points above the RBI's estimate of 7.2%. Growth is expected to ease to about 6.9% in both Q3 and Q4 of FY27. GVA growth is projected at 8-8.2% and nominal GDP growth at 11-11.5%. The estimate uses a Dynamic Factor Model built on 54 high-frequency indicators.",
+   "gk": "Official GDP data is released by the National Statistics Office (NSO) under the Ministry of Statistics and Programme Implementation (MoSPI). 100 basis points = 1 percentage point.",
+   "exam": "Remember: SBI Ecowrap Q2 FY27 = 7.8% vs RBI 7.2%. Know the difference between GDP and GVA (GVA + product taxes − product subsidies = GDP).",
+   "source": "AffairsCloud / GK365",
+   "url": "https://affairscloud.com/current-affairs-14-november-2026/"
+  },
+  {
+   "aud": "adults",
+   "cat": "Reports",
+   "place": "O.P. Jindal Global University · Haryana",
+   "title": "Access Equality Index 2026: Goa ranks first among 28 states.",
+   "summary": "The Centre for New Economics Studies (CNES) at O.P. Jindal Global University released the Access Equality Index (AEI) 2026. Goa topped with a score of 0.68, followed by Andhra Pradesh (0.66) and Sikkim (0.63). Andhra Pradesh came first in the socio-economic security pillar even though it ranks 13th in per capita income. The index uses five pillars and 60 indicators.",
+   "gk": "States scoring above 0.42 are called 'Front-Runners', 0.33-0.42 'Achievers' and below 0.33 'Aspirants'.",
+   "exam": "Index questions: Top 3 = Goa, Andhra Pradesh, Sikkim. Publisher = CNES, O.P. Jindal Global University (Sonipat, Haryana).",
+   "source": "GK365 / AffairsCloud",
+   "url": "https://gk365.in/daily-current-affairs/daily-gk-14th-nov-2026/"
+  },
+  {
+   "aud": "adults",
+   "cat": "Culture",
+   "place": "Union Cabinet · New Delhi",
+   "title": "Cabinet approves the Yuge Yugeen Bharat National Museum in New Delhi at Rs 3,230 crore.",
+   "summary": "The Union Cabinet chaired by PM Narendra Modi approved five proposals worth Rs 77,101 crore in all. One of them is a new national museum in New Delhi, the Yuge Yugeen Bharat National Museum, costing Rs 3,230 crore. The package also included the rabi 2026-27 fertiliser subsidy and the Noida Aqua Line Metro extension to Greater Noida West.",
+   "gk": "'Yuge Yugeen Bharat' means 'India through the ages'. The existing National Museum in New Delhi works under the Ministry of Culture.",
+   "exam": "Note the figures: total package Rs 77,101 crore; museum Rs 3,230 crore; P&K fertiliser subsidy (rabi 2026-27) Rs 62,370 crore.",
+   "source": "GK365",
+   "url": "https://gk365.in/daily-current-affairs/daily-gk-14th-nov-2026/"
+  },
+  {
+   "aud": "adults",
+   "cat": "Defence",
+   "place": "Visakhapatnam · Andhra Pradesh",
+   "title": "India and Myanmar hold IMNEX-26, the 8th edition of their naval exercise.",
+   "summary": "The India-Myanmar Naval Exercise IMNEX-26 was held at Visakhapatnam from 10 to 14 November 2026. India's INS Rana and INS Sumedha took part along with Myanmar's UMS King Sin Phyu Shin. The exercise aims to improve cooperation and joint working between the two navies.",
+   "gk": "Visakhapatnam is the headquarters of the Indian Navy's Eastern Naval Command. Myanmar's capital is Naypyidaw and its currency is the Kyat.",
+   "exam": "Match exercise to country: IMNEX = Myanmar (Navy); Harimau Shakti = Malaysia (Army), due 18-30 Nov 2026.",
+   "source": "AffairsCloud",
+   "url": "https://affairscloud.com/current-affairs-14-november-2026/"
+  },
+  {
+   "aud": "adults",
+   "cat": "Governance",
+   "place": "NITI Aayog · New Delhi",
+   "title": "NITI Aayog to begin a five-part national workshop series on PM Modi's 25 years as head of government.",
+   "summary": "The first workshop, 'Leadership as Mission', will be held at Bharat Mandapam, New Delhi, on 17 November. The series will run until October next year. Its five themes are Leadership as Mission, Governance as Delivery, Development as Inclusion, Civilisational Identity and India's Global Role.",
+   "gk": "PM Modi completed 25 years as head of government on 7 October 2026. He became Gujarat Chief Minister on 7 October 2001 and Prime Minister in May 2014.",
+   "exam": "NITI Aayog replaced the Planning Commission on 1 January 2015; the PM is its chairperson. Remember the venue: Bharat Mandapam.",
+   "source": "News On AIR",
+   "url": "https://newsonair.gov.in/niti-aayog-to-launch-five-part-workshop-series-on-pms-25-years-in-government/"
+  },
+  {
+   "aud": "adults",
+   "cat": "Science & Tech",
+   "place": "NIELIT · New Delhi",
+   "title": "NIELIT holds the 3rd National Conference on Cyber Security, Digital Forensics and Intelligence in New Delhi.",
+   "summary": "The National Institute of Electronics and Information Technology (NIELIT) is hosting NCCDFI 2026 in New Delhi from 16 November. The theme is 'Cyber Secure Bharat: Fortifying India's Digital Future'. The two-day event includes panels, an industry exhibition and the 'Cyber Kushti 2026' cyber security and AI hackathon. NIELIT will also sign MoUs with industry partners.",
+   "gk": "NIELIT works under the Ministry of Electronics and Information Technology (MeitY). CERT-In is India's national agency for responding to cyber security incidents.",
+   "exam": "Remember: NCCDFI 2026 theme 'Cyber Secure Bharat'; hackathon name 'Cyber Kushti 2026'.",
+   "source": "News On AIR",
+   "url": "https://newsonair.gov.in/nielit-to-organise-national-cyber-security-conference-in-delhi/"
+  }
+ ],
+ "quiz": [
+  {
+   "headline": 1,
+   "q": "Who did Lakshya Sen beat in the Kumamoto Masters Japan final?",
+   "options": [
+    "Kodai Naraoka",
+    "Koki Watanabe",
+    "Viktor Axelsen",
+    "Lee Zii Jia"
+   ],
+   "answer": 1,
+   "explain": "He beat Japan's Koki Watanabe 13-21, 21-18, 21-14."
+  },
+  {
+   "headline": 2,
+   "q": "Who was the Player of the Series in India's ODI series win in New Zealand?",
+   "options": [
+    "Arshdeep Singh",
+    "Axar Patel",
+    "Gurnoor Brar",
+    "Ishan Kishan"
+   ],
+   "answer": 2,
+   "explain": "Gurnoor Brar was Player of the Series; Arshdeep Singh was Player of the Match."
+  },
+  {
+   "headline": 3,
+   "q": "In which city is PM Modi attending the ASEAN-India Summit?",
+   "options": [
+    "Jakarta",
+    "Kuala Lumpur",
+    "Bangkok",
+    "Manila"
+   ],
+   "answer": 3,
+   "explain": "The 23rd ASEAN-India Summit is in Manila, the Philippines."
+  },
+  {
+   "headline": 4,
+   "q": "Where is the depression expected to turn into a cyclonic storm?",
+   "options": [
+    "Arabian Sea",
+    "South-east Bay of Bengal",
+    "Gulf of Mannar",
+    "Gulf of Kutch"
+   ],
+   "answer": 1,
+   "explain": "It is over the south-east Bay of Bengal, near the Andaman and Nicobar Islands."
+  },
+  {
+   "headline": 5,
+   "q": "What caught SpaceX's Starship when it returned from orbit?",
+   "options": [
+    "A net at sea",
+    "A parachute",
+    "Mechanical 'chopstick' arms on the launch pad",
+    "A floating barge"
+   ],
+   "answer": 2,
+   "explain": "Giant mechanical arms above Launch Pad 2 in Texas caught it."
+  },
+  {
+   "headline": 6,
+   "q": "How many votes does a UN Secretary-General candidate need in the Security Council (with no P5 veto)?",
+   "options": [
+    "9",
+    "5",
+    "10",
+    "15"
+   ],
+   "answer": 0,
+   "explain": "Nine of the 15 members must vote in favour, with no veto from a permanent member."
+  },
+  {
+   "headline": 7,
+   "q": "What GDP growth does SBI Research project for Q2 FY27?",
+   "options": [
+    "7.2%",
+    "6.9%",
+    "8.2%",
+    "7.8%"
+   ],
+   "answer": 3,
+   "explain": "SBI's Ecowrap projects 7.8%, above the RBI's 7.2%."
+  },
+  {
+   "headline": 8,
+   "q": "Which state topped the Access Equality Index 2026?",
+   "options": [
+    "Kerala",
+    "Goa",
+    "Sikkim",
+    "Andhra Pradesh"
+   ],
+   "answer": 1,
+   "explain": "Goa scored 0.68, ahead of Andhra Pradesh (0.66) and Sikkim (0.63)."
+  },
+  {
+   "headline": 9,
+   "q": "What is the approved cost of the Yuge Yugeen Bharat National Museum?",
+   "options": [
+    "Rs 3,230 crore",
+    "Rs 62,370 crore",
+    "Rs 77,101 crore",
+    "Rs 2,390 crore"
+   ],
+   "answer": 0,
+   "explain": "The museum costs Rs 3,230 crore; Rs 77,101 crore is the whole package."
+  },
+  {
+   "headline": 10,
+   "q": "IMNEX-26 is a naval exercise between India and which country?",
+   "options": [
+    "Malaysia",
+    "Maldives",
+    "Myanmar",
+    "Mauritius"
+   ],
+   "answer": 2,
+   "explain": "IMNEX is the India-Myanmar Naval Exercise; the 8th edition was at Visakhapatnam."
+  },
+  {
+   "headline": 11,
+   "q": "Where will NITI Aayog's first 'Leadership as Mission' workshop be held?",
+   "options": [
+    "Vigyan Bhawan",
+    "Yashobhoomi",
+    "Rashtrapati Bhavan",
+    "Bharat Mandapam"
+   ],
+   "answer": 3,
+   "explain": "It will be held at Bharat Mandapam, New Delhi, on 17 November."
+  },
+  {
+   "headline": 12,
+   "q": "What is the name of the hackathon at NIELIT's NCCDFI 2026?",
+   "options": [
+    "Cyber Kushti 2026",
+    "Cyber Suraksha 2026",
+    "Digital Dangal 2026",
+    "Kavach 2026"
+   ],
+   "answer": 0,
+   "explain": "The cyber security and AI hackathon is called Cyber Kushti 2026."
+  }
+ ],
+ "ai": [
+  {
+   "aud": "students",
+   "place": "Google · India",
+   "title": "Google's free AI training for teachers reaches 80,000 educators in India and adds six Indian languages.",
+   "summary": "Google says its free AI Educator Series, made with the teachers' group ISTE+ASCD, trained 80,000 educators in India in September. Self-paced online lessons are now available in English and six Indian languages: Hindi, Marathi, Telugu, Assamese, Odia and Punjabi. The training is linked to India's National Education Policy 2020. Google now plans to take it to Brazil, Mexico, Spain, Australia and sub-Saharan Africa.",
+   "gk": "The National Education Policy (NEP) 2020 replaced the National Policy on Education of 1986. It was drafted by a committee led by Dr K. Kasturirangan.",
+   "source": "EdTech Innovation Hub",
+   "url": "https://www.edtechinnovationhub.com/news/google-expands-free-ai-educator-training-to-four-more-countries-and-sub-saharan-africa",
+   "quiz": {
+    "q": "How many Indian languages (besides English) does Google's AI Educator Series now offer?",
+    "options": [
+     "Two",
+     "Four",
+     "Six",
+     "Twelve"
+    ],
+    "answer": 2,
+    "explain": "Hindi, Marathi, Telugu, Assamese, Odia and Punjabi."
+   }
+  },
+  {
+   "aud": "students",
+   "place": "Google report · Global",
+   "title": "Google's 'AI in Education' report: an AI reading tutor helped Indian children read much better.",
+   "summary": "Google's November 2026 report 'AI in Education: From potential to practice' looks at how AI is being used in schools around the world. It describes a study in India where children using the Read Along app improved their reading fluency much faster than others: 114% more in Hindi, 44% in English and 120% in Marathi. Over 40% moved up at least one reading level. The report also notes that 66% of students in Singapore use AI chatbots weekly for learning.",
+   "gk": "Reading fluency means reading smoothly, accurately and with understanding. PISA is a test of 15-year-olds run by the OECD.",
+   "source": "Google",
+   "url": "https://services.google.com/fh/files/misc/ai_in_education_report_nov26.pdf",
+   "quiz": {
+    "q": "In which language did Read Along users show the biggest fluency gain in the Indian study?",
+    "options": [
+     "Hindi",
+     "English",
+     "Marathi",
+     "Tamil"
+    ],
+    "answer": 2,
+    "explain": "Marathi gains were 120% higher, Hindi 114%, English 44%."
+   }
+  },
+  {
+   "aud": "adults",
+   "place": "United Kingdom",
+   "title": "Bett-YouGov survey: 8 in 10 UK teachers use AI, but few work fewer hours.",
+   "summary": "Bett's report 'AI in Education 2026: Working it out' surveyed 1,033 UK teachers through YouGov. Eight in 10 now use AI for teaching tasks, and weekly use has doubled in a year. Among AI users, 51% say it eased their workload, but only 35% say they actually work fewer hours. Two in five teachers (41%) have had no AI training from their school.",
+   "gk": "This is the third year in a row Bett has surveyed UK teachers on AI. Bett is a large education-technology event held in London.",
+   "exam": "For teachers: training matters - time saved by AI often turns into extra work unless schools plan for it. Useful data point for essays on AI in education.",
+   "source": "EdTech Innovation Hub",
+   "url": "https://www.edtechinnovationhub.com/news/the-state-of-ai-in-education-2026-rising-teacher-use-is-not-always-translating-into-shorter-working-hours",
+   "quiz": {
+    "q": "What share of UK teachers in the Bett survey had received no AI training from their school?",
+    "options": [
+     "8%",
+     "41%",
+     "51%",
+     "80%"
+    ],
+    "answer": 1,
+    "explain": "41% (two in five) had no AI training from their school."
+   }
+  },
+  {
+   "aud": "adults",
+   "place": "OpenAI · Global",
+   "title": "OpenAI says schools must close the 'AI guidance gap' for students.",
+   "summary": "OpenAI says AI is already common in schools, but many students are not guided on how to use it well. It says teachers need training, clear learning goals and tools that suit their classrooms. Schools should also check whether AI actually helps students learn and think for themselves.",
+   "gk": "OpenAI is the US company that makes ChatGPT. In India, CBSE and NCERT are building AI into school curricula.",
+   "exam": "For teachers: set clear rules for when students may use AI, and test whether it improves learning - not just speed.",
+   "source": "Future of AI (OpenAI)",
+   "url": "https://news.futureofai.org/2026/11/closing-ai-guidance-gap-in-education.html",
+   "quiz": {
+    "q": "According to OpenAI, what do many students lack when it comes to AI?",
+    "options": [
+     "Internet access",
+     "Devices",
+     "Guidance on how to use it",
+     "Interest"
+    ],
+    "answer": 2,
+    "explain": "AI is common in schools, but many students lack guidance on using it."
+   }
+  }
+ ],
+ "weather": {
+  "city": "Delhi-NCR",
+  "days": [
+   {
+    "date": "2026-11-16",
+    "condition": "Moderate fog in the morning, then mainly clear",
+    "max": 27,
+    "min": 15
+   },
+   {
+    "date": "2026-11-17",
+    "condition": "Moderate fog in the morning",
+    "max": 26,
+    "min": 14
+   },
+   {
+    "date": "2026-11-18",
+    "condition": "Moderate fog in the morning",
+    "max": 26,
+    "min": 13
+   },
+   {
+    "date": "2026-11-19",
+    "condition": "Moderate fog in the morning",
+    "max": 26,
+    "min": 13
+   },
+   {
+    "date": "2026-11-20",
+    "condition": "Moderate fog in the morning",
+    "max": 26,
+    "min": 13
+   }
+  ],
+  "facts": [
+   {
+    "label": "Sunrise",
+    "value": "06:44"
+   },
+   {
+    "label": "Sunset",
+    "value": "about 17:28"
+   },
+   {
+    "label": "Yesterday's forecast max / min",
+    "value": "29 / 19 °C (actual reading not yet published)"
+   },
+   {
+    "label": "IMD warnings for Delhi",
+    "value": "None for the next 7 days"
+   }
+  ],
+  "note": "Cooler mornings ahead: minimums fall to about 13 °C by midweek with moderate fog each morning, while days stay pleasant at 26-27 °C. Fog plus 'very poor' air can mean low visibility on the way to school. Figures are IMD's 7-day forecast for the Narela station (dated 15 Nov), not Safdarjung; yesterday's recorded max/min was not yet available.",
+  "regionSource": "India Meteorological Department (via News On AIR)",
+  "regionUrl": "https://newsonair.gov.in/low-pressure-area-over-bay-of-bengal-likely-to-intensify-into-cyclonic-storm/",
+  "regions": [
+   {
+    "icon": "storm",
+    "alert": true,
+    "name": "Bay of Bengal",
+    "outlook": "Depression likely to become a cyclonic storm by this evening; winds up to 80 km/h over the central Bay from Tuesday. Fishermen told to return to the coast."
+   },
+   {
+    "icon": "rain",
+    "alert": true,
+    "name": "Andaman & Nicobar Islands",
+    "outlook": "Heavy rain today with winds up to 60 km/h."
+   },
+   {
+    "icon": "fog",
+    "alert": true,
+    "name": "West Uttar Pradesh",
+    "outlook": "Dense fog likely at isolated places in the early morning."
+   },
+   {
+    "icon": "snow",
+    "name": "Western Himalayas",
+    "outlook": "Western Disturbance brought light to moderate rain or snow over the hills over the weekend."
+   },
+   {
+    "icon": "smog",
+    "alert": true,
+    "name": "Delhi-NCR",
+    "outlook": "Air remains 'very poor' with several Delhi stations in the 'severe' range."
+   }
+  ],
+  "source": "India Meteorological Department (local forecast, New Delhi-Narela)",
+  "url": "https://city.imd.gov.in/citywx/city_weather_test_try_warnings.php?id=99922"
+ },
+ "aqi": {
+  "asOf": "15 Nov 2026, 8 am (CPCB hourly data via Business Standard)",
+  "cities": [
+   {
+    "name": "Ghaziabad",
+    "aqi": 292,
+    "home": true
+   },
+   {
+    "name": "Delhi",
+    "aqi": 351
+   },
+   {
+    "name": "Noida",
+    "aqi": 313
+   },
+   {
+    "name": "Gurugram",
+    "aqi": 322
+   },
+   {
+    "name": "Faridabad",
+    "aqi": 305
+   }
+  ],
+  "note": "Delhi, Noida, Gurugram and Faridabad were 'very poor' (301-400); Ghaziabad at 292 was just inside 'poor'. Six Delhi stations crossed 400 ('severe'), led by IIT Delhi (426) and ITO (415). These are Sunday 8 am readings; CPCB's 4 pm bulletin could not be found this morning. GRAP Stage III has been in force across NCR since 6 November.",
+  "source": "Business Standard (CPCB data)",
+  "url": "https://www.business-standard.com/india-news/india-news-delhi-aqi-351-very-poor-six-monitoring-stations-severe-pollution-126111500091_1.html"
+ }
+}
