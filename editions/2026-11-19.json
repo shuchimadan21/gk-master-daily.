@@ -1,0 +1,495 @@
+{
+  "date": "2026-11-19",
+  "title": "Xi welcomes Trump in Shenzhen before first China-US-Russia meeting; India's Mahindra wins Earthshot Prize in Mumbai; Navy's Barak missiles get Rs 1,976 crore upgrade",
+  "updatedAt": "2026-11-19T05:52:00+05:30",
+  "morning": {
+    "greeting": "Good morning, and happy World Toilet Day!",
+    "line": "It's Thursday. Wednesday was the coldest morning of the season so far, so dress warmly and take care on foggy roads.",
+    "thought": "Unity is not about everyone being the same. It is about different people choosing to stand together and help one another.",
+    "day": {
+      "name": "World Toilet Day & National Integration Day",
+      "about": "The UN observes World Toilet Day on 19 November to highlight that about 3.4 billion people still lack safely managed sanitation; the 2026 theme is 'Safe toilets. Equal futures.' India also marks National Integration Day today, the birth anniversary of former PM Indira Gandhi (born 19 November 1917), and Quami Ekta Week runs from 19 to 25 November. It is also the birth anniversary of Rani Lakshmibai of Jhansi, a heroine of the 1857 revolt."
+    },
+    "word": {
+      "word": "Integrate",
+      "meaning": "to combine different parts or people so that they work together as a whole.",
+      "example": "Our school tries to integrate sports and art into everyday learning."
+    },
+    "task": "Write three things you can do this week to keep the toilets and washrooms in your school clean, and share them with your class."
+  },
+  "headlines": [
+    {
+      "aud": "students",
+      "cat": "National",
+      "place": "New Delhi · India",
+      "title": "India signs a Rs 1,976 crore deal with Israel Aerospace Industries to upgrade the Navy's Barak missile systems.",
+      "summary": "On 18 November 2026, the Ministry of Defence signed a contract worth Rs 1,976.40 crore with Israel Aerospace Industries (IAI) in New Delhi, in the presence of Defence Secretary Rajesh Kumar Singh. The deal will upgrade the hardware and software of the Barak point-defence missile systems already fitted on Indian Navy warships, replacing parts that have become outdated. The ministry says this will help ships defend themselves better against enemy aircraft and incoming missiles.",
+      "gk": "Barak-1 is a short-range Israeli ship-defence missile system. A newer, longer-range version, Barak-8, was developed jointly by Israel and India's DRDO.",
+      "source": "Business Today",
+      "url": "https://www.businesstoday.in/india/story/india-signs-rs-1976-crore-deal-with-israel-to-upgrade-barak-missile-defence-systems-568277-2026-11-18"
+    },
+    {
+      "aud": "students",
+      "cat": "National",
+      "place": "Mumbai · India",
+      "title": "Mumbai hosts the Earthshot Prize 2026, and India's Mahindra Last Mile Mobility wins the 'Clean Our Air' award.",
+      "summary": "The sixth Earthshot Prize ceremony was held in Mumbai on 17 November 2026, the first time the city has hosted these environmental awards. Five winners each received £1 million: Mahindra Last Mile Mobility from India (Clean Our Air), PFAS-Free France (Build a Waste-Free World), Ørsted of Denmark (Fix Our Climate), Niue Ocean Wide Trust (Revive Our Oceans) and the country of Bhutan (Protect and Restore Nature). Sachin Tendulkar presented India's award. Mahindra plans to use its prize to train women drivers and add charging stations for electric vehicles.",
+      "gk": "Prince William founded the Earthshot Prize in 2020 to reward solutions to the planet's biggest environmental problems. Bhutan is known as the world's first carbon-negative country.",
+      "source": "Free Press Journal",
+      "url": "https://www.freepressjournal.in/india/earthshot-prize-2026-indias-mahindra-leads-winners-as-bhutan-denmark-also-take-top-honours"
+    },
+    {
+      "aud": "students",
+      "cat": "World",
+      "place": "Shenzhen · China",
+      "title": "Xi Jinping personally welcomes Donald Trump in Shenzhen ahead of the first-ever China-US-Russia leaders' meeting.",
+      "summary": "On 18 November 2026, Chinese President Xi Jinping went to Shenzhen airport to greet US President Donald Trump, who arrived for the APEC summit. Reports called this unusual, as Xi does not normally receive visiting leaders at the airport. On Thursday, 19 November, Xi, Trump and Russian President Vladimir Putin are due to hold their first three-way meeting on the sidelines of APEC. Nuclear arms control, trade and the war in Ukraine are expected to be discussed.",
+      "gk": "APEC (Asia-Pacific Economic Cooperation) was set up in 1989 and has 21 member economies; India is not a member. Shenzhen was China's first Special Economic Zone, created in 1980.",
+      "source": "Newscord (summarising ABC, CBS News, DW and others)",
+      "url": "https://newscord.org/article/xi-jinping-greets-donald-trump-at-shenzhen-airport-ahead-of-trilateral-summit-wi--Story_20261118_XiJinpingmsfuerteque1431b7f9"
+    },
+    {
+      "aud": "students",
+      "cat": "World",
+      "place": "Anchorage · United States",
+      "title": "Mary Peltola wins Alaska's Senate seat and will be the first Alaska Native in the US Senate.",
+      "summary": "Democrat Mary Peltola defeated two-term Republican Senator Dan Sullivan with 50.1% of the vote, so Alaska's ranked-choice counting was not needed. It was the last US Senate race of the 2026 midterm elections to be decided. Peltola was earlier the first Alaska Native and the first woman to represent Alaska in the US House of Representatives.",
+      "gk": "The US Senate has 100 members, two from each of the 50 states, who serve six-year terms. The USA bought Alaska from Russia in 1867.",
+      "source": "Deseret News",
+      "url": "https://www.deseret.com/politics/2026/11/18/mary-peltola-flips-alaska-senate-seat/"
+    },
+    {
+      "aud": "students",
+      "cat": "Environment",
+      "place": "Antalya · Türkiye",
+      "title": "At the UN climate conference COP31 in Türkiye, India calls for fairness and climate justice.",
+      "summary": "Union Environment Minister Bhupender Yadav delivered India's National Statement at COP31 in Antalya, Türkiye. He said climate action must be fair, with richer countries doing more, and that developing countries should not have to choose between fighting climate change and their right to development. He also asked rich nations to keep their promises on climate finance and said COP31 should be judged by real action on the ground.",
+      "gk": "COP means 'Conference of the Parties', the yearly meeting of countries in the UN Framework Convention on Climate Change (UNFCCC), adopted at the 1992 Rio Earth Summit.",
+      "source": "News On AIR",
+      "url": "https://newsonair.gov.in/india-calls-for-equity-climate-justice-and-fulfilment-of-climate-finance-obligations-at-un-climate-conference-cop31/"
+    },
+    {
+      "aud": "students",
+      "cat": "Sports",
+      "place": "Bhopal · India",
+      "title": "The Women's Asian Champions Trophy hockey tournament begins today in Bhopal, with India facing Malaysia.",
+      "summary": "Six teams are taking part: India, Japan, China, Malaysia, Thailand and South Korea. The tournament runs from 19 to 28 November at the new hockey stadium in Bhopal's International Sports Complex at Nathu Barkheda. Each team plays the other five once, and the top four reach the semi-finals on 27 November. India are the defending champions, led by captain Salima Tete and coach Sjoerd Marijne.",
+      "gk": "A hockey team has 11 players on the field. The sport's world body, the FIH, is based in Lausanne, Switzerland. Bhopal is the capital of Madhya Pradesh.",
+      "source": "Outlook India (PTI)",
+      "url": "https://www.outlookindia.com/sports/hockey/womens-asian-champions-trophy-bhopal-2026-preview-india-match-schedule"
+    },
+    {
+      "aud": "adults",
+      "cat": "Banking",
+      "place": "Mumbai · India",
+      "title": "RBI fixes Rs 13,499 per unit as the early redemption price for Sovereign Gold Bond 2020-21 Series VIII.",
+      "summary": "On 17 November 2026, the Reserve Bank of India set the premature redemption price for SGB 2020-21 Series VIII at Rs 13,499 per unit. The series was issued on 18 November 2020, making 18 November 2026 its early redemption date. The price is the simple average of the closing price of 999-purity gold, published by the India Bullion and Jewellers Association (IBJA), for 13, 16 and 17 November 2026. Early exit is allowed only after the fifth year and only on interest dates.",
+      "gk": "The Sovereign Gold Bond scheme began in November 2015. RBI issues the bonds for the Government of India; they have an 8-year tenure and pay 2.5% interest a year.",
+      "exam": "Remember: SGB 2020-21 Series VIII; redemption price Rs 13,499/unit; based on 3-day average of IBJA 999 gold prices; exit allowed after 5 years.",
+      "source": "The Tribune (ANI)",
+      "url": "https://www.tribuneindia.com/news/business/rbi-announces-premature-redemption-rate-for-sovereign-gold-bonds-due-november-18"
+    },
+    {
+      "aud": "adults",
+      "cat": "Defence",
+      "place": "Jamnagar · India",
+      "title": "IAF hosts Exercise Sahayata Setu 2026, a multinational disaster-relief exercise, at Jamnagar.",
+      "summary": "Sahayata Setu is the Annual Joint Humanitarian Assistance and Disaster Relief Exercise (AJHE-26), held at Air Force Station Jamnagar, Gujarat, from 17 to 19 November 2026. The IAF leads it under HQ Integrated Defence Staff and HQ South Western Air Command, with about 25 countries from IORA, BIMSTEC and the Quad, including Australia, Japan, the US, the UAE, Sri Lanka and the Maldives. The main drill simulates a severe cyclone, with aerial survey, search and rescue, evacuation and relief supply. A seminar reviewed India's relief missions such as Operation Brahma (Myanmar) and Operation Sagar Bandhu (Sri Lanka).",
+      "gk": "The Indian Air Force was founded on 8 October 1932; its motto is 'Nabhah Sparsham Deeptam'. HQ Integrated Defence Staff was set up in 2001.",
+      "exam": "Remember: Sahayata Setu = AJHE-26, HADR exercise led by IAF at AF Station Jamnagar, 17-19 Nov 2026; cyclone scenario; about 25 nations.",
+      "source": "Indian Masterminds",
+      "url": "https://indianmasterminds.com/news/defence/exercise-sahayata-setu-2026-251281/"
+    },
+    {
+      "aud": "adults",
+      "cat": "Economy",
+      "place": "New Delhi · India",
+      "title": "Amazon announces an additional USD 7 billion investment in Indian renewable energy by 2030.",
+      "summary": "On 17 November 2026, Amazon said it will invest a further USD 7 billion in renewable energy projects in India by 2030, on top of the USD 4 billion it had already committed. The money will mainly go into new wind and solar capacity to power its operations. The move supports India's drive to expand clean, non-fossil power.",
+      "gk": "India aims to reach 500 GW of non-fossil power capacity by 2030. Amazon is headquartered in Seattle, USA.",
+      "exam": "Remember: Amazon - additional USD 7 billion for Indian renewables by 2030 (over USD 4 billion already committed); wind and solar.",
+      "source": "CrackTarget (Current Affairs 18 November 2026)",
+      "url": "https://cracktarget.com/current-affairs-18-november-2026/"
+    },
+    {
+      "aud": "adults",
+      "cat": "Schemes",
+      "place": "New Delhi · India",
+      "title": "Social Justice Ministry holds the two-day 'Samaveshi Niti Sankalp' summit with States and UTs.",
+      "summary": "The Ministry of Social Justice and Empowerment began the summit in New Delhi on 18 November 2026 with senior officials from States and Union Territories. It aims to improve delivery of welfare schemes through better Centre-State coordination, in line with Viksit Bharat@2047. Its four themes are: a drug-free India; easy access to scholarships through the One Nation, One Scholarship Portal; early intervention to reduce disability; and Sugamya Bharat (accessibility).",
+      "gk": "The Sugamya Bharat Abhiyan (Accessible India Campaign) was launched on 3 December 2015, International Day of Persons with Disabilities. Nasha Mukt Bharat Abhiyaan began in August 2020.",
+      "exam": "Remember: Samaveshi Niti Sankalp - Ministry of Social Justice and Empowerment; themes: drug-free India, One Nation One Scholarship Portal, early disability intervention, Sugamya Bharat.",
+      "source": "News On AIR",
+      "url": "https://newsonair.gov.in/ministry-of-social-justice-to-organise-two-day-samaveshi-niti-sankalp-summit-in-new-delhi/"
+    },
+    {
+      "aud": "adults",
+      "cat": "Awards",
+      "place": "Cambridge · United Kingdom",
+      "title": "Cambridge Dictionary names 'human' its Word of the Year 2026, reflecting AI's growing influence.",
+      "summary": "Cambridge Dictionary picked 'human', defined as 'relating to people, as opposed to animals, machines, or gods'. As AI spreads into business, sport and entertainment, people are placing new value on human creativity and authenticity, and terms like 'human-written' and 'human-made' are becoming common. The other shortlisted words were analogue, agent, wholesome and chic.",
+      "gk": "Cambridge Dictionary is published by Cambridge University Press & Assessment, part of the University of Cambridge, UK.",
+      "exam": "Remember: Cambridge Word of the Year 2026 = 'human'; shortlist: analogue, agent, wholesome, chic.",
+      "source": "News On AIR",
+      "url": "https://newsonair.gov.in/cambridge-dictionary-names-human-as-word-of-the-year-2026-amid-growing-influence-of-artificial-intelligence/"
+    },
+    {
+      "aud": "adults",
+      "cat": "Sports Governance",
+      "place": "New Delhi · India",
+      "title": "Sports Ministry forms a 14-member committee to build a sustainable sports league ecosystem in India.",
+      "summary": "The Ministry of Youth Affairs and Sports has set up a 14-member committee to study India's sports leagues and suggest workable models. Its convenor is Joint Secretary (Governance) Kunal, and members include Joint Secretary (Khelo India) Vineel Krishna and IOA CEO Raghuram Iyer. It will identify priority sports (Olympic, women's, youth, indigenous and emerging) and suggest ways to attract corporate investment, franchises, sponsorship, broadcasting and digital rights, and CSR funds. It must submit its final recommendations within eight weeks.",
+      "gk": "The Union Sports Minister is Mansukh Mandaviya. The Indian Olympic Association was founded in 1927 and is headquartered in New Delhi.",
+      "exam": "Remember: 14-member committee on sports leagues; Ministry of Youth Affairs and Sports; convenor JS Kunal; report due in 8 weeks.",
+      "source": "News On AIR",
+      "url": "https://newsonair.gov.in/sports-ministry-forms-14-member-committee-to-build-sustainable-sports-league-ecosystem-in-india/"
+    }
+  ],
+  "quiz": [
+    {
+      "headline": 1,
+      "q": "Which company signed a deal with India's Defence Ministry to upgrade the Navy's Barak missile systems?",
+      "options": [
+        "Boeing",
+        "Israel Aerospace Industries",
+        "Dassault Aviation",
+        "Rafael Advanced Systems"
+      ],
+      "answer": 1,
+      "explain": "The Rs 1,976.40 crore contract was signed with Israel Aerospace Industries (IAI)."
+    },
+    {
+      "headline": 2,
+      "q": "Which Indian company won the Earthshot Prize 2026 in the 'Clean Our Air' category?",
+      "options": [
+        "Tata Motors",
+        "Ola Electric",
+        "Mahindra Last Mile Mobility",
+        "Hero Electric"
+      ],
+      "answer": 2,
+      "explain": "Mahindra Last Mile Mobility won £1 million for its electric vehicles work."
+    },
+    {
+      "headline": 3,
+      "q": "In which Chinese city is the 2026 APEC summit taking place?",
+      "options": [
+        "Shenzhen",
+        "Beijing",
+        "Shanghai",
+        "Wuhan"
+      ],
+      "answer": 0,
+      "explain": "Xi Jinping greeted Donald Trump at Shenzhen airport, where APEC and the China-US-Russia meeting are being held."
+    },
+    {
+      "headline": 4,
+      "q": "Mary Peltola will be the first Alaska Native to serve in which body?",
+      "options": [
+        "US House of Representatives",
+        "US Supreme Court",
+        "US Senate",
+        "Alaska State Assembly"
+      ],
+      "answer": 2,
+      "explain": "She won Alaska's Senate seat with 50.1% of the vote."
+    },
+    {
+      "headline": 5,
+      "q": "Where is the UN climate conference COP31 being held?",
+      "options": [
+        "Antalya, Türkiye",
+        "Belem, Brazil",
+        "Baku, Azerbaijan",
+        "Bonn, Germany"
+      ],
+      "answer": 0,
+      "explain": "COP31 is in Antalya, Türkiye, where Bhupender Yadav gave India's statement."
+    },
+    {
+      "headline": 6,
+      "q": "Which city is hosting the 2026 Women's Asian Champions Trophy in hockey?",
+      "options": [
+        "Ranchi",
+        "Bhubaneswar",
+        "Raipur",
+        "Bhopal"
+      ],
+      "answer": 3,
+      "explain": "The tournament runs from 19 to 28 November in Bhopal."
+    },
+    {
+      "headline": 7,
+      "q": "What early redemption price per unit did RBI fix for SGB 2020-21 Series VIII?",
+      "options": [
+        "Rs 12,499",
+        "Rs 13,499",
+        "Rs 14,299",
+        "Rs 13,949"
+      ],
+      "answer": 1,
+      "explain": "RBI set the price at Rs 13,499, the average of IBJA gold prices on 13, 16 and 17 November 2026."
+    },
+    {
+      "headline": 8,
+      "q": "Exercise Sahayata Setu 2026, a multinational HADR exercise led by the IAF, was held at which Air Force Station?",
+      "options": [
+        "Hindan",
+        "Gwalior",
+        "Jamnagar",
+        "Jodhpur"
+      ],
+      "answer": 2,
+      "explain": "It was held at Air Force Station Jamnagar, Gujarat, from 17 to 19 November 2026."
+    },
+    {
+      "headline": 9,
+      "q": "In November 2026, Amazon announced an additional investment of how much in Indian renewable energy by 2030?",
+      "options": [
+        "USD 4 billion",
+        "USD 12.7 billion",
+        "USD 26 billion",
+        "USD 7 billion"
+      ],
+      "answer": 3,
+      "explain": "Amazon pledged an additional USD 7 billion, on top of USD 4 billion already committed."
+    },
+    {
+      "headline": 10,
+      "q": "Which ministry organised the 'Samaveshi Niti Sankalp' summit in New Delhi?",
+      "options": [
+        "Ministry of Home Affairs",
+        "Ministry of Education",
+        "Ministry of Social Justice and Empowerment",
+        "Ministry of Health and Family Welfare"
+      ],
+      "answer": 2,
+      "explain": "The Ministry of Social Justice and Empowerment held the two-day summit."
+    },
+    {
+      "headline": 11,
+      "q": "Which word did Cambridge Dictionary name its Word of the Year 2026?",
+      "options": [
+        "Agent",
+        "Human",
+        "Analogue",
+        "Wholesome"
+      ],
+      "answer": 1,
+      "explain": "Cambridge chose 'human' as AI's spread makes people value human creativity again."
+    },
+    {
+      "headline": 12,
+      "q": "Within how many weeks must the Sports Ministry's 14-member committee on sports leagues submit its recommendations?",
+      "options": [
+        "Eight weeks",
+        "Four weeks",
+        "Six weeks",
+        "Twelve weeks"
+      ],
+      "answer": 0,
+      "explain": "The committee has eight weeks to report to the Ministry of Youth Affairs and Sports."
+    }
+  ],
+  "ai": [
+    {
+      "aud": "students",
+      "place": "New Delhi · India",
+      "title": "Ed-tech startup NeevAI will make AI a regular school subject in 25,786 Indian schools.",
+      "summary": "NeevAI, an Indian ed-tech startup, is partnering with schools across India to teach artificial intelligence as a regular subject from Class 1 to Class 12. It aims to reach about 31 lakh (3.1 million) students by April 2027. More than 2 lakh teachers have been trained, and schools get AI textbooks, robotics kits and a digital learning platform. Students also get AI certification, hackathons and internship opportunities at no extra cost to schools.",
+      "gk": "India's National Education Policy (NEP) 2020 recommends teaching coding and computational thinking from the middle stage (Class 6 onwards).",
+      "source": "NewsBytes",
+      "url": "https://www.newsbytesapp.com/news/business/neevai-to-introduce-ai-as-subject-across-25786-indian-schools/tldr",
+      "quiz": {
+        "q": "NeevAI's programme will teach AI as a subject in about how many Indian schools?",
+        "options": [
+          "2,000",
+          "25,786",
+          "1,800",
+          "10 lakh"
+        ],
+        "answer": 1,
+        "explain": "NeevAI plans to bring AI into 25,786 schools and reach about 3.1 million students by April 2027."
+      }
+    },
+    {
+      "aud": "students",
+      "place": "Perth · Australia",
+      "title": "Schools in Western Australia and other places are banning camera-equipped AI smart glasses.",
+      "summary": "Smart glasses with cameras and microphones are being banned in more places because of privacy and cheating worries. Western Australia's public schools banned them from 12 October 2026, with exceptions for medical, accessibility and educational use, and Victoria's restrictions start on 27 January 2027. New York's courts have also banned them, and SAT test centres cancel the scores of students caught wearing them.",
+      "gk": "Perth is the capital of the Australian state of Western Australia; Canberra is the capital of Australia.",
+      "source": "AI Weekly (summarising Engadget)",
+      "url": "https://aiweekly.co/alerts/smart-glasses-bans-spread-to-courts-schools-punjab-province",
+      "quiz": {
+        "q": "From which date did Western Australia's public schools ban smart glasses?",
+        "options": [
+          "1 January 2026",
+          "27 January 2027",
+          "12 October 2026",
+          "20 July 2026"
+        ],
+        "answer": 2,
+        "explain": "The ban took effect on 12 October 2026; 27 January 2027 is when Victoria's restrictions begin."
+      }
+    },
+    {
+      "aud": "adults",
+      "place": "New Delhi · India",
+      "title": "New Delhi chip startup Bharat Semi raises USD 24 million to build AI image sensors on a single chip.",
+      "summary": "Bharat Semi, founded in late 2021, makes programmable image sensors that capture images, process the signal and run AI on one chip, which it says could cut system costs by at least 70%. The all-equity seed round was led by Info Edge Group, South Park Commons and Indus Bridge Ventures. It has design wins with US defence firm General Atomics and India's Kaynes Semicon, and targets commercial production in 2027.",
+      "gk": "The India Semiconductor Mission (ISM) was launched in December 2021 under the Ministry of Electronics and IT (MeitY).",
+      "exam": "Remember: Bharat Semi (New Delhi) - USD 24 million seed round; single-chip AI image sensors; production target 2027.",
+      "source": "AI Weekly (summarising TechCrunch)",
+      "url": "https://aiweekly.co/alerts/bharat-semi-raises-24m-seed-for-single-chip-ai-image-sensors",
+      "quiz": {
+        "q": "Bharat Semi's single-chip product is mainly what kind of device?",
+        "options": [
+          "AI image sensor",
+          "Memory chip",
+          "Solar cell",
+          "5G modem"
+        ],
+        "answer": 0,
+        "explain": "Bharat Semi builds image sensors that combine image capture, processing and AI on one chip."
+      }
+    },
+    {
+      "aud": "adults",
+      "place": "Cupertino · USA",
+      "title": "Apple and OpenEvidence launch a study with up to 2 lakh iPhone users on how people use AI for health questions.",
+      "summary": "Apple and clinical AI company OpenEvidence launched the Health AI Usage Study on 15 November 2026. It will run for at least 12 months with up to 200,000 US iPhone users aged over 21. Participants ask medical questions in an app and rate the answers, which draw on journals such as the New England Journal of Medicine, JAMA and Nature. Apple says the data is anonymised and will not be used to train AI models.",
+      "gk": "The World Health Organization (WHO) was founded in 1948 and is headquartered in Geneva, Switzerland.",
+      "exam": "Remember: Apple + OpenEvidence Health AI Usage Study; launched 15 Nov 2026; up to 200,000 US users; 12+ months; data not used for AI training.",
+      "source": "AI Weekly (summarising TechCrunch)",
+      "url": "https://aiweekly.co/alerts/apple-and-openevidence-launch-200000-user-health-ai-study",
+      "quiz": {
+        "q": "Which company partnered with Apple on the new Health AI Usage Study?",
+        "options": [
+          "OpenAI",
+          "Google DeepMind",
+          "Microsoft",
+          "OpenEvidence"
+        ],
+        "answer": 3,
+        "explain": "Apple launched the study with clinical AI company OpenEvidence."
+      }
+    }
+  ],
+  "weather": {
+    "city": "Delhi-NCR",
+    "days": [
+      {
+        "date": "2026-11-19",
+        "condition": "Mist or shallow fog in the morning; mainly clear",
+        "max": 25,
+        "min": 12
+      },
+      {
+        "date": "2026-11-20",
+        "condition": "Shallow to moderate fog in the morning; mainly clear",
+        "max": 25,
+        "min": 12
+      },
+      {
+        "date": "2026-11-21",
+        "condition": "Morning fog; partly cloudy",
+        "max": 25,
+        "min": 14
+      },
+      {
+        "date": "2026-11-22",
+        "condition": "Mist or shallow fog in the morning; partly cloudy",
+        "max": 25,
+        "min": 13
+      },
+      {
+        "date": "2026-11-23",
+        "condition": "Mist or shallow fog in the morning; mainly clear",
+        "max": 24,
+        "min": 12
+      }
+    ],
+    "facts": [
+      {
+        "label": "Sunrise",
+        "value": "06:47"
+      },
+      {
+        "label": "Sunset",
+        "value": "about 17:27"
+      },
+      {
+        "label": "Yesterday's min (Safdarjung)",
+        "value": "11.0 °C, season's coldest morning (1.3 °C below normal); max 27.8 °C"
+      },
+      {
+        "label": "IMD warnings for Delhi",
+        "value": "Dense fog likely in Delhi, Punjab, Haryana and Chandigarh on 19-21 Nov"
+      }
+    ],
+    "note": "Wednesday morning was the coldest of the season so far at 11.0 °C. IMD expects dry weather with days of 24-26 °C, nights of 11-15 °C and fog every morning for the next five days, with no rain. Air may turn 'very poor' on Friday as winds weaken. All five days' figures are midpoints of IMD's ranges, not exact forecasts; today's sunset is approximate.",
+    "regionSource": "The Watchers (citing IMD, 18 Nov) and ETV Bharat citing IMD (18 Nov)",
+    "regionUrl": "https://watchers.news/2026/11/18/cyclone-akvan-landfall-nellore-visakhapatnam-noon-november-20-2026/",
+    "regions": [
+      {
+        "icon": "storm",
+        "alert": true,
+        "name": "Bay of Bengal & Andhra coast",
+        "outlook": "Cyclone Akvan likely to become a Very Severe Cyclonic Storm and cross the Andhra Pradesh-Yanam coast around noon on Friday (20 Nov), with winds of 120-130 km/h gusting to 145 km/h. Fishing suspended."
+      },
+      {
+        "icon": "rain",
+        "alert": true,
+        "name": "Coastal Andhra Pradesh, Rayalaseema & south Odisha",
+        "outlook": "Isolated extremely heavy rain over coastal Andhra on 19-20 Nov; heavy to very heavy rain in south coastal Odisha (19-21 Nov) and east Telangana (20-21 Nov)."
+      },
+      {
+        "icon": "rain",
+        "name": "West Bengal, Odisha & Chhattisgarh",
+        "outlook": "Widespread rain in Gangetic West Bengal and Odisha on 19-21 Nov and in Chhattisgarh on 20-21 Nov."
+      },
+      {
+        "icon": "fog",
+        "alert": true,
+        "name": "Delhi, Punjab, Haryana, Chandigarh & UP",
+        "outlook": "Dense fog likely in the early mornings on 19-21 Nov."
+      },
+      {
+        "icon": "smog",
+        "name": "Delhi-NCR",
+        "outlook": "Air quality 'poor' today, likely 'very poor' on Friday as winds weaken."
+      }
+    ],
+    "source": "IMD Regional Meteorological Centre New Delhi, 7-day forecast (18 Nov 2026, 1330 IST); The Federal citing IMD",
+    "url": "https://mausam.imd.gov.in/newdelhi/mcdata/delhi_forecast.pdf"
+  },
+  "aqi": {
+    "asOf": "Wednesday 18 Nov 2026, about 7 am (CPCB real-time data via Business Standard)",
+    "cities": [
+      {
+        "name": "Ghaziabad",
+        "aqi": 196,
+        "home": true
+      },
+      {
+        "name": "Delhi",
+        "aqi": 214
+      },
+      {
+        "name": "Noida",
+        "aqi": 190
+      },
+      {
+        "name": "Gurugram",
+        "aqi": 265
+      },
+      {
+        "name": "Faridabad",
+        "aqi": 254
+      }
+    ],
+    "note": "These are Wednesday morning readings; city-wise figures from CPCB's 4 pm bulletin could not be found. Ghaziabad (196) and Noida (190) were 'moderate', while Delhi, Gurugram and Faridabad were 'poor'. Delhi's daily average for Wednesday was 232 ('poor'). GRAP Stage III was withdrawn on 17 November; Stage I and II rules still apply across Delhi-NCR. Air may worsen to 'very poor' on Friday.",
+    "source": "Business Standard (CPCB data); The Federal (Delhi daily AQI)",
+    "url": "https://www.business-standard.com/india-news/grap-iii-restrictions-revoked-as-delhi-aqi-falls-to-214-schools-reopen-126111800135_1.html"
+  }
+}
