@@ -1,0 +1,496 @@
+{
+  "date": "2026-11-20",
+  "title": "Modi opens first SCO Civilisational Dialogue Forum; UN court rules Myanmar committed Rohingya genocide; Trump, Xi and Putin hold first three-way summit",
+  "updatedAt": "2026-11-20T06:20:00+05:30",
+  "morning": {
+    "greeting": "Good morning, and happy World Children's Day!",
+    "line": "It's Friday, the last school day of the week. Mornings are foggy and the air is 'poor', so wear a mask outdoors and stay careful on the roads.",
+    "thought": "Every child has a voice worth hearing. When you speak up kindly and listen to others, you make your classroom a fairer place.",
+    "day": {
+      "name": "World Children's Day",
+      "about": "World Children's Day (Universal Children's Day) is marked on 20 November. On this date the UN adopted the Declaration of the Rights of the Child in 1959 and the Convention on the Rights of the Child in 1989. UNICEF's 2026 campaign line is 'Children are speaking up: My day, my rights, my future'. In India, Children's Day is celebrated on 14 November, Pandit Jawaharlal Nehru's birthday."
+    },
+    "word": {
+      "word": "Advocate",
+      "meaning": "(verb) to speak or work in support of a person, idea or cause.",
+      "example": "Our class council will advocate for more water coolers in the school."
+    },
+    "task": "Write down one right every child should have (like education, play or safety) and one small thing you can do this week to help another child enjoy that right."
+  },
+  "headlines": [
+    {
+      "aud": "students",
+      "cat": "National",
+      "place": "New Delhi · India",
+      "title": "PM Modi opens India's first SCO Civilisational Dialogue Forum at Purana Qila, Delhi, today.",
+      "summary": "Prime Minister Narendra Modi is to inaugurate the first Shanghai Cooperation Organisation (SCO) Civilisational Dialogue Forum at Purana Qila in New Delhi on 20 November 2026. The three-day forum will bring together scholars, experts and cultural representatives for four themed sessions on 21 and 22 November. An exhibition will trace Delhi's history from 1200 BCE to 1200 CE. The aim is to celebrate shared heritage and build closer people-to-people ties among SCO countries.",
+      "gk": "The SCO was founded in 2001 in Shanghai, China. India became a full member in 2017.",
+      "source": "News On AIR",
+      "url": "https://newsonair.gov.in/pm-modi-to-inaugurate-first-sco-civilisational-dialogue-forum-tomorrow-at-purana-qila/"
+    },
+    {
+      "aud": "students",
+      "cat": "National",
+      "place": "Panaji · India",
+      "title": "The 57th International Film Festival of India (IFFI) begins in Goa today with the theme 'Stories Without Borders'.",
+      "summary": "IFFI 2026 opens in Goa on 20 November and runs until 28 November. The opening film is 'Fatherland', directed by Pawel Pawlikowski. Spain is the Country of Honour, Russia is the Partner Country, and there is a special focus on BRICS films. New this year are a 'Films About Films' section and an animation segment with films from Japan, France, China, Singapore and the USA.",
+      "gk": "IFFI was first held in 1952. Goa has been its permanent home since 2004.",
+      "source": "News On AIR",
+      "url": "https://newsonair.gov.in/57th-iffi-to-begin-tomorrow-in-goa-with-stories-without-borders-as-its-theme/"
+    },
+    {
+      "aud": "students",
+      "cat": "World",
+      "place": "The Hague · Netherlands",
+      "title": "The UN's top court rules that Myanmar committed genocide against the Rohingya people.",
+      "summary": "On 19 November 2026, the International Court of Justice (ICJ) ruled by 9 votes to 6 that Myanmar committed genocide against the Rohingya Muslims of Rakhine state, breaking the 1948 Genocide Convention. The case was brought by The Gambia in 2019. It is the first time the ICJ has held a country responsible for genocide. More than 730,000 Rohingya fled to Bangladesh, and the court ordered Myanmar to pay reparations and help them return safely.",
+      "gk": "The ICJ is the main judicial organ of the United Nations. It sits in the Peace Palace in The Hague and has 15 judges.",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/19/un-top-court-finds-myanmar-killed-10000-rohingya-as-it-rules-on-genocide"
+    },
+    {
+      "aud": "students",
+      "cat": "World",
+      "place": "Shenzhen · China",
+      "title": "Trump, Xi and Putin hold their first three-way summit and issue a joint 'peace declaration'.",
+      "summary": "US President Donald Trump, Chinese President Xi Jinping and Russian President Vladimir Putin met in Shenzhen on 19 November 2026, alongside the APEC summit. It was the first meeting of the three leaders together. Their joint declaration supported stable energy supplies and promised talks on reducing the risk of nuclear war. However, it did not offer a ceasefire plan for the wars in Ukraine or Iran.",
+      "gk": "APEC (Asia-Pacific Economic Cooperation) was set up in 1989 and has 21 member economies. India is not a member.",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/19/groundbreaking-trump-xi-putin-summit-five-key-takeaways"
+    },
+    {
+      "aud": "students",
+      "cat": "Environment",
+      "place": "Visakhapatnam · India",
+      "title": "Severe cyclonic storm Akvan is expected to hit the Andhra Pradesh-Odisha coast today.",
+      "summary": "The India Meteorological Department (IMD) said severe cyclonic storm Akvan would cross the north Andhra Pradesh and south Odisha coasts, between Narsapur and Puri, by noon or afternoon on 20 November 2026. Winds of 90-100 km/h, gusting up to 110 km/h, were forecast. The NDRF deployed 31 teams across five states and one Union Territory, with 18 more on standby. About 72,000 people were moved to safety in Odisha.",
+      "gk": "Cyclones in the North Indian Ocean are named from a list prepared by the WMO/ESCAP Panel member countries. The name 'Akvan' was suggested by Iran.",
+      "source": "News On AIR; India TV News",
+      "url": "https://newsonair.gov.in/cyclone-akvan-intensifies-into-severe-cyclonic-storm-set-to-hit-andhra-pradesh-odisha-coasts-tomorrow/"
+    },
+    {
+      "aud": "students",
+      "cat": "Sports",
+      "place": "Bhopal · India",
+      "title": "India's women beat Malaysia 4-1 to begin their Asian Champions Trophy hockey title defence.",
+      "summary": "Defending champions India came from a goal behind to beat Malaysia 4-1 in Bhopal on 19 November 2026. Mumtaz Khan, captain Salima Tete, Puja Sahoo and Lalremsiami scored for India. The match was played at the International Sports Complex, Nathu Barkheda. India play South Korea next, on 21 November.",
+      "gk": "Bhopal is the capital of Madhya Pradesh. National Sports Day (29 August) marks the birthday of hockey legend Major Dhyan Chand.",
+      "source": "The Tribune",
+      "url": "https://www.tribuneindia.com/news/asian-champions-trophy/india-rally-past-malaysia-4-1-to-begin-title-defence-at-womens-asian-champions-trophy-2026"
+    },
+    {
+      "aud": "adults",
+      "cat": "Economy",
+      "place": "New Delhi · India",
+      "title": "The 45th India International Trade Fair (IITF) opens to the public at Bharat Mandapam with the theme 'Vikas aur Virasat'.",
+      "summary": "The 45th IITF, organised by the India Trade Promotion Organisation (ITPO), opened to the general public on 19 November 2026 at Bharat Mandapam, New Delhi, and will run until 27 November. Its theme is 'Vikas aur Virasat'. Senior citizens and persons with disabilities get free entry on general days with a valid government ID. Tickets are sold online, on the IITF 2026 app and at 55 Delhi Metro stations.",
+      "gk": "ITPO is the Government of India's trade promotion agency under the Department of Commerce. Bharat Mandapam is in the Pragati Maidan complex.",
+      "exam": "Remember: IITF 2026 = 45th edition; theme 'Vikas aur Virasat'; venue Bharat Mandapam; organiser ITPO; 19-27 Nov for the public.",
+      "source": "News On AIR",
+      "url": "https://newsonair.gov.in/india-international-trade-fair-2026-opens-to-general-public-from-today-at-bharat-mandapam/"
+    },
+    {
+      "aud": "adults",
+      "cat": "Schemes & Policy",
+      "place": "New Delhi · India",
+      "title": "Road Transport Ministry revises PUC certificate validity based on emission norm and vehicle age.",
+      "summary": "On 19 November 2026, the Ministry of Road Transport and Highways (MoRTH) amended the Central Motor Vehicles Rules, 1989 to change how long Pollution Under Control (PUC) certificates stay valid. BS-VI private (non-transport) vehicles up to 6 years old now get 3 years, 6-10 years old get 1 year, and older ones 6 months; BS-VI transport vehicles up to 6 years old get 2 years. BS-IV vehicles get 6 months and BS-I to BS-III vehicles 3 months. A certificate renewed within 10 days before expiry will count from the original expiry date.",
+      "gk": "India jumped directly from BS-IV to BS-VI emission norms across the country on 1 April 2020, skipping BS-V.",
+      "exam": "Remember: PUC rules come under the Central Motor Vehicles Rules, 1989 (MoRTH); new BS-VI private vehicle (up to 6 yrs) = 3-year PUC; BS-I to III = 3 months.",
+      "source": "News On AIR",
+      "url": "https://newsonair.gov.in/govt-revises-puc-certificate-validity-extends-renewal-intervals-for-bs-vi-vehicles-for-six-months/"
+    },
+    {
+      "aud": "adults",
+      "cat": "Banking",
+      "place": "New Delhi · India",
+      "title": "Public sector banks post their highest-ever half-yearly net profit of Rs 1,09,540 crore in H1 FY2026-27.",
+      "summary": "The Finance Ministry said on 18 November 2026 that India's 12 public sector banks earned a combined net profit of Rs 1,09,540 crore in April-September 2026, up 16.9% from a year earlier. Operating profit rose 13.9% to about Rs 1.81 lakh crore. Gross NPA fell to 1.69% and net NPA to 0.33%, while the capital adequacy ratio (CRAR) stood at 16.89%. Their total business crossed Rs 300 lakh crore for the first time.",
+      "gk": "14 major commercial banks were nationalised on 19 July 1969. SBI, India's largest public sector bank, is headquartered in Mumbai.",
+      "exam": "Remember: 12 PSBs; H1 FY27 net profit Rs 1,09,540 crore (+16.9%); GNPA 1.69%, NNPA 0.33%; CRAR 16.89%; business > Rs 300 lakh crore.",
+      "source": "Business Today",
+      "url": "https://www.businesstoday.in/industry/banks/story/psu-banks-post-record-rs-1-09-lakh-crore-profit-in-h1-fy27-bad-loans-hit-new-low-568264-2026-11-18"
+    },
+    {
+      "aud": "adults",
+      "cat": "Appointments",
+      "place": "New Delhi · India",
+      "title": "Former Supreme Court judge Justice Rajesh Bindal takes charge as Chairperson of NCLAT.",
+      "summary": "Justice Rajesh Bindal assumed charge as Chairperson of the National Company Law Appellate Tribunal (NCLAT) on 19 November 2026. The post had been vacant since Justice Ashok Bhushan's term ended on 4 July 2026, with Justice Yogesh Khanna as officiating chairperson. Justice Bindal earlier served as Chief Justice of the Calcutta and Allahabad High Courts and was a Supreme Court judge from February 2023 until April 2026.",
+      "gk": "NCLAT was set up under Section 410 of the Companies Act, 2013. It also hears appeals under the Insolvency and Bankruptcy Code, 2016.",
+      "exam": "Remember: NCLAT Chairperson = Justice Rajesh Bindal (from 19 Nov 2026), after Justice Ashok Bhushan; NCLAT = Sec 410, Companies Act 2013.",
+      "source": "Dynamite News",
+      "url": "https://www.dynamitenews.com/national/former-supreme-court-judge-rajesh-bindal-assumes-charge-as-nclat-chief"
+    },
+    {
+      "aud": "adults",
+      "cat": "Awards",
+      "place": "New Delhi · India",
+      "title": "Mozambican rights activist Graça Machel receives the 2025 Indira Gandhi Prize for Peace, Disarmament and Development.",
+      "summary": "On 19 November 2026, Indira Gandhi's birth anniversary, Sonia Gandhi presented the 2025 Indira Gandhi Prize for Peace, Disarmament and Development to Graça Machel in New Delhi. The prize honours her lifelong work for justice and human dignity. This includes decades of work for children's rights, education, women's empowerment and peace-building in Africa.",
+      "gk": "The Indira Gandhi Prize is given by the Indira Gandhi Memorial Trust and was started in 1986. 19 November is observed as National Integration Day.",
+      "exam": "Remember: Indira Gandhi Peace Prize 2025 = Graça Machel (Mozambique); given by Indira Gandhi Memorial Trust; instituted 1986.",
+      "source": "SocialNews.XYZ (IANS)",
+      "url": "https://www.socialnews.xyz/2026/11/19/we-celebrate-life-of-courage-compassion-and-service-says-sonia-gandhi-gives-indira-gandhi-peace-prize-to-garca-machel/"
+    },
+    {
+      "aud": "adults",
+      "cat": "Defence",
+      "place": "Tokyo · Japan",
+      "title": "Rajnath Singh holds defence talks with Japan's Defence Minister Shinjiro Koizumi in Tokyo.",
+      "summary": "On 19 November 2026, Defence Minister Rajnath Singh and Japanese Defence Minister Shinjiro Koizumi held delegation-level talks in Tokyo. Singh called defence and security cooperation a growing pillar of India-Japan ties and pushed for more joint development, joint manufacturing and long-term technology partnerships. Koizumi said the region's security situation is becoming more severe. The visit coincided with the India-Japan 2+2 Dialogue.",
+      "gk": "India-Japan military exercises: JIMEX (navies), Dharma Guardian (armies) and Veer Guardian (air forces).",
+      "exam": "Remember: India-Japan 2+2 and defence talks in Tokyo; Japan's Defence Minister = Shinjiro Koizumi; Dharma Guardian = army exercise.",
+      "source": "News On AIR",
+      "url": "https://newsonair.gov.in/india-and-japan-discuss-defence-and-security-cooperation-during-delegation-level-talks/"
+    }
+  ],
+  "quiz": [
+    {
+      "headline": 1,
+      "q": "Where is the first SCO Civilisational Dialogue Forum being held?",
+      "options": [
+        "India Gate",
+        "Red Fort",
+        "Qutub Minar",
+        "Purana Qila"
+      ],
+      "answer": 3,
+      "explain": "PM Modi inaugurates the three-day forum at Purana Qila, New Delhi, on 20 November 2026."
+    },
+    {
+      "headline": 2,
+      "q": "Which country is the 'Country of Honour' at IFFI 2026 in Goa?",
+      "options": [
+        "Russia",
+        "Spain",
+        "Japan",
+        "France"
+      ],
+      "answer": 1,
+      "explain": "Spain is the Country of Honour; Russia is the Partner Country."
+    },
+    {
+      "headline": 3,
+      "q": "Which country filed the Rohingya genocide case against Myanmar at the ICJ?",
+      "options": [
+        "The Gambia",
+        "Bangladesh",
+        "Malaysia",
+        "Indonesia"
+      ],
+      "answer": 0,
+      "explain": "The Gambia filed the case in 2019; the ICJ ruled 9-6 on 19 November 2026."
+    },
+    {
+      "headline": 4,
+      "q": "Which Chinese city hosted the first three-way meeting of Trump, Xi and Putin?",
+      "options": [
+        "Beijing",
+        "Shanghai",
+        "Shenzhen",
+        "Guangzhou"
+      ],
+      "answer": 2,
+      "explain": "The leaders met in Shenzhen on 19 November 2026, alongside the APEC summit."
+    },
+    {
+      "headline": 5,
+      "q": "Which country gave the name 'Akvan' to the cyclone in the Bay of Bengal?",
+      "options": [
+        "India",
+        "Oman",
+        "Bangladesh",
+        "Iran"
+      ],
+      "answer": 3,
+      "explain": "Akvan is a name suggested by Iran for the North Indian Ocean list."
+    },
+    {
+      "headline": 6,
+      "q": "Who captained India in their 4-1 win over Malaysia at the Women's Asian Champions Trophy?",
+      "options": [
+        "Savita Punia",
+        "Salima Tete",
+        "Lalremsiami",
+        "Rani Rampal"
+      ],
+      "answer": 1,
+      "explain": "Captain Salima Tete scored one of India's four goals in Bhopal."
+    },
+    {
+      "headline": 7,
+      "q": "What is the theme of the 45th India International Trade Fair (IITF) 2026?",
+      "options": [
+        "Vikas aur Virasat",
+        "Vocal for Local",
+        "Ek Bharat Shreshtha Bharat",
+        "Viksit Bharat@2047"
+      ],
+      "answer": 0,
+      "explain": "IITF 2026 at Bharat Mandapam carries the theme 'Vikas aur Virasat'."
+    },
+    {
+      "headline": 8,
+      "q": "Under the revised rules, how long is a PUC certificate valid for a BS-VI private vehicle up to 6 years old?",
+      "options": [
+        "6 months",
+        "1 year",
+        "3 years",
+        "2 years"
+      ],
+      "answer": 2,
+      "explain": "MoRTH's 19 November amendment gives 3 years; transport vehicles of the same age get 2 years."
+    },
+    {
+      "headline": 9,
+      "q": "What was the gross NPA ratio of public sector banks at the end of September 2026?",
+      "options": [
+        "2.58%",
+        "0.33%",
+        "3.12%",
+        "1.69%"
+      ],
+      "answer": 3,
+      "explain": "Gross NPA was 1.69%; net NPA was 0.33%."
+    },
+    {
+      "headline": 10,
+      "q": "Who took charge as Chairperson of NCLAT on 19 November 2026?",
+      "options": [
+        "Justice Ashok Bhushan",
+        "Justice Rajesh Bindal",
+        "Justice Yogesh Khanna",
+        "Justice Sanjay Karol"
+      ],
+      "answer": 1,
+      "explain": "Former SC judge Rajesh Bindal succeeded Justice Ashok Bhushan."
+    },
+    {
+      "headline": 11,
+      "q": "Graça Machel, winner of the 2025 Indira Gandhi Peace Prize, is from which country?",
+      "options": [
+        "South Africa",
+        "Kenya",
+        "Mozambique",
+        "Ghana"
+      ],
+      "answer": 2,
+      "explain": "She is a Mozambican rights activist known for work on children's rights and education."
+    },
+    {
+      "headline": 12,
+      "q": "'Dharma Guardian' is a military exercise between India and which country?",
+      "options": [
+        "Japan",
+        "France",
+        "Australia",
+        "USA"
+      ],
+      "answer": 0,
+      "explain": "Dharma Guardian is the India-Japan army exercise; JIMEX is the naval one."
+    }
+  ],
+  "ai": [
+    {
+      "aud": "students",
+      "place": "Seoul · South Korea",
+      "title": "South Korea takes special steps to stop cheating with AI gadgets in its big college entrance exam.",
+      "summary": "South Korea held its College Scholastic Ability Test, called the Suneung, on 19 November 2026. Officials were worried that students might cheat using AI devices such as smart glasses, tiny cameras and earphones. Every test centre had at least one staff member to check for smart devices, and public Wi-Fi was to be switched off. A student caught using such a device has the exam cancelled and loses the chance to sit it the next year.",
+      "gk": "Seoul is the capital of South Korea, and its currency is the won.",
+      "source": "JKN (Jaekyung Ilbo), English edition",
+      "url": "https://news.jkn.co.kr/editions/english/post/1100698",
+      "quiz": {
+        "q": "What is South Korea's national college entrance exam called?",
+        "options": [
+          "Gaokao",
+          "SAT",
+          "Suneung",
+          "Abitur"
+        ],
+        "answer": 2,
+        "explain": "South Korea's exam is the Suneung; the Gaokao is China's."
+      }
+    },
+    {
+      "aud": "students",
+      "place": "Mountain View · USA",
+      "title": "Google lets US schools switch its AI tools on or off, but schools that block AI completely will lose Google Search.",
+      "summary": "Under a new policy announced in November 2026, school administrators in the US can turn Google's AI tools, such as Gemini, on or off for student accounts, and the tools will be off by default from early 2027. But districts that block AI entirely will also lose Google Search for those student accounts. Google is also adding a 'Guided Learning' mode that teaches step by step instead of giving direct answers. Many schools and experts are now debating the rule.",
+      "gk": "Google was founded in 1998 by Larry Page and Sergey Brin. Its parent company is Alphabet Inc.",
+      "source": "FOX 5 New York (also NPR via OPB)",
+      "url": "https://fox5ny.com/news/google-cut-search-access-schools-completely-block-new-ai-tools",
+      "quiz": {
+        "q": "What does Google's 'Guided Learning' mode do?",
+        "options": [
+          "Gives direct answers faster",
+          "Teaches step by step instead of giving answers",
+          "Blocks all websites",
+          "Grades exams automatically"
+        ],
+        "answer": 1,
+        "explain": "Guided Learning coaches students with step-by-step questions rather than just handing over answers."
+      }
+    },
+    {
+      "aud": "adults",
+      "place": "Chennai · India",
+      "title": "IIT Madras-incubated Bodhan AI partners with education groups to train over 10 lakh school teachers in AI.",
+      "summary": "DT Next reported (updated 17 November 2026) that Bodhan AI, IIT Madras's Centre of Excellence in AI for Education, has partnered with Learning Links Foundation and Vidya Shakti for a nationwide rollout, and with the Centre for Teacher Accreditation (CENTA) for Andhra Pradesh. The goal is to train more than 10 lakh teachers over 12-18 months through a train-the-trainer model. The course has three phases: AI literacy and responsible use, classroom use, and school-level integration. Vidya Shakti has already trained about 4,000 teachers in 6 states and 1 UT.",
+      "gk": "IIT Madras was established in 1959.",
+      "exam": "Remember: Bodhan AI = IIT Madras CoE for AI in Education; target 10 lakh teachers; partners Learning Links Foundation, Vidya Shakti, CENTA.",
+      "source": "DT Next",
+      "url": "https://www.dtnext.in/news/chennai/iit-madras-incubated-bodhan-ai-joins-hands-with-education-bodies-to-train-1-million-teachers",
+      "quiz": {
+        "q": "Bodhan AI, which aims to train over 10 lakh teachers in AI, is incubated at which institution?",
+        "options": [
+          "IIT Bombay",
+          "IISc Bengaluru",
+          "IIT Kanpur",
+          "IIT Madras"
+        ],
+        "answer": 3,
+        "explain": "Bodhan AI is IIT Madras's Centre of Excellence in AI for Education."
+      }
+    },
+    {
+      "aud": "adults",
+      "place": "Lahore · Pakistan",
+      "title": "Pakistan's Punjab province will train 25,898 government school teachers to use AI.",
+      "summary": "On 19 November 2026, 24NewsHD reported that the Punjab government in Pakistan will train 25,898 public school teachers in artificial intelligence through its School Education Department and PECTAA. Training runs in five batches at tehsil level from 23 November to 3 December 2026. One teacher from each government primary and elementary school will learn to use AI for lesson planning, assessment and making learning material, and to use it safely. These 'AI focal persons' will then guide other teachers in their schools.",
+      "gk": "Lahore is the capital of Pakistan's Punjab province; Chandigarh is the capital of India's Punjab.",
+      "exam": "Remember: there are two Punjabs - India's (capital Chandigarh) and Pakistan's (capital Lahore); this news is about Pakistan's.",
+      "source": "24NewsHD",
+      "url": "https://24newshd.tv/19-Nov-2026/25-000-punjab-teachers-get-ai-training",
+      "quiz": {
+        "q": "How many teachers does Pakistan's Punjab plan to train in AI?",
+        "options": [
+          "25,898",
+          "2,589",
+          "52,898",
+          "2.5 lakh"
+        ],
+        "answer": 0,
+        "explain": "The plan covers 25,898 teachers in five batches from 23 November to 3 December 2026."
+      }
+    }
+  ],
+  "weather": {
+    "city": "Delhi-NCR",
+    "days": [
+      {
+        "date": "2026-11-20",
+        "condition": "Moderate fog in the morning; mainly clear",
+        "max": 26,
+        "min": 12
+      },
+      {
+        "date": "2026-11-21",
+        "condition": "Moderate fog in the morning; mainly clear",
+        "max": 26,
+        "min": 14
+      },
+      {
+        "date": "2026-11-22",
+        "condition": "Moderate fog in the morning; mainly clear",
+        "max": 26,
+        "min": 13
+      },
+      {
+        "date": "2026-11-23",
+        "condition": "Shallow fog in the morning; mainly clear",
+        "max": 25,
+        "min": 12
+      },
+      {
+        "date": "2026-11-24",
+        "condition": "Shallow fog in the morning; mainly clear",
+        "max": 25,
+        "min": 12
+      }
+    ],
+    "facts": [
+      {
+        "label": "Sunrise",
+        "value": "06:47"
+      },
+      {
+        "label": "Sunset",
+        "value": "about 17:26"
+      },
+      {
+        "label": "Yesterday's max/min (Safdarjung)",
+        "value": "28.1 °C / 10.6 °C (min 1.7 °C below normal); no rain"
+      },
+      {
+        "label": "IMD warnings for Delhi",
+        "value": "None in the city forecast; dense fog was flagged for Delhi, Punjab and Haryana up to 20 Nov"
+      }
+    ],
+    "note": "Thursday night was cold again at 10.6 °C at Safdarjung. IMD expects dry weather for the next five days, with fog every morning, days of 25-26 °C and nights of 12-14 °C. Still air may keep pollution high. Figures are IMD's point forecasts from its 19 Nov city report; today's sunset is approximate (yesterday's time).",
+    "regionSource": "News On AIR (19 Nov); News24 (17 Nov) and The Week (16 Nov), citing IMD",
+    "regionUrl": "https://newsonair.gov.in/cyclone-akvan-intensifies-into-severe-cyclonic-storm-set-to-hit-andhra-pradesh-odisha-coasts-tomorrow/",
+    "regions": [
+      {
+        "icon": "storm",
+        "alert": true,
+        "name": "North Andhra Pradesh & south Odisha coast",
+        "outlook": "Severe cyclonic storm Akvan expected to cross the coast between Narsapur and Puri by noon or afternoon today (20 Nov), with winds of 90-100 km/h gusting to 110 km/h."
+      },
+      {
+        "icon": "rain",
+        "alert": true,
+        "name": "Coastal Andhra Pradesh & south Odisha",
+        "outlook": "Orange alert for heavy rain today in districts such as Srikakulam, Vizianagaram, Kakinada, Ganjam, Gajapati and Koraput; heavy to very heavy rain in Odisha up to 21 Nov."
+      },
+      {
+        "icon": "rain",
+        "alert": true,
+        "name": "North Tamil Nadu & Puducherry",
+        "outlook": "Very heavy rain likely at isolated places today."
+      },
+      {
+        "icon": "fog",
+        "alert": true,
+        "name": "Delhi, Punjab, Haryana & Chandigarh",
+        "outlook": "Dense fog in the early mornings; drive slowly with low-beam lights."
+      },
+      {
+        "icon": "smog",
+        "name": "Delhi-NCR",
+        "outlook": "Air quality 'poor' and close to 'very poor'; weak winds over the next two days will trap pollution."
+      }
+    ],
+    "source": "IMD City Weather, New Delhi-Safdarjung (report dated 19 Nov 2026)",
+    "url": "https://city.imd.gov.in/citywx/city_weather_test_try_warnings.php?id=42182"
+  },
+  "aqi": {
+    "asOf": "Thursday 19 Nov 2026: day's CPCB figures for Ghaziabad, Delhi and Noida (reported 10:29 pm); morning CPCB readings for Gurugram and Faridabad",
+    "cities": [
+      {
+        "name": "Ghaziabad",
+        "aqi": 222,
+        "home": true
+      },
+      {
+        "name": "Delhi",
+        "aqi": 286
+      },
+      {
+        "name": "Noida",
+        "aqi": 240
+      },
+      {
+        "name": "Gurugram",
+        "aqi": 271
+      },
+      {
+        "name": "Faridabad",
+        "aqi": 207
+      }
+    ],
+    "note": "Air got worse on Thursday: Delhi's AQI rose to 286 from 232 a day earlier, and Ghaziabad (222) and Noida (240) were also 'poor'. Gurugram (271) and Faridabad (207) are Thursday morning readings, as later figures for them could not be found. GRAP Stage II remains in force across Delhi-NCR (Stage III was withdrawn on 17 November). Weak winds may push AQI towards 'very poor'.",
+    "source": "The Hans India (CPCB data); IANS via The Assam Tribune",
+    "url": "https://www.thehansindia.com/news/cities/new-delhi/new-delhi-city-chokes-again-as-pollution-surges-1143715"
+  }
+}
