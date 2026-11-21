@@ -1,0 +1,494 @@
+{
+  "date": "2026-11-21",
+  "title": "Modi opens SCO dialogue forum as SCO turns 25; Botswana-born cheetah gives birth to four cubs; India develops first home-grown bird flu vaccine",
+  "updatedAt": "2026-11-21T06:15:00+05:30",
+  "morning": {
+    "greeting": "Good morning, and happy World Television Day!",
+    "line": "It's Saturday, the end of the school week. Mornings are foggy and the air is 'poor', so wear a mask outdoors and be careful on the roads.",
+    "thought": "A screen can show you the whole world, but only your own eyes and mind can decide what is true. Watch wisely, and question what you see.",
+    "day": {
+      "name": "World Television Day",
+      "about": "World Television Day is observed on 21 November. The UN General Assembly proclaimed it in December 1996 to mark the first World Television Forum, held on 21-22 November 1996. The day celebrates television as a tool for communication, education and sharing information. In India, Doordarshan began as an experimental service in Delhi on 15 September 1959."
+    },
+    "word": {
+      "word": "Indigenous",
+      "meaning": "(adjective) produced, growing or developed naturally in a particular country or region; home-grown.",
+      "example": "India's first indigenous bird flu vaccine was developed in Bhopal."
+    },
+    "task": "Watch or read one news story today with a family member. Then write two lines: what the story was about, and one question you would like to ask about it."
+  },
+  "headlines": [
+    {
+      "aud": "students",
+      "cat": "National",
+      "place": "New Delhi · India",
+      "title": "PM Modi inaugurates the first SCO Civilisational Dialogue Forum as the SCO completes 25 years.",
+      "summary": "Prime Minister Narendra Modi inaugurated the first Shanghai Cooperation Organisation (SCO) Civilisational Dialogue Forum at Purana Qila, New Delhi, on 20 November 2026. He said the SCO has completed 25 years and that cultural ties are the strongest guarantee of global peace. He asked member countries to use digital tools to share knowledge, digitise and translate ancient texts, and carry out joint research. He also toured the 'ASTITVA' exhibition on Delhi's history. The three-day forum runs till 22 November.",
+      "gk": "The SCO was founded in 2001 in Shanghai, China. India became a full member in 2017. 'Vasudhaiva Kutumbakam' means 'the world is one family'.",
+      "source": "News On AIR",
+      "url": "https://newsonair.gov.in/pm-modi-says-sco-creates-fresh-opportunities-for-cultural-cooperation-to-bring-world-together/"
+    },
+    {
+      "aud": "students",
+      "cat": "Environment",
+      "place": "Madhya Pradesh · India",
+      "title": "A Botswana-born cheetah gives birth to four cubs in the wild; India's cheetah count rises to 62.",
+      "summary": "KOMG 3, a female cheetah about two and a half years old brought from Botswana, gave birth to four healthy cubs in the wild on 20 November 2026. Environment Minister Bhupender Yadav said India now has 62 cheetahs, of which 43 were born in India. KOMG 3 is the first female cheetah from Botswana to give birth in India. She had lived in the wild for more than four months before the birth. It is only the second recorded birth in the wild since Project Cheetah began in 2022.",
+      "gk": "Project Cheetah began on 17 September 2022 at Kuno National Park, Madhya Pradesh. The cheetah was declared extinct in India in 1952.",
+      "source": "News On AIR",
+      "url": "https://newsonair.gov.in/botswana-born-female-cheetah-gives-birth-to-four-cubs-in-india/"
+    },
+    {
+      "aud": "students",
+      "cat": "Science",
+      "place": "Bhopal · India",
+      "title": "India develops its first home-grown H5N1 bird flu vaccine for poultry.",
+      "summary": "Union Agriculture Minister Shivraj Singh Chouhan dedicated India's first indigenous H5N1 bird flu vaccine to the nation on 20 November 2026. It was developed by the ICAR-National Institute of High Security Animal Diseases (NIHSAD) in Bhopal. He called it a historic step for animal health. The vaccine is meant to protect the poultry sector and the livelihoods of poultry farmers.",
+      "gk": "H5N1 is a type of avian influenza (bird flu) virus. ICAR stands for Indian Council of Agricultural Research, set up in 1929.",
+      "source": "News On AIR",
+      "url": "https://newsonair.gov.in/india-develops-first-indigenous-h5n1-bird-flu-vaccine/"
+    },
+    {
+      "aud": "students",
+      "cat": "World",
+      "place": "Khartoum · Sudan",
+      "title": "Sudan's war leaves millions of children, especially those with disabilities, out of school.",
+      "summary": "Al Jazeera reported on 20 November 2026 that the war in Sudan, which began in April 2023, has shut many special schools. Citing UNICEF, it said at least 8 million school-age children in Sudan have no access to formal education. As of August, about 30 per cent of schools were not working. Before the war Sudan had more than 230 schools for children with disabilities, and many have closed. Education groups are asking for a national survey and for special education centres to be rebuilt.",
+      "gk": "Khartoum, the capital of Sudan, lies where the Blue Nile and White Nile meet. UNICEF is the UN's agency for children, founded in 1946.",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/20/sudans-war-leaves-disabled-children-missing-out-on-education"
+    },
+    {
+      "aud": "students",
+      "cat": "World",
+      "place": "Berlin · Germany",
+      "title": "Qatar pledges 15 billion euros of new investment in Germany during its Emir's Berlin visit.",
+      "summary": "Qatar's Emir, Sheikh Tamim bin Hamad Al Thani, held talks with German leaders in Berlin on 20 November 2026. Chancellor Friedrich Merz said Qatar had pledged an extra 15 billion euros (about 16.5 billion US dollars) of investment. The money is meant to boost cooperation in AI, computer chips and aviation, and both countries will work together against cyberattacks. German President Frank-Walter Steinmeier proposed a regional security conference for the Middle East. The Emir invited him to the Doha Forum on 5-6 December.",
+      "gk": "Doha is the capital of Qatar and Berlin is the capital of Germany. The euro is the currency of Germany.",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/20/qatar-and-germany-deepen-strategic-ties-during-emirs-berlin-visit"
+    },
+    {
+      "aud": "students",
+      "cat": "Sports",
+      "place": "Hong Kong",
+      "title": "Lakshya Sen and Satwik-Chirag storm into the Hong Kong Open badminton semi-finals.",
+      "summary": "Lakshya Sen beat eighth seed Loh Kean Yew of Singapore 21-17, 10-21, 21-13 in the Hong Kong Open quarter-finals on 20 November 2026. Satwiksairaj Rankireddy and Chirag Shetty beat China's Hu Ke Yuan and Lin Xiang Yi 21-12, 13-21, 21-16 to reach the men's doubles semi-finals. Lakshya has already qualified for the BWF World Tour Finals. Kidambi Srikanth and Rakshitha Ramraj lost their quarter-final matches to Thai players.",
+      "gk": "Badminton games are played to 21 points. Lakshya Sen is from Almora, Uttarakhand. BWF stands for Badminton World Federation.",
+      "source": "News On AIR",
+      "url": "https://newsonair.gov.in/badminton-lakshya-sen-enters-mens-singles-semifinals-of-hong-kong-open/"
+    },
+    {
+      "aud": "adults",
+      "cat": "Banking",
+      "place": "New Delhi · India",
+      "title": "EPFO board approves a Systematic Withdrawal Plan and eases final PF withdrawal rules.",
+      "summary": "The 240th meeting of EPFO's Central Board of Trustees, chaired by Labour Minister Dr Mansukh Mandaviya on 19 November 2026, approved a voluntary Systematic Withdrawal Plan (SWP). Retiring members can take their money in monthly, quarterly or half-yearly instalments while the rest keeps earning interest. About 6.32 lakh members above 55 with balances over Rs 5 lakh are expected to benefit first. The minimum balance requirement was cut from 25% to 10%, and the waiting period for final withdrawal from 12 months to 2 months. The Board also amended the EDLI Scheme and approved investing up to 3% of fresh money in eligible Alternative Investment Funds.",
+      "gk": "EPFO (Employees' Provident Fund Organisation) was set up in 1952 under the Ministry of Labour and Employment; its CBT is chaired by the Labour Minister.",
+      "exam": "Remember: 240th CBT meeting; SWP for EPF; minimum balance 25% → 10%; final withdrawal wait 12 → 2 months; up to 3% in AIFs.",
+      "source": "CrackTarget (20 Nov current affairs)",
+      "url": "https://cracktarget.com/current-affairs-20-november-2026/#sec-banking"
+    },
+    {
+      "aud": "adults",
+      "cat": "Banking",
+      "place": "Mumbai · India",
+      "title": "RBI switches from absorbing to injecting liquidity with a Rs 50,000 crore three-day VRR auction.",
+      "summary": "On 19 November 2026 the RBI's overnight VRRR auction drew bids of only Rs 11,682 crore against Rs 50,000 crore offered, all accepted at a cut-off rate of 5.49%. The RBI then announced a three-day Variable Rate Repo (VRR) auction of Rs 50,000 crore for 20 November, to be reversed on 23 November. A VRRR takes surplus money out of banks, while a VRR puts money into the system. The switch shows that bank liquidity has become tighter.",
+      "gk": "Both VRR and VRRR are tools under the RBI's Liquidity Adjustment Facility (LAF). The RBI was set up on 1 April 1935.",
+      "exam": "Remember: VRRR = absorbs liquidity; VRR = injects liquidity; both under LAF. 20 Nov VRR: Rs 50,000 crore, 3 days.",
+      "source": "CrackTarget (20 Nov current affairs)",
+      "url": "https://cracktarget.com/current-affairs-20-november-2026/#sec-banking"
+    },
+    {
+      "aud": "adults",
+      "cat": "Economy",
+      "place": "Mumbai · India",
+      "title": "RBI's second report on Panchayat finances finds Gram Panchayats get about 90% of their money from transfers.",
+      "summary": "The RBI released the second edition of its biennial report on the Finances of Panchayati Raj Institutions on 19 November 2026. Its theme is 'Local Finances and Capacity Building in Rural India'. It studies 2.25 lakh Gram Panchayats from 2022-23 to 2024-25. Grants and transfers make up about 90% of their receipts, and their own revenue only about 10%. Water supply and sanitation take the biggest share of spending, about 40%.",
+      "gk": "The 73rd Constitutional Amendment Act, 1992 gave constitutional status to Panchayati Raj. National Panchayati Raj Day is 24 April.",
+      "exam": "Remember: RBI PRI report (2nd edition, biennial); theme 'Local Finances and Capacity Building in Rural India'; own revenue ~10%, transfers ~90%.",
+      "source": "CrackTarget (20 Nov current affairs)",
+      "url": "https://cracktarget.com/current-affairs-20-november-2026/#sec-banking"
+    },
+    {
+      "aud": "adults",
+      "cat": "Schemes",
+      "place": "New Delhi · India",
+      "title": "PM SVANidhi Samman Awards 2026 honour States, cities and lenders for supporting street vendors.",
+      "summary": "The Ministry of Housing and Urban Affairs held the PM SVANidhi Samman Awards 2026 at Dr Ambedkar International Centre, New Delhi, on 20 November 2026, with Union Minister Manohar Lal conferring them. There were 52 awards and 5 special recognitions, including 27 for 16 States and 3 UTs, 21 for urban local bodies and 4 for lending institutions. PM SVANidhi has helped about 81 lakh street vendors get over 1.21 crore loans worth about Rs 20,000 crore. The scheme was restructured in August 2025 and extended to March 2030.",
+      "gk": "PM SVANidhi (PM Street Vendor's AtmaNirbhar Nidhi) was launched on 1 June 2020; the 2025 revamp added a UPI-linked RuPay credit card of up to Rs 30,000.",
+      "exam": "Remember: PM SVANidhi launched 1 June 2020; Ministry: MoHUA; extended to March 2030; 52 awards + 5 special recognitions.",
+      "source": "CrackTarget (20 Nov current affairs)",
+      "url": "https://cracktarget.com/current-affairs-20-november-2026/#sec-schemes"
+    },
+    {
+      "aud": "adults",
+      "cat": "Economy",
+      "place": "New Delhi · India",
+      "title": "Piyush Goyal says India's FTAs now give preferential access to markets worth about US$ 70 trillion.",
+      "summary": "Commerce Minister Piyush Goyal spoke at the FICCI Annual General Meeting in New Delhi on 19 November 2026. He said India's preferential market access through trade agreements has grown by about US$ 60 trillion in four and a half years, to nearly US$ 70 trillion of world GDP. Talks under way with eight to nine regions could raise this to about US$ 85 trillion, nearly 76% of global GDP, within a year to a year and a half. He urged businesses to make use of the new Free Trade Agreements.",
+      "gk": "FTA = Free Trade Agreement. FICCI (Federation of Indian Chambers of Commerce and Industry) was founded in 1927 and is headquartered in New Delhi.",
+      "exam": "Remember: FTA coverage ~US$ 70 trillion now; target ~US$ 85 trillion (~76% of world GDP); said at FICCI AGM.",
+      "source": "CrackTarget (20 Nov current affairs)",
+      "url": "https://cracktarget.com/current-affairs-20-november-2026/#sec-economy"
+    },
+    {
+      "aud": "adults",
+      "cat": "International",
+      "place": "Rome · Italy",
+      "title": "23rd India-Italy Joint Commission for Economic Cooperation reaffirms a €20 billion trade target by 2029.",
+      "summary": "Piyush Goyal co-chaired the 23rd India-Italy Joint Commission for Economic Cooperation (JCEC) with Italy's Deputy Prime Minister and Foreign Minister Antonio Tajani in Rome on 18 November 2026. They reviewed cooperation under the Joint Strategic Action Plan 2025-2029 in automobiles, aerospace, Industry 4.0, energy, critical minerals and skills. Both sides welcomed the conclusion of India-EU Free Trade Agreement talks. They reaffirmed the goal of €20 billion in two-way trade by 2029. About 80 Indian business delegates, including 12 start-ups, joined a business forum in Rome.",
+      "gk": "Rome is Italy's capital and its currency is the euro. Italy is a member of the EU and the G7.",
+      "exam": "Remember: 23rd India-Italy JCEC, Rome; co-chairs Goyal & Tajani; Joint Strategic Action Plan 2025-2029; trade target €20 bn by 2029.",
+      "source": "CrackTarget (20 Nov current affairs)",
+      "url": "https://cracktarget.com/current-affairs-20-november-2026/#sec-ir"
+    }
+  ],
+  "quiz": [
+    {
+      "headline": 1,
+      "q": "Where was the first SCO Civilisational Dialogue Forum inaugurated?",
+      "options": [
+        "Red Fort",
+        "Purana Qila",
+        "Qutub Minar",
+        "Humayun's Tomb"
+      ],
+      "answer": 1,
+      "explain": "PM Modi inaugurated it at Purana Qila, New Delhi, on 20 November 2026."
+    },
+    {
+      "headline": 2,
+      "q": "India's cheetah population has now risen to how many?",
+      "options": [
+        "43",
+        "52",
+        "62",
+        "72"
+      ],
+      "answer": 2,
+      "explain": "Minister Bhupender Yadav said India has 62 cheetahs, 43 of them born in India."
+    },
+    {
+      "headline": 3,
+      "q": "Which institute developed India's first indigenous H5N1 bird flu vaccine?",
+      "options": [
+        "ICAR-NIHSAD, Bhopal",
+        "AIIMS, New Delhi",
+        "ISRO, Bengaluru",
+        "IISc, Bengaluru"
+      ],
+      "answer": 0,
+      "explain": "ICAR-National Institute of High Security Animal Diseases, Bhopal, developed it."
+    },
+    {
+      "headline": 4,
+      "q": "Citing UNICEF, how many school-age children in Sudan lack formal education?",
+      "options": [
+        "1 million",
+        "3 million",
+        "5 million",
+        "At least 8 million"
+      ],
+      "answer": 3,
+      "explain": "At least 8 million school-age children in Sudan have no access to formal education."
+    },
+    {
+      "headline": 5,
+      "q": "How much new investment did Qatar pledge in Germany?",
+      "options": [
+        "5 billion euros",
+        "10 billion euros",
+        "15 billion euros",
+        "25 billion euros"
+      ],
+      "answer": 2,
+      "explain": "Chancellor Merz said Qatar pledged an extra 15 billion euros."
+    },
+    {
+      "headline": 6,
+      "q": "Whom did Lakshya Sen beat in the Hong Kong Open quarter-finals?",
+      "options": [
+        "Kunlavut Vitidsarn",
+        "Loh Kean Yew",
+        "Viktor Axelsen",
+        "Lee Zii Jia"
+      ],
+      "answer": 1,
+      "explain": "He beat Singapore's eighth seed Loh Kean Yew 21-17, 10-21, 21-13."
+    },
+    {
+      "headline": 7,
+      "q": "Under EPFO's new rules, the minimum balance requirement was cut from 25% to:",
+      "options": [
+        "10%",
+        "5%",
+        "15%",
+        "20%"
+      ],
+      "answer": 0,
+      "explain": "The CBT reduced it from 25% to 10% and cut the final-withdrawal wait from 12 months to 2 months."
+    },
+    {
+      "headline": 8,
+      "q": "A Variable Rate Repo (VRR) auction by the RBI is used to:",
+      "options": [
+        "Absorb surplus liquidity",
+        "Change the repo rate",
+        "Inject liquidity into the banking system",
+        "Issue new currency"
+      ],
+      "answer": 2,
+      "explain": "VRR injects liquidity; VRRR absorbs it. Both come under the LAF."
+    },
+    {
+      "headline": 9,
+      "q": "According to RBI's report, about what share of Gram Panchayat receipts comes from transfers?",
+      "options": [
+        "50%",
+        "70%",
+        "40%",
+        "90%"
+      ],
+      "answer": 3,
+      "explain": "Transfers make up about 90%; own-source revenue is only about 10%."
+    },
+    {
+      "headline": 10,
+      "q": "PM SVANidhi has been extended until:",
+      "options": [
+        "March 2028",
+        "March 2030",
+        "December 2027",
+        "March 2035"
+      ],
+      "answer": 1,
+      "explain": "The scheme was restructured in August 2025 and extended to March 2030."
+    },
+    {
+      "headline": 11,
+      "q": "India's preferential market access through FTAs now covers nearly how much of global GDP?",
+      "options": [
+        "US$ 70 trillion",
+        "US$ 20 trillion",
+        "US$ 45 trillion",
+        "US$ 100 trillion"
+      ],
+      "answer": 0,
+      "explain": "Goyal said it has reached nearly US$ 70 trillion and could rise to about US$ 85 trillion."
+    },
+    {
+      "headline": 12,
+      "q": "What bilateral trade target did India and Italy reaffirm for 2029?",
+      "options": [
+        "€10 billion",
+        "€15 billion",
+        "€30 billion",
+        "€20 billion"
+      ],
+      "answer": 3,
+      "explain": "The 23rd JCEC in Rome reaffirmed €20 billion in two-way trade by 2029."
+    }
+  ],
+  "ai": [
+    {
+      "aud": "students",
+      "place": "California · USA",
+      "title": "Meta says it may delay its 2030 climate goal as AI data centres push its emissions up.",
+      "summary": "Meta, which owns Facebook, Instagram and WhatsApp, said in its yearly sustainability report that it is 're-evaluating' the timeline for its 2030 net-zero goal. Its net emissions rose 45% in 2025 to 11.8 million tonnes, mainly because of power-hungry AI data centres. Meta had set the net-zero target in 2020, in line with the Paris Agreement's 1.5°C limit. The International Energy Agency says electricity use by data centres worldwide could nearly double by 2030.",
+      "gk": "'Net zero' means removing as much greenhouse gas as you release. The Paris Agreement was adopted in 2015.",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/20/meta-rethinks-2030-climate-goals-as-ai-data-centres-drive-emissions-up",
+      "quiz": {
+        "q": "By how much did Meta's net emissions rise in 2025?",
+        "options": [
+          "15%",
+          "25%",
+          "45%",
+          "60%"
+        ],
+        "answer": 2,
+        "explain": "Meta's net emissions rose 45% to 11.8 million tonnes, driven by AI data centres."
+      }
+    },
+    {
+      "aud": "students",
+      "place": "USA",
+      "title": "Over 500 Google employees ask the company to let schools use Search without AI features.",
+      "summary": "More than 500 Google workers signed a petition called 'Let Students Search', filed by the Alphabet Workers Union. It asks Google leaders, including CEO Sundar Pichai, to let schools use Google Search without its AI features. This follows reports that students might lose Search access if their school bans AI. Big US school districts such as New York City, Los Angeles and Chicago are said to be considering other search engines. Google says a tool coming early next year will let schools switch Search, Gemini and other tools on or off separately.",
+      "gk": "Sundar Pichai, born in Madurai, is CEO of Google and its parent company Alphabet. Gemini is Google's AI model.",
+      "source": "Gizmodo",
+      "url": "https://gizmodo.com/google-employees-petition-to-let-schools-use-search-without-ai-2000842549",
+      "quiz": {
+        "q": "What is the Google employees' petition called?",
+        "options": [
+          "Let Students Search",
+          "Search for All",
+          "AI-Free Schools",
+          "Save Search"
+        ],
+        "answer": 0,
+        "explain": "The petition, filed by the Alphabet Workers Union, is titled 'Let Students Search'."
+      }
+    },
+    {
+      "aud": "adults",
+      "place": "Pune · India",
+      "title": "CBSE's National Teachers' Conference 2026 on Computational Thinking and AI is held on 20-21 November.",
+      "summary": "CBSE scheduled its two-day National Teachers' Conference (NTC) 2026 on 'Computational Thinking and Understanding AI' for 20-21 November in Pune. It is open to teachers, principals, counsellors and special educators of CBSE schools, as delegates or case-paper presenters. Its seven sub-themes include AI readiness, mathematics and AI, pedagogy and assessment, and responsible use of AI. Paper presenters first had to take part in district-level CT and AI deliberations. All participants receive a certificate of participation.",
+      "gk": "CBSE (Central Board of Secondary Education) was set up in 1929 and is headquartered in New Delhi. It comes under the Ministry of Education.",
+      "exam": "Remember: CBSE NTC 2026 theme 'Computational Thinking and Understanding AI'; Pune; 20-21 Nov 2026; seven sub-themes.",
+      "source": "Free Press Journal",
+      "url": "https://www.freepressjournal.in/amp/education/cbse-opens-registration-for-two-day-national-teachers-conference-2026-on-computational-thinking-ai-scheduled-for-november-2021",
+      "quiz": {
+        "q": "Where is CBSE's National Teachers' Conference 2026 on CT and AI being held?",
+        "options": [
+          "New Delhi",
+          "Bengaluru",
+          "Pune",
+          "Hyderabad"
+        ],
+        "answer": 2,
+        "explain": "The two-day conference is scheduled for 20-21 November 2026 in Pune."
+      }
+    },
+    {
+      "aud": "adults",
+      "place": "Washington, DC · USA",
+      "title": "Trump warns US tech firms against building AI data centres in other countries.",
+      "summary": "At a White House news conference on 20 November 2026, US President Donald Trump warned American tech companies not to build new AI data centres overseas. He said companies that try would face a 'tremendous tax' and penalties, claiming China would otherwise take them over. He gave no details on how this would be enforced. He also said he had not yet told his own officials about the plan.",
+      "gk": "A data centre is a large facility of computer servers that store data and run AI models. The White House is the US President's official residence.",
+      "exam": "Remember: 'data localisation' debates are a recurring theme; India's DPDP Act, 2023 governs personal data protection.",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/20/trump-defends-putin-relationship-warns-ai-data-centres-must-stay-in-us",
+      "quiz": {
+        "q": "What did Trump threaten companies that build AI data centres abroad with?",
+        "options": [
+          "A ban on exports",
+          "A 'tremendous tax' and penalties",
+          "Loss of licences",
+          "Higher interest rates"
+        ],
+        "answer": 1,
+        "explain": "He said such companies would face a 'tremendous tax' and penalties."
+      }
+    }
+  ],
+  "weather": {
+    "city": "Delhi-NCR",
+    "days": [
+      {
+        "date": "2026-11-21",
+        "condition": "Mist or shallow fog in the morning, moderate fog in places; partly cloudy",
+        "max": 26,
+        "min": 14
+      },
+      {
+        "date": "2026-11-22",
+        "condition": "Mist or shallow fog, moderate fog in a few places; partly cloudy",
+        "max": 26,
+        "min": 13
+      },
+      {
+        "date": "2026-11-23",
+        "condition": "Shallow fog in the morning; mainly clear",
+        "max": 25,
+        "min": 12
+      },
+      {
+        "date": "2026-11-24",
+        "condition": "Shallow fog in the morning; mainly clear",
+        "max": 25,
+        "min": 12
+      },
+      {
+        "date": "2026-11-25",
+        "condition": "Shallow fog in the morning; mainly clear",
+        "max": 25,
+        "min": 11
+      }
+    ],
+    "facts": [
+      {
+        "label": "Sunrise",
+        "value": "06:48"
+      },
+      {
+        "label": "Sunset",
+        "value": "about 17:26"
+      },
+      {
+        "label": "Latest max/min (Safdarjung)",
+        "value": "28.1 °C (Thu) / 10.5 °C (Fri morning, 1.8 °C below normal); no rain"
+      },
+      {
+        "label": "IMD warnings for Delhi",
+        "value": "None (impact 'NIL' for 20-21 Nov)"
+      }
+    ],
+    "note": "Friday morning was the coldest of the season so far at 10.5 °C at Safdarjung, with visibility down to 800 m in shallow fog. IMD expects dry weather all week: nights 2-3 °C warmer today, then cooling again, with days of 24-27 °C. Max/min figures are IMD's point forecasts from its 19 Nov city report; they sit within the ranges in IMD's 20 Nov Delhi bulletin (e.g. today 25-27 °C / 13-15 °C).",
+    "regionSource": "News On AIR (20 Nov); ETV Bharat (18 Nov), citing IMD",
+    "regionUrl": "https://newsonair.gov.in/cyclone-akvan-weakens-into-a-very-deep-depression/",
+    "regions": [
+      {
+        "icon": "rain",
+        "alert": true,
+        "name": "Odisha & north Andhra Pradesh",
+        "outlook": "Cyclone Akvan has weakened into a very deep depression after crossing the coast; Srikakulam got up to 20 cm of rain. More rain is forecast in north Odisha today."
+      },
+      {
+        "icon": "rain",
+        "name": "Odisha, Gangetic West Bengal, Jharkhand & Chhattisgarh",
+        "outlook": "Widespread rain expected up to 21 Nov."
+      },
+      {
+        "icon": "fog",
+        "alert": true,
+        "name": "Punjab, Haryana, Chandigarh & Delhi",
+        "outlook": "Dense fog in the early mornings up to 21 Nov; drive slowly with low-beam lights."
+      },
+      {
+        "icon": "rain",
+        "name": "Kerala, Tamil Nadu & Karnataka",
+        "outlook": "Isolated to scattered rain likely till 23 Nov."
+      },
+      {
+        "icon": "smog",
+        "name": "Delhi-NCR",
+        "outlook": "Air quality 'poor', with several Delhi stations 'very poor'; weak winds may worsen it over the weekend."
+      }
+    ],
+    "source": "IMD Regional Met Centre New Delhi, Daily Weather Report (20 Nov 2026, 13:30 IST)",
+    "url": "https://mausam.imd.gov.in/newdelhi/mcdata/delhi_forecast.pdf"
+  },
+  "aqi": {
+    "asOf": "Friday 20 Nov 2026, 8 am CPCB readings for Delhi, Noida, Gurugram and Faridabad; Ghaziabad's is Thursday 19 Nov's CPCB day figure (Friday's could not be found)",
+    "cities": [
+      {
+        "name": "Ghaziabad",
+        "aqi": 222,
+        "home": true
+      },
+      {
+        "name": "Delhi",
+        "aqi": 269
+      },
+      {
+        "name": "Noida",
+        "aqi": 226
+      },
+      {
+        "name": "Gurugram",
+        "aqi": 291
+      },
+      {
+        "name": "Faridabad",
+        "aqi": 165
+      }
+    ],
+    "note": "Delhi's AQI was 269 ('poor') on Friday morning, with 14 stations 'very poor' (Sirifort highest at 348). Gurugram (291) was the worst in NCR, while Faridabad (165) was 'moderate'. Ghaziabad's figure (222, 'poor') is from Thursday, as no newer reading could be fetched. GRAP Stages I and II remain in force across Delhi-NCR. Weak winds may push pollution up over the weekend.",
+    "source": "Business Standard (CPCB data); The Hans India (CPCB, for Ghaziabad)",
+    "url": "https://www.business-standard.com/india-news/delhi-s-aqi-improves-to-269-gurugram-s-air-remains-most-polluted-in-ncr-126112000144_1.html"
+  }
+}
