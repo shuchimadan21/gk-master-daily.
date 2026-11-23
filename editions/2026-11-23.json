@@ -1,0 +1,500 @@
+{
+  "date": "2026-11-23",
+  "title": "Nepal PM Balendra Shah begins first India visit; COP31 climate talks end without a deal; India post record 720/9 in Wellington Test",
+  "updatedAt": "2026-11-23T05:52:40+05:30",
+  "morning": {
+    "greeting": "Good morning, and happy Monday!",
+    "line": "It's Monday, the start of a new school week. Expect a misty start and 'poor' air in Delhi-NCR, so keep outdoor activity short. Tomorrow, Tuesday, is Gurpurab, the birth anniversary of Guru Nanak Dev Ji.",
+    "thought": "Talking is easy; listening until you truly understand the other side is what turns neighbours into friends.",
+    "day": {
+      "name": "This day in history: Sri Sathya Sai Baba's birth centenary",
+      "about": "Sri Sathya Sai Baba, the spiritual teacher who set up free schools, hospitals and drinking-water projects, was born on 23 November 1926 at Puttaparthi in present-day Andhra Pradesh. Today marks 100 years since his birth. The Sri Sathya Sai Water Supply Project brought drinking water to hundreds of villages in the drought-hit Anantapur district."
+    },
+    "word": {
+      "word": "Communiqué",
+      "meaning": "(noun) an official statement or announcement, especially one issued at the end of a meeting.",
+      "example": "The SCO forum in New Delhi ended with the 'Indraprastha Communiqué' on protecting cultural heritage."
+    },
+    "task": "Find Janakpur (Nepal) and Ayodhya (Uttar Pradesh) on a map. Roughly how far apart are they, and which river would a traveller cross on the way?"
+  },
+  "headlines": [
+    {
+      "aud": "students",
+      "cat": "National",
+      "place": "New Delhi · India",
+      "title": "Nepal's Prime Minister Balendra Shah arrives in New Delhi on his first visit to India since taking office.",
+      "summary": "Nepal's Prime Minister Balendra Shah reached New Delhi on 22 November 2026 for a two-day visit, his first bilateral trip abroad since becoming Prime Minister in March 2026. He was received by Minister of State Jitin Prasada, and External Affairs Minister S. Jaishankar called on him. On 23 November he is to get a ceremonial welcome at Rashtrapati Bhavan, pay tribute at Rajghat, meet President Droupadi Murmu and hold talks with PM Narendra Modi. The two leaders are also to flag off, by video link, a weekly train between Janakpur Dham in Nepal and Ayodhya in Uttar Pradesh.",
+      "gk": "Nepal's capital is Kathmandu. Janakpur in Nepal is believed to be the birthplace of Mata Sita, and Ayodhya the birthplace of Lord Ram. India and Nepal signed the Treaty of Peace and Friendship in 1950.",
+      "source": "CrackTarget (23 Nov current affairs, from PIB/AIR)",
+      "url": "https://cracktarget.com/current-affairs-23-november-2026/#sec-ir"
+    },
+    {
+      "aud": "students",
+      "cat": "National",
+      "place": "New Delhi · India",
+      "title": "The first SCO Civilisational Dialogue Forum ends in Delhi with the 'Indraprastha Communiqué' on protecting heritage.",
+      "summary": "The first Civilisational Dialogue Forum of the Shanghai Cooperation Organisation (SCO) ended at Purana Qila, New Delhi, on 22 November 2026. The three-day meeting was opened by PM Narendra Modi on 20 November and hosted by the Ministry of Culture and the Ministry of External Affairs. It brought together 116 delegates from 22 countries, including SCO Secretary-General Nurlan Yermekbayev. The final 'Indraprastha Communiqué', read out by Culture Secretary Vivek Aggarwal, calls for treating every civilisation as an equal voice. It also asks countries to protect cultural heritage, including from illegal trafficking of artefacts.",
+      "gk": "The SCO was founded in 2001 in Shanghai, China; India became a full member in 2017. Indraprastha was the legendary capital of the Pandavas in the Mahabharata, traditionally linked to the site of Purana Qila.",
+      "source": "ThePrint (PTI)",
+      "url": "https://theprint.in/india/sco-forum-issues-indraprastha-communique-calls-for-respecting-every-civilisation/3106050/"
+    },
+    {
+      "aud": "students",
+      "cat": "World",
+      "place": "Khasab · Oman",
+      "title": "Two oil tankers are hit near Oman in the Strait of Hormuz as Iran tightens its grip on shipping.",
+      "summary": "On 21 November 2026, the UK Maritime Trade Operations centre reported that two tankers were struck by unidentified objects in the Strait of Hormuz near Khasab, Oman. One was hit at the rear about 20 km north of Khasab, and the other in its engine room about 31 km east of the town. No one was reported hurt. Iran's navy said one tanker caught fire after hitting a mine in a restricted area, and accused it of sailing with its tracking system switched off. Before the current conflict, nearly a fifth of the world's crude oil passed through this narrow strait.",
+      "gk": "The Strait of Hormuz links the Persian Gulf with the Gulf of Oman and the Arabian Sea, with Iran on one side and Oman on the other. India imports much of its crude oil through this route.",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/21/tankers-hit-in-strait-of-hormuz-as-iran-tightens-grip-on-shipping"
+    },
+    {
+      "aud": "students",
+      "cat": "Environment",
+      "place": "Antalya · Türkiye",
+      "title": "COP31 climate summit ends without an agreement after countries split over fossil fuels.",
+      "summary": "The COP31 UN climate conference in Antalya, Türkiye, ended on Sunday, 22 November 2026, without a final climate pact. The talks, held from 9 to 20 November, ran two extra days but countries could not agree on how to mention coal, oil and gas. The European Union, Panama and the Marshall Islands objected to the final text, while Saudi Arabia defended references to carbon capture. UN Secretary-General António Guterres called the result deeply disappointing and warned that the world is heading past the 1.5°C warming limit. The next summit, COP32, will be held in Addis Ababa, Ethiopia.",
+      "gk": "COP means 'Conference of the Parties' to the UN Framework Convention on Climate Change (1992). COP28 in Dubai (2023) agreed on 'transitioning away from fossil fuels'; the 2015 Paris Agreement aims to limit warming to well below 2°C, preferably 1.5°C.",
+      "source": "UN News",
+      "url": "https://news.un.org/en/story/2026/11/1168855"
+    },
+    {
+      "aud": "students",
+      "cat": "Environment",
+      "place": "New Delhi · India",
+      "title": "Lok Sabha Speaker Om Birla calls for a people's movement to clean and protect the Yamuna.",
+      "summary": "Lok Sabha Speaker Om Birla spoke at a national campaign for the conservation of the river Yamuna at Bharat Mandapam, New Delhi, on 22 November 2026. He said saving the river needs a people's movement, not just government action. He asked that sewage and factory waste be stopped from flowing into the river and said industrial growth must not come at the cost of the environment. He also gave participants a pledge (sankalp) to protect the river. On the same day, a bird walk at Delhi's National Zoological Park recorded 45 bird species.",
+      "gk": "The Yamuna rises at the Yamunotri glacier in Uttarakhand and joins the Ganga at Prayagraj (the Triveni Sangam). It is the longest tributary of the Ganga.",
+      "source": "CrackTarget (23 Nov current affairs)",
+      "url": "https://cracktarget.com/current-affairs-23-november-2026/#sec-environment"
+    },
+    {
+      "aud": "students",
+      "cat": "Sports",
+      "place": "Wellington · New Zealand",
+      "title": "India score a record 720 for 9 in the first Test against New Zealand, with centuries from KL Rahul and Rishabh Pant.",
+      "summary": "India declared their first innings at 720 for 9 against New Zealand in the first Test at the Basin Reserve, Wellington, the highest Test total ever made in New Zealand. KL Rahul scored 136 and Rishabh Pant hit 128 off 153 balls. India led by 352 runs after New Zealand's first-innings 368. At the end of day four on 22 November, New Zealand were 119 for 2 in their second innings, still 233 runs behind. Jasprit Bumrah removed captain Tom Latham in the very first over.",
+      "gk": "'SENA' countries are South Africa, England, New Zealand and Australia. A Test match lasts up to five days, and each team gets two innings.",
+      "source": "ThePrint (PTI); CrackTarget",
+      "url": "https://theprint.in/sport/new-zealand-reach-119-2-at-stumps-on-day-four-trail-india-by-233-runs/3105572/"
+    },
+    {
+      "aud": "adults",
+      "cat": "Economy",
+      "place": "Pune · India",
+      "title": "Centre aims to grow India's textile market to US$ 350 billion by 2030-31, says Giriraj Singh.",
+      "summary": "Union Textiles Minister Giriraj Singh held a review meeting in Pune on 22 November 2026 and said the Centre aims to expand India's textile market to US$ 350 billion by 2030-31. The meeting reviewed handloom, handicrafts, the Cotton Corporation of India, the Central Silk Board, jute and State textile departments. He pointed out that western Maharashtra grows a lot of cotton but has few textile units. On the same day, Commerce Minister Piyush Goyal reviewed the tea sector at Kurseong, Darjeeling; India's tea exports in 2025-26 were 282.11 million kg worth US$ 988.13 million.",
+      "gk": "The PM MITRA scheme plans 7 mega textile parks across India. The Cotton Corporation of India and the Central Silk Board work under the Ministry of Textiles.",
+      "exam": "Remember: textile market target US$ 350 bn by 2030-31 (Giriraj Singh, Pune review); tea exports 2025-26 = 282.11 mn kg / US$ 988.13 mn (Goyal at Kurseong).",
+      "source": "CrackTarget (23 Nov current affairs, citing News On AIR)",
+      "url": "https://cracktarget.com/current-affairs-23-november-2026/#sec-economy"
+    },
+    {
+      "aud": "adults",
+      "cat": "Schemes",
+      "place": "Gandhinagar · Gujarat",
+      "title": "Labour Ministry launches NCS ONE portal and an Occupational Shortage Index at the Chintan Shivir.",
+      "summary": "Union Labour Minister Dr Mansukh Mandaviya launched several tools at the Labour Ministers' Chintan Shivir, which ended in Gandhinagar on 22 November 2026. NCS ONE (National Career Service Open Network for Employment) adds a voice bot and chat bot for job seekers. The Occupational Shortage Index (OSI) will track gaps between the demand for and supply of workers. An e-Shram Livelihood Profile Module links unorganised workers to 'Panch Suraksha' benefits such as food, health, insurance and pension. Eight NCS Career Lounges were also opened virtually in cities including Jaipur, Ludhiana, Kanpur and Varanasi, out of 200 planned.",
+      "gk": "The National Career Service portal was launched in 2015; the e-Shram portal (2021) is a national database of unorganised workers.",
+      "exam": "Remember: NCS ONE = National Career Service Open Network for Employment; OSI = Occupational Shortage Index; 8 NCS Career Lounges opened (200 planned); venue Gandhinagar.",
+      "source": "CrackTarget (23 Nov current affairs)",
+      "url": "https://cracktarget.com/current-affairs-23-november-2026/#sec-economy"
+    },
+    {
+      "aud": "adults",
+      "cat": "Banking",
+      "place": "Mumbai · India",
+      "title": "Foreign investors pour ₹1,22,265 crore into Indian shares in November; markets shut on 24 Nov for Gurpurab.",
+      "summary": "Foreign portfolio investors (FPIs) have invested ₹1,22,265 crore in Indian equities so far in November 2026, buying on every trading day except the Diwali Muhurat session. Reasons include easing geopolitical tension, softer crude oil prices, a stronger rupee and good company earnings; banking, telecom and consumer stocks drew the most money. Meanwhile, gold and silver fell for a second week because of a strong US dollar and high US bond yields: MCX December gold fell 10.9% to ₹1,21,778 per 10 g. Indian stock markets will remain closed on Tuesday, 24 November, for Gurpurab.",
+      "gk": "FPIs are regulated by SEBI (set up in 1988, given statutory powers in 1992). MCX (Multi Commodity Exchange) is India's largest commodity exchange.",
+      "exam": "Remember: FPI equity inflow Nov 2026 = ₹1,22,265 cr; MCX gold −10.9% to ₹1,21,778/10 g; silver −16.2%; markets closed 24 Nov (Gurpurab).",
+      "source": "CrackTarget (23 Nov current affairs, citing AIR)",
+      "url": "https://cracktarget.com/current-affairs-23-november-2026/#sec-banking"
+    },
+    {
+      "aud": "adults",
+      "cat": "Schemes",
+      "place": "Itanagar · Arunachal Pradesh",
+      "title": "Amit Shah unveils 'Arunachal Pradesh Cooperative Vision 2047' and opens the 12th NDRF Battalion campus.",
+      "summary": "Union Home and Cooperation Minister Amit Shah unveiled the 'Arunachal Pradesh Cooperative Vision 2047' in Itanagar on 22 November 2026, on the theme 'Sahkar Se Samriddhi'. Projects worth ₹5,610.95 crore were announced, including ₹1,500 crore for Mission Shikshit Arunachal Phase II and 199 Vibrant Villages projects in 11 border districts. He also inaugurated the earthquake-resistant campus of the NDRF's 12th Battalion at Hollongi, which will train SDRF teams of all eight north-eastern States. Its Olympic-size pool will be free for local swimmers. NDRF has carried out over 11,000 operations and saved more than 1.61 lakh lives.",
+      "gk": "The Ministry of Cooperation was created in July 2021. The NDRF was set up under the Disaster Management Act, 2005. The Vibrant Villages Programme develops villages along India's northern border.",
+      "exam": "Remember: Cooperative Vision 2047 (theme 'Sahkar Se Samriddhi'); ₹5,610.95 cr projects; 12th Bn NDRF campus at Hollongi, Itanagar; 2026 = NDRF 'Year of Capacity Building'.",
+      "source": "CrackTarget (23 Nov current affairs); India TV",
+      "url": "https://cracktarget.com/current-affairs-23-november-2026/#sec-schemes"
+    },
+    {
+      "aud": "adults",
+      "cat": "Energy",
+      "place": "New Delhi · India",
+      "title": "Small Hydro Power Development Scheme: ₹2,584.60 crore to add about 1,500 MW by 2030-31.",
+      "summary": "A PIB backgrounder released on 22 November 2026 explained the Small Hydro Power Development Scheme for 2026-27 to 2030-31, with an outlay of ₹2,584.60 crore. It aims to add about 1,500 MW of capacity. Hydro projects of up to 25 MW count as 'small hydro' and come under the Ministry of New and Renewable Energy (MNRE); bigger projects come under the Ministry of Power. India's small hydro potential is 21,134 MW at 7,133 sites, but only about a quarter is in use. Projects in the North-East and border areas get ₹3.6 crore per MW or 30% of the cost, and about ₹15,000 crore of investment is expected.",
+      "gk": "Hydropower is a renewable energy source. MNRE handles solar, wind, small hydro and bioenergy; large hydro projects come under the Ministry of Power.",
+      "exam": "Remember: Small hydro ≤ 25 MW (MNRE); scheme outlay ₹2,584.60 cr (2026-27 to 2030-31); target ~1,500 MW; potential 21,134 MW at 7,133 sites.",
+      "source": "CrackTarget (23 Nov current affairs, from PIB)",
+      "url": "https://cracktarget.com/current-affairs-23-november-2026/#sec-environment"
+    },
+    {
+      "aud": "adults",
+      "cat": "Sports",
+      "place": "Indore · India",
+      "title": "Anupama Ramachandran retains the IBSF World Women's Snooker title in Indore.",
+      "summary": "India's Anupama Ramachandran retained her IBSF World Women's Snooker Championship title in Indore, Madhya Pradesh. She beat So Man Yan of Hong Kong 3-1 in the final after losing the first frame 16-58. It is her second world title in a row; last year she became India's first female IBSF world champion. In hockey, India beat Thailand 7-0 at the Women's Asian Champions Trophy in Bhopal on 22 November, with Deepika scoring a hat-trick, for a third straight win.",
+      "gk": "IBSF stands for the International Billiards and Snooker Federation. Pankaj Advani is India's most successful cueist, with many world titles in billiards and snooker.",
+      "exam": "Remember: Anupama Ramachandran – IBSF World Women's Snooker champion again (Indore), beat So Man Yan (Hong Kong) 3-1; Women's Asian Champions Trophy hockey venue: Bhopal.",
+      "source": "CrackTarget (23 Nov current affairs)",
+      "url": "https://cracktarget.com/current-affairs-23-november-2026/#sec-sports"
+    }
+  ],
+  "quiz": [
+    {
+      "headline": 1,
+      "q": "A new weekly train flagged off during Nepal PM Balendra Shah's visit links Ayodhya with which place in Nepal?",
+      "options": [
+        "Pokhara",
+        "Lumbini",
+        "Janakpur Dham",
+        "Biratnagar"
+      ],
+      "answer": 2,
+      "explain": "The Janakpur Dham–Ayodhya train links the believed birthplaces of Mata Sita and Lord Ram."
+    },
+    {
+      "headline": 2,
+      "q": "What was the outcome document of the first SCO Civilisational Dialogue Forum in New Delhi called?",
+      "options": [
+        "Indraprastha Communiqué",
+        "Delhi Declaration",
+        "Purana Qila Charter",
+        "Hastinapur Accord"
+      ],
+      "answer": 0,
+      "explain": "The forum ended on 22 November with the 'Indraprastha Communiqué'."
+    },
+    {
+      "headline": 3,
+      "q": "The Strait of Hormuz lies between Iran and which country?",
+      "options": [
+        "Yemen",
+        "Saudi Arabia",
+        "Qatar",
+        "Oman"
+      ],
+      "answer": 3,
+      "explain": "Oman lies on the southern shore of the Strait of Hormuz, opposite Iran."
+    },
+    {
+      "headline": 4,
+      "q": "Which city will host the next UN climate summit, COP32?",
+      "options": [
+        "Nairobi",
+        "Addis Ababa",
+        "Cairo",
+        "Lagos"
+      ],
+      "answer": 1,
+      "explain": "UN News reports COP32 will be held in Addis Ababa, Ethiopia."
+    },
+    {
+      "headline": 5,
+      "q": "Where does the river Yamuna join the Ganga?",
+      "options": [
+        "Varanasi",
+        "Haridwar",
+        "Prayagraj",
+        "Patna"
+      ],
+      "answer": 2,
+      "explain": "The Yamuna meets the Ganga at Prayagraj, at the Triveni Sangam."
+    },
+    {
+      "headline": 6,
+      "q": "What total did India declare at in the first Test against New Zealand in Wellington?",
+      "options": [
+        "720 for 9",
+        "650 for 7",
+        "601 for 5",
+        "759 for 7"
+      ],
+      "answer": 0,
+      "explain": "India declared at 720/9, the highest Test total recorded in New Zealand."
+    },
+    {
+      "headline": 7,
+      "q": "By 2030-31, the Centre aims to grow India's textile market to:",
+      "options": [
+        "US$ 150 billion",
+        "US$ 250 billion",
+        "US$ 500 billion",
+        "US$ 350 billion"
+      ],
+      "answer": 3,
+      "explain": "Giriraj Singh said the target is US$ 350 billion by 2030-31."
+    },
+    {
+      "headline": 8,
+      "q": "In the Labour Ministry's new tools, what does 'OSI' stand for?",
+      "options": [
+        "Online Skill Initiative",
+        "Occupational Shortage Index",
+        "Organised Sector Indicator",
+        "Overseas Skilling Index"
+      ],
+      "answer": 1,
+      "explain": "The Occupational Shortage Index tracks gaps between demand and supply of workers."
+    },
+    {
+      "headline": 9,
+      "q": "Indian stock markets will stay closed on 24 November 2026 because of:",
+      "options": [
+        "Gurpurab",
+        "Diwali",
+        "Christmas",
+        "Republic Day"
+      ],
+      "answer": 0,
+      "explain": "Markets are shut for Gurpurab, the birth anniversary of Guru Nanak Dev Ji."
+    },
+    {
+      "headline": 10,
+      "q": "What is the theme of 'Arunachal Pradesh Cooperative Vision 2047'?",
+      "options": [
+        "Sabka Saath Sabka Vikas",
+        "Vocal for Local",
+        "Sahkar Se Samriddhi",
+        "Ek Bharat Shreshtha Bharat"
+      ],
+      "answer": 2,
+      "explain": "The vision document was unveiled with the theme 'Sahkar Se Samriddhi' (prosperity through cooperation)."
+    },
+    {
+      "headline": 11,
+      "q": "Hydro projects up to what capacity are classed as 'small hydro' under MNRE?",
+      "options": [
+        "10 MW",
+        "50 MW",
+        "100 MW",
+        "25 MW"
+      ],
+      "answer": 3,
+      "explain": "Projects of up to 25 MW are small hydro under MNRE; larger ones come under the Ministry of Power."
+    },
+    {
+      "headline": 12,
+      "q": "Anupama Ramachandran retained her IBSF World Women's title in which sport?",
+      "options": [
+        "Billiards",
+        "Snooker",
+        "Squash",
+        "Table tennis"
+      ],
+      "answer": 1,
+      "explain": "She won the IBSF World Women's Snooker Championship in Indore."
+    }
+  ],
+  "ai": [
+    {
+      "aud": "students",
+      "place": "Patna · Bihar",
+      "title": "PM Modi opens an AI Centre of Excellence at IIT Patna and lays foundation of a research park.",
+      "summary": "On 21 November 2026, Prime Minister Narendra Modi virtually inaugurated a Centre of Excellence in Artificial Intelligence at IIT Patna. The AI centre is a ₹60 crore project supported by the Bihar government, the Union Ministry of Electronics and IT (MeitY) and industry partner Tiger Analytics. He also laid the foundation stones for the IIT Patna Research Park and a 120-bed hostel for start-up founders, together worth about ₹400 crore. The research park will help turn ideas into products through design, testing and manufacturing facilities.",
+      "gk": "IIT Patna was set up in 2008. MeitY (Ministry of Electronics and Information Technology) runs the IndiaAI Mission.",
+      "source": "Patna Press",
+      "url": "https://patnapress.com/pm-modi-inaugurates-ai-centre-iit-patna-research-park/",
+      "quiz": {
+        "q": "Which institute got a new AI Centre of Excellence inaugurated by PM Modi on 21 November 2026?",
+        "options": [
+          "IIT Kanpur",
+          "IIT Patna",
+          "IIT Delhi",
+          "IIT Roorkee"
+        ],
+        "answer": 1,
+        "explain": "PM Modi virtually inaugurated the AI Centre of Excellence at IIT Patna, Bihar."
+      }
+    },
+    {
+      "aud": "students",
+      "place": "Seoul · South Korea",
+      "title": "South Korea's education minister resigns after fears of AI-powered cheating in the national college entrance exam.",
+      "summary": "South Korea's Education Minister Choi Kyo-jin resigned on Sunday, 22 November 2026, and President Lee Jae Myung accepted it within an hour. This year's college entrance exam, the Suneung, was hit by fears of AI-assisted cheating, and last-minute anti-cheating steps caused confusion. During the exam, 111 test-takers were caught with smart devices, such as smart glasses or a tiny camera with wireless earphones. A committee will decide penalties before results come out on 11 December. The lesson for students: using AI to cheat can cost you your exam and much more.",
+      "gk": "South Korea's capital is Seoul. The Suneung (College Scholastic Ability Test) is the country's main university entrance exam, similar in importance to JEE or NEET in India.",
+      "source": "The Korea Herald",
+      "url": "https://www.koreaherald.com/article/10945089",
+      "quiz": {
+        "q": "What is the name of South Korea's national college entrance exam hit by an AI-cheating scandal?",
+        "options": [
+          "Gaokao",
+          "Abitur",
+          "Suneung",
+          "SAT"
+        ],
+        "answer": 2,
+        "explain": "The Suneung (College Scholastic Ability Test) is South Korea's university entrance exam."
+      }
+    },
+    {
+      "aud": "adults",
+      "place": "Guntur · Andhra Pradesh",
+      "title": "NIELIT opens the transit campus of India's first dedicated AI and Quantum University.",
+      "summary": "On 21 November 2026, NIELIT opened the transit campus of India's first dedicated AI and Quantum University at Acharya Nagarjuna University in Guntur district, Andhra Pradesh. The project has central grant-in-aid of ₹730.70 crore from MeitY. Phase 1 includes four labs worth ₹47 crore for quantum computing, quantum communication, VLSI and chip design, and AI. Lab training and courses are to begin on 1 December 2026, while the permanent 8.5-acre campus will come up at Nidamarru, Amaravati. It aims to train 8,250 learners in five years.",
+      "gk": "NIELIT (National Institute of Electronics and Information Technology) works under MeitY. India's National Quantum Mission was approved in 2023.",
+      "exam": "Remember: India's first AI & Quantum University – NIELIT, transit campus at Acharya Nagarjuna University (Guntur, AP); ₹730.70 cr MeitY grant; permanent campus Nidamarru, Amaravati.",
+      "source": "CASRAI (citing PIB, The Hindu)",
+      "url": "https://casrai.org/news/nielit-amaravati-india-first-quantum-ai-university-campus-2026",
+      "quiz": {
+        "q": "Where is the transit campus of India's first dedicated AI and Quantum University (NIELIT) located?",
+        "options": [
+          "IIT Madras, Chennai",
+          "IISc, Bengaluru",
+          "IIIT Hyderabad",
+          "Acharya Nagarjuna University, Guntur"
+        ],
+        "answer": 3,
+        "explain": "NIELIT opened the transit campus at Acharya Nagarjuna University in Guntur district, Andhra Pradesh."
+      }
+    },
+    {
+      "aud": "adults",
+      "place": "Chicago · USA",
+      "title": "Large US school districts push back after Google links student Search access to AI Overviews.",
+      "summary": "Google said on 3 November that from early next year its AI tools will be off for school student accounts unless administrators switch them on, but schools that want Google Search for students must also accept AI Overviews. Three of the four largest US school districts are resisting. Chicago Public Schools is exploring ways to block AI Overviews; New York City has a one-year pause on student-facing AI up to Class 8; and Los Angeles is blocking generative AI for about 378,000 students on district devices in 2026-27. The debate is a useful case study for Indian schools framing their own AI-use policies.",
+      "gk": "Google is owned by Alphabet, whose CEO is Sundar Pichai. In India, NCERT and CBSE are adding AI and computational thinking to school curricula.",
+      "exam": "Remember: Google ties K-12 Search to AI Overviews from early 2027; NYC – one-year pause on student AI; LA Unified blocks generative AI for ~378,000 students (2026-27).",
+      "source": "Fortune",
+      "url": "https://fortune.com/2026/11/21/google-search-ai-overviews-schools-chicago-nyc-los-angeles-miami",
+      "quiz": {
+        "q": "Which Google feature are some big US school districts trying to block for students?",
+        "options": [
+          "Google Classroom",
+          "AI Overviews in Search",
+          "Google Maps",
+          "YouTube Kids"
+        ],
+        "answer": 1,
+        "explain": "Google said schools wanting Search for students must also accept AI Overviews, which several districts oppose."
+      }
+    }
+  ],
+  "weather": {
+    "city": "Delhi-NCR",
+    "days": [
+      {
+        "date": "2026-11-23",
+        "condition": "Mist or shallow fog in a few places in the morning; mainly clear",
+        "max": 25,
+        "min": 12
+      },
+      {
+        "date": "2026-11-24",
+        "condition": "Mist or shallow fog in a few places in the morning; mainly clear",
+        "max": 25,
+        "min": 11
+      },
+      {
+        "date": "2026-11-25",
+        "condition": "Shallow fog in many places, moderate fog in isolated places in the morning; mainly clear",
+        "max": 25,
+        "min": 11
+      },
+      {
+        "date": "2026-11-26",
+        "condition": "Shallow fog in many places, moderate fog in a few places in the morning; mainly clear",
+        "max": 25,
+        "min": 10
+      },
+      {
+        "date": "2026-11-27",
+        "condition": "Morning fog likely; mainly clear",
+        "max": 26,
+        "min": 10
+      }
+    ],
+    "facts": [
+      {
+        "label": "Sunrise",
+        "value": "about 06:49"
+      },
+      {
+        "label": "Sunset",
+        "value": "17:25"
+      },
+      {
+        "label": "Yesterday's max/min (Safdarjung)",
+        "value": "27.6 °C / 11.8 °C (+0.9 and +0.5 above normal); no rain"
+      },
+      {
+        "label": "IMD warnings for Delhi",
+        "value": "None; morning fog likely all week"
+      }
+    ],
+    "note": "Dry weather is expected until at least 28 November. IMD says night temperatures will stay steady for a day and then fall by 2-4 °C, so mornings will get chillier by the end of the week. All max/min values are mid-points of IMD's forecast ranges (e.g. today 24-26 °C / 11-13 °C).",
+    "regionSource": "India.com (22 Nov), citing IMD; ETV Bharat (21 Nov)",
+    "regionUrl": "https://www.india.com/news/india/weather-tomorrow-november-23-forecast-imd-predicts-heavy-rain-in-tamil-nadu-thunderstorms-in-andhra-pradesh-and-dense-fog-in-bihar-east-up-8547143/",
+    "regions": [
+      {
+        "icon": "fog",
+        "alert": true,
+        "name": "Bihar, East UP, Jharkhand, Odisha & North-East",
+        "outlook": "Dense fog in isolated places on the night of 22 Nov and morning of 23 Nov; flights, trains and road traffic may be affected."
+      },
+      {
+        "icon": "storm",
+        "alert": true,
+        "name": "Tamil Nadu, Puducherry & Kerala",
+        "outlook": "Isolated heavy rain from 23 Nov, with widespread rain on 24-25 Nov and thunderstorms with gusty winds."
+      },
+      {
+        "icon": "storm",
+        "alert": true,
+        "name": "Andhra Pradesh",
+        "outlook": "Thunderstorms and lightning with gusty winds of 40-50 km/h."
+      },
+      {
+        "icon": "rain",
+        "name": "West Bengal, Sikkim & North-East",
+        "outlook": "Light, scattered rain; temperatures to fall gradually afterwards."
+      },
+      {
+        "icon": "smog",
+        "name": "Delhi-NCR",
+        "outlook": "Air quality 'poor' and likely to stay so until Wednesday; may turn 'very poor' later as winds weaken."
+      },
+      {
+        "icon": "sun",
+        "name": "Western India",
+        "outlook": "No significant weather expected."
+      }
+    ],
+    "source": "IMD Regional Met Centre New Delhi, Daily Weather Report & forecast (22 Nov 2026, 1800 IST)",
+    "url": "https://mausam.imd.gov.in/newdelhi/mcdata/delhi_forecast.pdf"
+  },
+  "aqi": {
+    "asOf": "Delhi: CPCB 24-hour AQI for Sunday 22 Nov 2026, as reported Sunday evening. Ghaziabad and Noida: CPCB readings reported Sunday midday, 22 Nov. Gurugram and Faridabad: CPCB 9 am readings, 22 Nov.",
+    "cities": [
+      {
+        "name": "Ghaziabad",
+        "aqi": 211,
+        "home": true
+      },
+      {
+        "name": "Delhi",
+        "aqi": 239
+      },
+      {
+        "name": "Noida",
+        "aqi": 210
+      },
+      {
+        "name": "Gurugram",
+        "aqi": 200
+      },
+      {
+        "name": "Faridabad",
+        "aqi": 128
+      }
+    ],
+    "note": "Air improved a little on Sunday but stayed 'poor' across most of NCR. Ghaziabad's AQI was 211, about 32 points better than Saturday. Delhi's average fell to 239 from 265, though 8 of 56 stations were 'very poor', such as Uttam Nagar (332) and IGNOU Maidan Garhi (330). Vehicles caused about 39% of Delhi's PM2.5. Air is expected to stay 'poor' till Wednesday and may turn 'very poor' after that. GRAP Stages I and II remain in force across Delhi-NCR (Stage III was lifted on 17 Nov). The 4 pm city-wise bulletin for Ghaziabad was not found.",
+    "source": "The Pioneer; ETV Bharat; Business Standard (all citing CPCB)",
+    "url": "https://dailypioneer.com/delhi/delhis-aqi-improves-to-239-remains-in-poor-category"
+  }
+}
