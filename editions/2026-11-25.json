@@ -1,0 +1,499 @@
+{
+  "date": "2026-11-25",
+  "title": "India's space economy set to grow 5x as private sector booms; President Murmu opens Bali Jatra in Cuttack; RBI proposes 'Stop Switch' against digital payment fraud",
+  "updatedAt": "2026-11-25T05:43:41+05:30",
+  "morning": {
+    "greeting": "Good morning!",
+    "line": "It's Wednesday. Delhi-NCR wakes up to a clear, misty morning with 'poor' air, so carry a mask if you're outdoors for long.",
+    "thought": "Small daily steps add up like ripples: you may not see the shore move, but every wave counts.",
+    "day": {
+      "name": "International Day for the Elimination of Violence against Women",
+      "about": "The United Nations observes 25 November to raise awareness and encourage action so that every woman and girl can live safely and with dignity. It also starts '16 Days of Activism', which ends on 10 December, Human Rights Day. Many buildings are lit in orange, the campaign's colour, as a sign of hope."
+    },
+    "word": {
+      "word": "Maritime",
+      "meaning": "(adjective) connected with the sea, especially sea trade, ships or the navy.",
+      "example": "Bali Jatra celebrates Odisha's maritime history of sailing to Southeast Asia."
+    },
+    "task": "Find Odisha and Bali (Indonesia) on a map and trace a possible sea route between them. Write two lines on why sea trade mattered to ancient India."
+  },
+  "headlines": [
+    {
+      "aud": "students",
+      "cat": "National",
+      "place": "New Delhi · India",
+      "title": "India's space economy could grow from about $9 billion to $40-45 billion in under ten years, says Jitendra Singh.",
+      "summary": "Speaking at the fifth India International Space Conclave in New Delhi on 24 November 2026, Science and Technology Minister Dr Jitendra Singh said India's space economy is worth about 9 billion US dollars today and could reach 40-45 billion dollars within a decade. The number of space companies has grown from a handful of startups to nearly 500, after the sector was opened to private players through NSIL and IN-SPACe. ISRO Chairman Dr V Narayanan said the Gaganyaan human spaceflight mission is in its final phase and will launch at the earliest opportunity.",
+      "gk": "ISRO was founded in 1969 and is headquartered in Bengaluru. IN-SPACe (Indian National Space Promotion and Authorisation Centre) authorises private space activities. Gaganyaan is India's first human spaceflight mission.",
+      "source": "News On AIR (24 Nov 2026)",
+      "url": "https://newsonair.gov.in/indias-space-economy-to-reach-40-to-45-billion-dollars-in-under-decade-as-private-sector-drives-growth-says-union-minister-jitendra-singh/"
+    },
+    {
+      "aud": "students",
+      "cat": "National",
+      "place": "Cuttack · Odisha",
+      "title": "President Droupadi Murmu opens the Bali Jatra festival, celebrating India's ancient sea trade.",
+      "summary": "On the evening of 24 November 2026, President Droupadi Murmu inaugurated Bali Jatra in Cuttack, one of Asia's largest open-air annual trade fairs. The festival remembers Odisha's maritime history, when traders sailed to islands such as Bali in Indonesia. The President reached the venue on the Mahanadi river by boat, escorted by an Indian Navy vessel. She said India's steady progress despite global unrest shows the country is moving towards a Viksit (developed) Bharat. The fair runs for eight days, till 1 December, with folk dances such as Odissi, Chhau, Gotipua and Sambalpuri.",
+      "gk": "Bali Jatra begins on Kartik Purnima. Ancient Kalinga (Odisha) traders sailed in large boats called 'boitas' to Southeast Asia. Droupadi Murmu is India's 15th President.",
+      "source": "News On AIR (24 Nov 2026)",
+      "url": "https://newsonair.gov.in/president-murmu-says-indias-steady-progress-reflects-indicator-of-viksit-bharat/"
+    },
+    {
+      "aud": "students",
+      "cat": "Science",
+      "place": "Taplejung · Nepal",
+      "title": "5.6 magnitude earthquake in eastern Nepal shakes Sikkim, North Bengal and Bihar.",
+      "summary": "An earthquake of magnitude 5.6 struck near Olangchung Gola in Nepal's Taplejung district, close to the Nepal-Tibet border, at about 7:17 am on 24 November 2026. Tremors were felt in Sikkim, Bihar and North Bengal towns such as Darjeeling, Kalimpong, Siliguri and Jalpaiguri, as well as in Bhutan and parts of Bangladesh. People rushed out of their homes in some places, but no casualties were reported.",
+      "gk": "The Himalayas are earthquake-prone because the Indian plate keeps pushing into the Eurasian plate. Earthquake strength is measured by magnitude; the point on the surface above the quake's origin is called the epicentre. India's National Center for Seismology works under the Ministry of Earth Sciences.",
+      "source": "News On AIR (24 Nov 2026)",
+      "url": "https://newsonair.gov.in/earthquake-shakes-north-bengal-sikkim-and-parts-of-bihar/"
+    },
+    {
+      "aud": "students",
+      "cat": "World",
+      "place": "New Delhi · India",
+      "title": "PM Modi and German Chancellor Friedrich Merz review the India-Germany Strategic Partnership in a phone call.",
+      "summary": "On 24 November 2026, Prime Minister Narendra Modi received a phone call from German Chancellor Friedrich Merz. The two leaders reviewed their Strategic Partnership and agreed to strengthen cooperation in defence, advanced technology, trade and investment. They said the India-EU Free Trade Agreement would open new opportunities, and agreed to work together for global peace and a rules-based world order. The year 2026 marks 75 years of diplomatic relations between India and Germany.",
+      "gk": "Germany's capital is Berlin and its currency is the euro. Germany is India's largest trading partner in the European Union. The head of Germany's government is called the Chancellor.",
+      "source": "News On AIR (24 Nov 2026)",
+      "url": "https://newsonair.gov.in/pm-modi-and-german-chancellor-friedrich-merz-review-progress-in-strategic-partnership-reaffirm-commitment-to-boost-cooperation-in-defence-technology-trade-and-investment/"
+    },
+    {
+      "aud": "students",
+      "cat": "World",
+      "place": "New Delhi · India",
+      "title": "India hosts the 25th IORA Council of Ministers meeting; Maldives Foreign Minister arrives in Delhi.",
+      "summary": "Maldives Foreign Minister Iruthisham Adam arrived in New Delhi on 24 November 2026 to attend the 25th Council of Ministers Meeting of the Indian Ocean Rim Association (IORA), to be held in New Delhi on Friday. The Ministry of External Affairs said her visit reflects the close maritime ties between India and the Maldives. Ahead of the meeting, the European Union and IORA also held their first high-level roundtable on maritime security in New Delhi, discussing piracy, trafficking and keeping watch over the seas.",
+      "gk": "IORA was formed in 1997 and its secretariat is in Ebene, Mauritius. The Indian Ocean is the world's third-largest ocean. Male is the capital of the Maldives.",
+      "source": "News On AIR (24 Nov 2026)",
+      "url": "https://newsonair.gov.in/maldives-foreign-minister-iruthisham-adam-arrives-in-delhi-for-25th-iora-meeting/"
+    },
+    {
+      "aud": "students",
+      "cat": "Sports",
+      "place": "Geneva · Switzerland",
+      "title": "D Gukesh begins defending his World Chess Championship title against Uzbekistan's Javokhir Sindarov.",
+      "summary": "India's D Gukesh has started his World Chess Championship title defence against Javokhir Sindarov of Uzbekistan in Geneva, Switzerland. The match is being followed by chess fans across the world. In other sports news, India's men's hockey team won their three-match series against New Zealand 1-0 after the final game ended 2-2.",
+      "gk": "Gukesh became the youngest undisputed world champion at 18 by beating China's Ding Liren in Singapore in December 2024. Viswanathan Anand was India's first world chess champion. FIDE, chess's world body, is based in Lausanne, Switzerland.",
+      "source": "CareerIndia (24 Nov 2026 school assembly news)",
+      "url": "https://www.careerindia.com/news/school-assembly-news-headlines-today-november-24-2026-national-international-education-sports-069097.html"
+    },
+    {
+      "aud": "adults",
+      "cat": "Banking",
+      "place": "Mumbai · India",
+      "title": "RBI keeps SBI, HDFC Bank and ICICI Bank as Domestic Systemically Important Banks for 2026.",
+      "summary": "The Reserve Bank of India has again named SBI, HDFC Bank and ICICI Bank as Domestic Systemically Important Banks (D-SIBs), based on data as of 31 March 2026. SBI stays in Bucket 4 with an extra Common Equity Tier 1 (CET1) requirement of 0.80% of risk-weighted assets, HDFC Bank in Bucket 2 (0.40%) and ICICI Bank in Bucket 1 (0.20%). D-SIBs are seen as 'too big to fail', so they must hold more capital.",
+      "gk": "The D-SIB framework was issued by RBI on 22 July 2014 and the list has been published every year since 2015. SBI was first named a D-SIB in 2015, ICICI Bank in 2016 and HDFC Bank in 2017.",
+      "exam": "Remember: D-SIBs 2026 = SBI (Bucket 4, 0.80%), HDFC Bank (Bucket 2, 0.40%), ICICI Bank (Bucket 1, 0.20%) additional CET1 of RWA.",
+      "source": "Bankersadda (24 Nov 2026 current affairs)",
+      "url": "https://www.bankersadda.com/daily-current-affairs-and-gk-updates-24th-november-2026/"
+    },
+    {
+      "aud": "adults",
+      "cat": "Banking",
+      "place": "Mumbai · India",
+      "title": "RBI proposes 'Stop Switch' and six other safeguards against digital payment fraud in draft rules.",
+      "summary": "On 23 November 2026, the RBI proposed seven safeguards under draft Digital Payment Rules 2026. They include an emergency 'Stop Switch' to block digital transactions, custom transaction and beneficiary limits, aggregate daily limits, channel-wise controls, digital channels kept off by default for new customers, and a 'Trusted Person' mechanism. The draft also widens what counts as bank negligence in digital frauds. The negligence rules are proposed from 1 January 2027 and the rest from 1 July 2027.",
+      "gk": "RBI was set up on 1 April 1935 under the RBI Act, 1934, and nationalised in 1949. Its headquarters is in Mumbai. The Payment and Settlement Systems Act was passed in 2007.",
+      "exam": "Remember: Draft Digital Payment Rules 2026 – 7 safeguards incl. Stop Switch & Trusted Person Mechanism; negligence provisions from 1 Jan 2027, others from 1 July 2027.",
+      "source": "Bankersadda (24 Nov 2026 current affairs)",
+      "url": "https://www.bankersadda.com/daily-current-affairs-and-gk-updates-24th-november-2026/"
+    },
+    {
+      "aud": "adults",
+      "cat": "Economy",
+      "place": "New Delhi · India",
+      "title": "S&P Global cuts India's FY28 growth forecast to 7% and expects an RBI rate hike in December.",
+      "summary": "S&P Global Ratings lowered India's GDP growth forecast for FY28 by 20 basis points to 7%, kept FY27 at 7%, and projects 7.2% for FY29. It expects the RBI to raise the policy rate by 25 basis points in December 2026, as retail inflation reached 6.09% in October, above RBI's tolerance band of 2-6%. S&P sees inflation averaging 5.3% in FY27 and 4.7% in FY28.",
+      "gk": "RBI's inflation target is 4% CPI with a band of +/-2%, set under flexible inflation targeting. The Monetary Policy Committee has six members, chaired by the RBI Governor. 100 basis points = 1 percentage point.",
+      "exam": "Remember: S&P – India GDP FY27 7%, FY28 7% (cut 20 bps), FY29 7.2%; Oct 2026 CPI inflation 6.09%; expects 25 bps hike in Dec 2026.",
+      "source": "Bankersadda (24 Nov 2026 current affairs)",
+      "url": "https://www.bankersadda.com/daily-current-affairs-and-gk-updates-24th-november-2026/"
+    },
+    {
+      "aud": "adults",
+      "cat": "Rankings",
+      "place": "Mumbai · India",
+      "title": "Shiv Nadar tops the EdelGive Hurun India Philanthropy List 2026 for the fifth year.",
+      "summary": "The 13th EdelGive Hurun India Philanthropy List 2026 shows Shiv Nadar and family as India's most generous donors again, with Rs 2,593 crore given in FY 2025-26. Gautam Adani's family is second with Rs 877 crore (up 127%), the Bajaj family third with Rs 632 crore, Mukesh Ambani's family fourth with Rs 620 crore and Nandan Nilekani fifth with Rs 380 crore. A record 219 philanthropists gave Rs 11,554 crore in total, 11% more than last year.",
+      "gk": "Shiv Nadar is the founder of HCL. EdelGive Foundation is the philanthropic arm of the Edelweiss Group. Hurun Report was founded in Shanghai in 1999.",
+      "exam": "Remember: Hurun Philanthropy List 2026 (13th) – 1 Shiv Nadar Rs 2,593 cr, 2 Adani Rs 877 cr, 3 Bajaj Rs 632 cr, 4 Ambani Rs 620 cr, 5 Nilekani Rs 380 cr; 219 donors, Rs 11,554 cr.",
+      "source": "AffairsCloud (24 Nov 2026)",
+      "url": "https://affairscloud.com/current-affairs-24-november-2026/"
+    },
+    {
+      "aud": "adults",
+      "cat": "Appointments",
+      "place": "New Delhi · India",
+      "title": "Rahul Madan named the next Chairperson of the Insolvency and Bankruptcy Board of India (IBBI).",
+      "summary": "Rahul Madan, Managing Director of the Indian Institute of Insolvency Professionals of ICAI (IIIPI), has been named to succeed Ravi Mittal as Chairperson of IBBI. The announcement was made by Corporate Affairs Secretary Pallavi Jain Govil at IIIPI's 10th Foundation Day. His priorities include cross-border and group insolvency and the new Creditor Initiated Insolvency Resolution Process (CIIRP) under the IBC (Amendment) Act, 2026.",
+      "gk": "IBBI was set up on 1 October 2016 under the Insolvency and Bankruptcy Code, 2016, and works under the Ministry of Corporate Affairs. Its first chairperson was M.S. Sahoo.",
+      "exam": "Remember: IBBI Chairperson – Rahul Madan (succeeds Ravi Mittal); IBBI est. 2016 under IBC, Ministry of Corporate Affairs.",
+      "source": "Bankersadda (24 Nov 2026 current affairs)",
+      "url": "https://www.bankersadda.com/daily-current-affairs-and-gk-updates-24th-november-2026/"
+    },
+    {
+      "aud": "adults",
+      "cat": "Defence",
+      "place": "Visakhapatnam · Andhra Pradesh",
+      "title": "GRSE delivers anti-submarine shallow water craft 'Ashank' to the Indian Navy.",
+      "summary": "On 23 November 2026, Garden Reach Shipbuilders and Engineers (GRSE), Kolkata, delivered 'Ashank' (Yard 3036), an Arnala-class Anti-Submarine Warfare Shallow Water Craft, to the Indian Navy at Visakhapatnam. It is built to find and counter underwater threats in shallow coastal waters and carries light torpedoes, indigenous rocket launchers, advanced sonar and waterjet propulsion. Over 80% of its content is indigenous.",
+      "gk": "GRSE is a Defence PSU headquartered in Kolkata. INS Arnala, the first ship of this class, was commissioned in 2025. The Indian Navy's Eastern Naval Command is based in Visakhapatnam.",
+      "exam": "Remember: Ashank – Arnala-class ASW-SWC built by GRSE (Kolkata), delivered 23 Nov 2026 at Visakhapatnam; over 80% indigenous.",
+      "source": "Bankersadda (24 Nov 2026 current affairs)",
+      "url": "https://www.bankersadda.com/daily-current-affairs-and-gk-updates-24th-november-2026/"
+    }
+  ],
+  "quiz": [
+    {
+      "headline": 1,
+      "q": "According to Dr Jitendra Singh, India's space economy could reach how much within a decade?",
+      "options": [
+        "$9-10 billion",
+        "$20-25 billion",
+        "$100 billion",
+        "$40-45 billion"
+      ],
+      "answer": 3,
+      "explain": "He said the space economy is about $9 billion now and could reach $40-45 billion in under ten years."
+    },
+    {
+      "headline": 2,
+      "q": "Bali Jatra, inaugurated by President Murmu, is held in which city?",
+      "options": [
+        "Puri",
+        "Cuttack",
+        "Bhubaneswar",
+        "Kolkata"
+      ],
+      "answer": 1,
+      "explain": "Bali Jatra is held on the banks of the Mahanadi in Cuttack, Odisha, and remembers Odisha's sea trade with places like Bali."
+    },
+    {
+      "headline": 3,
+      "q": "The 24 November earthquake was centred in which district of Nepal?",
+      "options": [
+        "Kathmandu",
+        "Pokhara",
+        "Taplejung",
+        "Janakpur"
+      ],
+      "answer": 2,
+      "explain": "It struck near Olangchung Gola in Taplejung district, near the Nepal-Tibet border."
+    },
+    {
+      "headline": 4,
+      "q": "In 2026, India and Germany mark how many years of diplomatic relations?",
+      "options": [
+        "75",
+        "50",
+        "60",
+        "100"
+      ],
+      "answer": 0,
+      "explain": "Both leaders noted that 2026 marks 75 years of India-Germany diplomatic ties."
+    },
+    {
+      "headline": 5,
+      "q": "Where is the secretariat of the Indian Ocean Rim Association (IORA)?",
+      "options": [
+        "New Delhi, India",
+        "Ebene, Mauritius",
+        "Male, Maldives",
+        "Colombo, Sri Lanka"
+      ],
+      "answer": 1,
+      "explain": "IORA, formed in 1997, has its secretariat in Ebene, Mauritius."
+    },
+    {
+      "headline": 6,
+      "q": "Gukesh is defending his world chess title against a player from which country?",
+      "options": [
+        "Uzbekistan",
+        "China",
+        "Norway",
+        "USA"
+      ],
+      "answer": 0,
+      "explain": "His challenger is Javokhir Sindarov of Uzbekistan; the match is in Geneva."
+    },
+    {
+      "headline": 7,
+      "q": "Which bank is in the highest bucket (Bucket 4) of RBI's D-SIB list for 2026?",
+      "options": [
+        "HDFC Bank",
+        "ICICI Bank",
+        "SBI",
+        "Bank of Baroda"
+      ],
+      "answer": 2,
+      "explain": "SBI is in Bucket 4 with an extra CET1 requirement of 0.80% of risk-weighted assets."
+    },
+    {
+      "headline": 8,
+      "q": "Which feature in RBI's draft Digital Payment Rules 2026 lets a customer block digital transactions in an emergency?",
+      "options": [
+        "Kill Code",
+        "Stop Switch",
+        "Freeze PIN",
+        "Safe Mode"
+      ],
+      "answer": 1,
+      "explain": "The 'Stop Switch' is one of seven proposed safeguards against digital fraud."
+    },
+    {
+      "headline": 9,
+      "q": "What retail inflation figure for October 2026 did S&P cite?",
+      "options": [
+        "4.00%",
+        "5.30%",
+        "7.20%",
+        "6.09%"
+      ],
+      "answer": 3,
+      "explain": "Retail inflation was 6.09% in October, above RBI's 2-6% band."
+    },
+    {
+      "headline": 10,
+      "q": "Who topped the EdelGive Hurun India Philanthropy List 2026?",
+      "options": [
+        "Gautam Adani",
+        "Mukesh Ambani",
+        "Nandan Nilekani",
+        "Shiv Nadar"
+      ],
+      "answer": 3,
+      "explain": "Shiv Nadar and family topped the list for the fifth year with Rs 2,593 crore."
+    },
+    {
+      "headline": 11,
+      "q": "Rahul Madan has been named Chairperson of which body?",
+      "options": [
+        "SEBI",
+        "IBBI",
+        "IRDAI",
+        "PFRDA"
+      ],
+      "answer": 1,
+      "explain": "He will head the Insolvency and Bankruptcy Board of India, succeeding Ravi Mittal."
+    },
+    {
+      "headline": 12,
+      "q": "Which shipyard built and delivered the anti-submarine craft 'Ashank'?",
+      "options": [
+        "GRSE",
+        "Mazagon Dock",
+        "Cochin Shipyard",
+        "Goa Shipyard"
+      ],
+      "answer": 0,
+      "explain": "Garden Reach Shipbuilders and Engineers (GRSE), Kolkata, delivered it at Visakhapatnam."
+    }
+  ],
+  "ai": [
+    {
+      "aud": "students",
+      "place": "Karnataka · India",
+      "title": "Karnataka brings AI lessons to Class IX students in 1,800 government high schools.",
+      "summary": "Karnataka is introducing artificial intelligence (AI) education for Class IX students across 1,800 government high schools. The course covers Python programming, data, computer vision and generative AI, giving students in government schools an early start in skills that are in demand.",
+      "gk": "Python is one of the most popular programming languages for AI. Computer vision means teaching computers to understand images and videos. Generative AI creates new text, images or music.",
+      "source": "National Skills Network Newsbytes (24 Nov 2026)",
+      "url": "https://nationalskillsnetwork.in/newsbytes-on-skill-education-24-nov-2026/",
+      "quiz": {
+        "q": "Which programming language is part of Karnataka's new Class IX AI course?",
+        "options": [
+          "Java",
+          "Python",
+          "COBOL",
+          "Fortran"
+        ],
+        "answer": 1,
+        "explain": "The course covers Python programming, data, computer vision and generative AI."
+      }
+    },
+    {
+      "aud": "students",
+      "place": "Bengaluru · India",
+      "title": "DIDAC India 2026 opens in Bengaluru with AI-powered learning tools, robotics and STEM.",
+      "summary": "DIDAC India 2026, a major education fair, is being held in Bengaluru from 25 to 27 November. It brings together teachers, policymakers and industry leaders, with over 500 global brands showing AI-powered learning tools, robotics and STEM education products. Workshops will focus on updating curriculums and training teachers.",
+      "gk": "STEM stands for Science, Technology, Engineering and Mathematics. Bengaluru is often called the 'Silicon Valley of India'.",
+      "source": "NewsBytes (19 Nov 2026)",
+      "url": "https://www.newsbytesapp.com/news/business/didac-india-2026-in-bengaluru-to-spotlight-ai-education/tldr",
+      "quiz": {
+        "q": "What does the 'M' in STEM stand for?",
+        "options": [
+          "Media",
+          "Management",
+          "Mathematics",
+          "Medicine"
+        ],
+        "answer": 2,
+        "explain": "STEM = Science, Technology, Engineering and Mathematics."
+      }
+    },
+    {
+      "aud": "adults",
+      "place": "Pokhran · Rajasthan",
+      "title": "Counter-drone micro-missile JWALA MK-1, with an AI mission platform, test-fired at Pokhran.",
+      "summary": "On 23 November 2026, defence technology company IG Defence test-fired JWALA MK-1, an indigenous counter-drone micro-missile, at Pokhran in Rajasthan. It is a hard-kill Counter-Unmanned Aircraft System (CUAS) that detects, identifies and destroys hostile drones up to 5 km away, using a dual-pulse solid rocket motor. It works with GRID, an AI-powered mission management platform, for threat detection and interception, and is meant to strengthen India's layered air defence.",
+      "gk": "Pokhran in Rajasthan hosted India's nuclear tests in 1974 (Smiling Buddha) and 1998 (Operation Shakti). UAV = Unmanned Aerial Vehicle.",
+      "exam": "Remember: JWALA MK-1 – counter-drone micro-missile by IG Defence; tested at Pokhran 23 Nov 2026; range 5 km; AI platform GRID.",
+      "source": "Bankersadda (24 Nov 2026 current affairs)",
+      "url": "https://www.bankersadda.com/daily-current-affairs-and-gk-updates-24th-november-2026/",
+      "quiz": {
+        "q": "What is the name of the AI-powered mission platform used with JWALA MK-1?",
+        "options": [
+          "GRID",
+          "NETRA",
+          "AKASH",
+          "DRISHTI"
+        ],
+        "answer": 0,
+        "explain": "JWALA MK-1 integrates GRID, an AI-powered mission management platform."
+      }
+    },
+    {
+      "aud": "adults",
+      "place": "Karnataka · India",
+      "title": "Karnataka ties up with Google, Salesforce and other tech firms to train 63,200 people in AI.",
+      "summary": "Karnataka has partnered with Google, Salesforce and three other technology companies to train 63,200 students and working professionals in emerging AI technologies. The move aims to improve employability as demand for AI skills grows.",
+      "gk": "Salesforce is a US cloud software company headquartered in San Francisco. Google's parent company is Alphabet. The IndiaAI Mission was approved in March 2024 with an outlay of over Rs 10,300 crore.",
+      "exam": "Remember: Karnataka + Google, Salesforce & 3 others – AI training for 63,200 students and professionals.",
+      "source": "National Skills Network Newsbytes (24 Nov 2026)",
+      "url": "https://nationalskillsnetwork.in/newsbytes-on-skill-education-24-nov-2026/",
+      "quiz": {
+        "q": "How many students and professionals will Karnataka's AI partnership train?",
+        "options": [
+          "6,320",
+          "36,200",
+          "63,200",
+          "1,80,000"
+        ],
+        "answer": 2,
+        "explain": "The partnership with Google, Salesforce and three others targets 63,200 people."
+      }
+    }
+  ],
+  "weather": {
+    "city": "Delhi-NCR",
+    "days": [
+      {
+        "date": "2026-11-25",
+        "condition": "Mainly clear; mist or shallow fog at isolated places in the morning",
+        "max": 25,
+        "min": 10
+      },
+      {
+        "date": "2026-11-26",
+        "condition": "Mainly clear; mist or shallow fog at a few places in the morning",
+        "max": 25,
+        "min": 10
+      },
+      {
+        "date": "2026-11-27",
+        "condition": "Mainly clear; mist or shallow fog at a few places in the morning",
+        "max": 25,
+        "min": 9
+      },
+      {
+        "date": "2026-11-28",
+        "condition": "Mainly clear; mist or shallow fog, moderate fog at isolated places in the morning",
+        "max": 24,
+        "min": 9
+      },
+      {
+        "date": "2026-11-29",
+        "condition": "Mainly clear; mist or shallow fog, moderate fog at isolated places in the morning",
+        "max": 24,
+        "min": 10
+      }
+    ],
+    "facts": [
+      {
+        "label": "Sunrise",
+        "value": "about 06:51 (06:52 on 26 Nov)"
+      },
+      {
+        "label": "Sunset",
+        "value": "17:25"
+      },
+      {
+        "label": "Yesterday's max/min (Safdarjung)",
+        "value": "27.2 °C (0.5 above normal) / 11.2 °C (0.1 below normal); no rain"
+      },
+      {
+        "label": "IMD warnings for Delhi",
+        "value": "None; lowest visibility 1,200 m at Safdarjung on Tuesday morning"
+      }
+    ],
+    "note": "Dry, mainly clear week with misty mornings, and moderate fog in places from 28 November. IMD expects night temperatures to fall by about 2 °C over the next 24 hours, with no big change in day temperatures. All max/min values are mid-points of IMD's forecast ranges (e.g. today 24-26 °C / 9-11 °C).",
+    "regionSource": "News24 (24 Nov) and Mint via MENAFN (23 Nov), citing IMD",
+    "regionUrl": "https://news24online.com/trending/weather-update-tomorrow-november-25-imd-issues-rain-alert-in-8-states-strong-winds-upto-60-km-delhi-up-punjab-to-see-fog/956643",
+    "regions": [
+      {
+        "icon": "fog",
+        "alert": true,
+        "name": "Punjab & Himachal Pradesh",
+        "outlook": "Dense fog in places from 25 to 27 November (Himachal 25-26 Nov)."
+      },
+      {
+        "icon": "fog",
+        "name": "Uttar Pradesh",
+        "outlook": "Mist or fog in many districts from 25 to 30 November."
+      },
+      {
+        "icon": "storm",
+        "alert": true,
+        "name": "Tamil Nadu, Kerala, Andhra Pradesh & South",
+        "outlook": "Rain and thunderstorms with winds of 40-50 km/h, gusting to 60 km/h; isolated heavy rain in Tamil Nadu and Kerala till 27 November."
+      },
+      {
+        "icon": "fog",
+        "name": "North-East (Assam, Meghalaya, Tripura & others)",
+        "outlook": "Dense fog in isolated pockets till 25 November."
+      },
+      {
+        "icon": "smog",
+        "name": "Delhi-NCR",
+        "outlook": "Misty mornings with 'poor' air; light north-westerly winds."
+      },
+      {
+        "icon": "sun",
+        "name": "Central & East India",
+        "outlook": "Dry; night temperatures falling by 3-5 °C over the next few days."
+      }
+    ],
+    "source": "IMD Regional Met Centre New Delhi, Daily Weather Report & forecast (24 Nov 2026, 2045 IST)",
+    "url": "https://mausam.imd.gov.in/newdelhi/mcdata/delhi_forecast.pdf"
+  },
+  "aqi": {
+    "asOf": "CPCB real-time readings at 7 am on Tuesday, 24 Nov 2026 (as reported by Business Standard). The 4 pm 24-hour bulletin for 24 Nov was not found.",
+    "cities": [
+      {
+        "name": "Ghaziabad",
+        "aqi": 214,
+        "home": true
+      },
+      {
+        "name": "Delhi",
+        "aqi": 242
+      },
+      {
+        "name": "Noida",
+        "aqi": 211
+      },
+      {
+        "name": "Gurugram",
+        "aqi": 277
+      },
+      {
+        "name": "Faridabad",
+        "aqi": 166
+      }
+    ],
+    "note": "Air stayed 'poor' across most of NCR on Tuesday morning, slightly better than Monday in Delhi (248) and Ghaziabad (233). Gurugram was the worst of the five at 277, while Faridabad was 'moderate' at 166. In Delhi, 46 of 57 stations were above 200 and 10 above 300, led by Sirifort (336). Panchgaon in Haryana (310) was the most polluted city in India. GRAP Stage II remains in force across Delhi-NCR (Stage III was lifted on 17 Nov).",
+    "source": "Business Standard (citing CPCB); India.com",
+    "url": "https://www.business-standard.com/amp/india-news/delhi-wakes-to-poor-air-as-aqi-stands-at-242-ncr-cities-fare-worse-126112400079_1.html"
+  }
+}
