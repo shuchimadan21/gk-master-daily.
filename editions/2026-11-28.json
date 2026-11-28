@@ -1,0 +1,501 @@
+{
+ "date": "2026-11-28",
+ "title": "Railways breaks through 6.59-km Himalayan tunnel; Gukesh and Sindarov level in World Chess Championship; Cabinet clears ₹11,000-crore construction equipment scheme",
+ "updatedAt": "2026-11-28T05:49:30+05:30",
+ "morning": {
+  "greeting": "Good morning!",
+  "line": "It's Saturday! Delhi-NCR wakes up to a misty, chilly morning (about 9 °C) and 'poor' air, so wear a warm layer and keep outdoor play short.",
+  "thought": "A tunnel is dug from both ends, little by little, until the two sides meet. Big goals work the same way: keep digging a little every day and one day you break through.",
+  "day": {
+   "name": "This day in history: Jyotirao Phule passes away (28 November 1890)",
+   "about": "Mahatma Jyotirao Phule, the social reformer who fought against caste discrimination and for the education of girls, died in Pune on 28 November 1890. With his wife Savitribai Phule, he opened one of the first schools for girls in India in Pune in 1848. In 1873 he founded the Satyashodhak Samaj (Society of Truth Seekers)."
+  },
+  "word": {
+   "word": "Breakthrough",
+   "meaning": "(noun) an important step forward or discovery after a lot of effort.",
+   "example": "After months of digging, the railway workers achieved a breakthrough when both ends of the tunnel met."
+  },
+  "task": "Find Rishikesh and Karnaprayag on a map of Uttarakhand. Which rivers flow near them? Draw a simple sketch showing the new railway line between the two towns."
+ },
+ "headlines": [
+  {
+   "aud": "students",
+   "cat": "National",
+   "place": "Rudraprayag · Uttarakhand",
+   "title": "Indian Railways completes the breakthrough of a 6.59-km tunnel on the Rishikesh-Karnaprayag rail line.",
+   "summary": "Indian Railways has broken through Tunnel-14, a 6.59-km tunnel in Rudraprayag district of Uttarakhand, on the Rishikesh-Karnaprayag Rail Project. Workers dug 4.7 km from one end (Sumerpur) and 1.79 km from the other (Marora) until the two sections met. Blasting was done only in the daytime to protect nearby villages, and special fans supplied fresh air inside. The new line will make it easier for pilgrims, tourists and local people to reach the hills.",
+   "gk": "Uttarakhand was formed on 9 November 2000. Karnaprayag is where the Alaknanda and Pindar rivers meet, one of the five 'prayags' of the Alaknanda.",
+   "source": "News On AIR (27 Nov 2026)",
+   "url": "https://newsonair.gov.in/indian-railways-achieves-breakthrough-in-6-59-km-tunnel-in-uttarakhand/"
+  },
+  {
+   "aud": "students",
+   "cat": "National",
+   "place": "New Delhi · India",
+   "title": "Parliament to hold special sittings from Monday; Rijiju asks MPs for meaningful debate.",
+   "summary": "Parliamentary Affairs Minister Kiren Rijiju said the Lok Sabha will hold four days of special sittings starting Monday (30 November), where the government will bring important bills. The Rajya Sabha sittings will begin on 2 December. Rijiju said he had spoken to leaders of the main political parties and asked every MP to take part in the debates and help both Houses run smoothly.",
+   "gk": "India's Parliament has two Houses: the Lok Sabha (House of the People) and the Rajya Sabha (Council of States). The Vice-President is the Chairman of the Rajya Sabha.",
+   "source": "News On AIR (27 Nov 2026)",
+   "url": "https://newsonair.gov.in/union-parliamentary-affairs-minister-urges-mps-to-engage-in-meaningful-debate-in-four-day-parliament-session-set-to-begin-on-monday/"
+  },
+  {
+   "aud": "students",
+   "cat": "World",
+   "place": "Belgrade · Serbia",
+   "title": "Serbia's student-led movement names a chemistry professor as its presidential candidate.",
+   "summary": "Serbia's student-backed movement, which won October's parliamentary election on an anti-corruption platform, has chosen Radomir Saicic as its candidate for the presidential vote on 27 December. Saicic, 65, teaches chemistry at Belgrade University. The movement grew out of nearly two years of protests after a railway station canopy collapsed in Novi Sad in 2024, killing 16 people. The Serbian president's role is largely ceremonial, but the president is commander-in-chief of the armed forces.",
+   "gk": "Serbia is a landlocked country in south-eastern Europe with Belgrade as its capital. The Danube, Europe's second-longest river, flows through Belgrade.",
+   "source": "Al Jazeera (27 Nov 2026)",
+   "url": "https://www.aljazeera.com/news/2026/11/27/serbias-student-led-movement-nominates-chemistry-professor-for-presidency"
+  },
+  {
+   "aud": "students",
+   "cat": "World",
+   "place": "Rome · Italy",
+   "title": "UN agencies warn that hunger will get worse in 16 countries over the next six months.",
+   "summary": "A new 'Hunger Hotspots' report by the Food and Agriculture Organization (FAO) and the World Food Programme (WFP) says hunger is likely to worsen in 16 countries. Sudan, Yemen, South Sudan, Somalia and northern Nigeria are at the highest level of concern. In Sudan, the risk of famine is expected to continue through January in parts of Darfur and Kordofan. The FAO said El Nino-linked drought is a major extra threat for Sudan, on top of the war.",
+   "gk": "The FAO and WFP are both headquartered in Rome, Italy. World Food Day is observed on 16 October, the day FAO was founded in 1945.",
+   "source": "News On AIR (27 Nov 2026)",
+   "url": "https://newsonair.gov.in/un-agencies-warn-hunger-to-worsen-in-16-countries-over-next-six-months/"
+  },
+  {
+   "aud": "students",
+   "cat": "Science",
+   "place": "New Delhi · India",
+   "title": "Two Indian space start-ups sign their biggest deal yet for satellite engines.",
+   "summary": "Bellatrix Aerospace and GalaxEye Space Solutions signed a multi-year agreement at the 5th India International Space Conclave in New Delhi. Bellatrix will supply its 'Arka' Hall-effect electric propulsion systems for 30 of GalaxEye's Drishti Gen-II satellites. By number of satellites, it is the largest business deal so far between two private Indian space companies. Electric engines like these help satellites move and stay in the right orbit using very little fuel.",
+   "gk": "ISRO (Indian Space Research Organisation) was set up in 1969 and is headquartered in Bengaluru. IN-SPACe is the agency that authorises private companies' space activities in India.",
+   "source": "AffairsCloud (27 Nov 2026)",
+   "url": "https://affairscloud.com/current-affairs-27-november-2026/"
+  },
+  {
+   "aud": "students",
+   "cat": "Sports",
+   "place": "Geneva · Switzerland",
+   "title": "Gukesh and challenger Sindarov are level at 1.5 points each after three games of the World Chess Championship.",
+   "summary": "India's D. Gukesh, the reigning world champion, drew Game 3 against challenger Javokhir Sindarov while playing with the black pieces in Geneva. Both players now have 1.5 points. The match has 14 games, and the first player to reach 7.5 points wins the title. If the score is 7-7 after 14 games, faster tie-break games will decide the winner.",
+   "gk": "Viswanathan Anand was India's first world chess champion and its first Grandmaster (1988). FIDE, the world chess body, was founded in 1924 in Paris.",
+   "source": "News On AIR (27 Nov 2026)",
+   "url": "https://newsonair.gov.in/fide-world-chess-championship-gukesh-and-sindarov-level-at-1-5-points-after-three-games/"
+  },
+  {
+   "aud": "adults",
+   "cat": "Economy",
+   "place": "New Delhi · India",
+   "title": "Cabinet approves an ₹11,000-crore scheme to boost manufacturing of construction and infrastructure equipment.",
+   "summary": "On 25 November 2026 the Union Cabinet chaired by PM Narendra Modi approved the Scheme for Enhancement of Construction and Infrastructure Equipment (CIE) Manufacturing Ecosystem with an outlay of ₹11,000 crore. The Ministry of Heavy Industries will run it for eight years, FY27 to FY34. Eligible manufacturers and component makers will get sales-linked incentives of 8-13% for five years. Up to ₹375 crore of viability gap funding is set aside for a dedicated CIE testing facility in India.",
+   "gk": "The scheme has a 2-year gestation period (FY27-FY28), a 5-year incentive period (FY29-FY33) and a final settlement year (FY34). The Ministry of Heavy Industries also runs the FAME and PLI-Auto schemes.",
+   "exam": "Remember: CIE scheme = ₹11,000 crore; Ministry of Heavy Industries; FY27-FY34; incentives 8-13%; VGF up to ₹375 crore for a testing facility.",
+   "source": "AffairsCloud (27 Nov 2026)",
+   "url": "https://affairscloud.com/current-affairs-27-november-2026/"
+  },
+  {
+   "aud": "adults",
+   "cat": "Schemes",
+   "place": "New Delhi · India",
+   "title": "Cabinet continues the Postal Operations and Estates Management schemes with ₹2,632 crore.",
+   "summary": "The Union Cabinet approved continuing two Central Sector Schemes of the Department of Posts, Ministry of Communications. The combined outlay is ₹2,632 crore for the 16th Finance Commission cycle (FY27 to FY31): ₹1,141 crore for the Postal Operations Scheme and ₹1,491 crore for the Estates Management Scheme. The money will modernise the postal network, improve parcel and last-mile delivery, and upgrade post office buildings, including ₹180 crore for heritage preservation.",
+   "gk": "India Post's PIN code system was introduced on 15 August 1972. World Post Day is on 9 October and India's National Postal Week is held around it.",
+   "exam": "Remember: Postal Operations ₹1,141 cr + Estates Management ₹1,491 cr = ₹2,632 cr; period FY27-FY31 (16th Finance Commission cycle).",
+   "source": "AffairsCloud (27 Nov 2026)",
+   "url": "https://affairscloud.com/current-affairs-27-november-2026/"
+  },
+  {
+   "aud": "adults",
+   "cat": "Social Security",
+   "place": "New Delhi · India",
+   "title": "ESIC notifies new General Regulations, 2026 with 'deemed claims' for sickness and maternity benefits.",
+   "summary": "The Employees' State Insurance Corporation (ESIC), under the Ministry of Labour and Employment, notified the Employees' State Insurance (General) Regulations, 2026, effective from 21 November 2026. They replace the 1950 regulations under the Code on Social Security, 2020. A new 'Deemed Claims' rule lets eligible insured persons receive sickness and maternity benefits directly through DBT without filing a separate claim. The monthly wage ceiling for coverage is ₹21,000, and ₹25,000 for persons with disabilities.",
+   "gk": "Under ESI, employers contribute 3.25% of wages and employees 0.75%. The Code on Social Security, 2020 is one of India's four new labour codes.",
+   "exam": "Remember: ESI (General) Regulations 2026 effective 21 Nov 2026; Regulation 29A 'Deemed Claims'; wage ceiling ₹21,000 (₹25,000 for PwD).",
+   "source": "AffairsCloud (27 Nov 2026)",
+   "url": "https://affairscloud.com/current-affairs-27-november-2026/"
+  },
+  {
+   "aud": "adults",
+   "cat": "Governance",
+   "place": "New Delhi · India",
+   "title": "Social Justice Ministry launches the SAMAVESH single-window platform and a new e-Anudaan portal.",
+   "summary": "On 25 November 2026 Union Minister Dr Virendra Kumar launched SAMAVESH (Single Access Mechanism for All Verticals of Empowerment & Social Harmony), which joins 33 portals of the Ministry of Social Justice and Empowerment into one platform. The revamped e-Anudaan portal handles grant-in-aid for four schemes: NAPDDR, SMILE, AVYAY and SHRESHTA. The ministry also signed MoUs with BHASHINI for multilingual services and with NSDC for skilling under PM-AJAY.",
+   "gk": "SMILE = Support for Marginalised Individuals for Livelihood and Enterprise; AVYAY = Atal Vayo Abhyuday Yojana (for senior citizens); PM-AJAY = Pradhan Mantri Anusuchit Jaati Abhyuday Yojana.",
+   "exam": "Remember: SAMAVESH integrates 33 portals of MoSJE; e-Anudaan covers NAPDDR, SMILE, AVYAY and SHRESHTA.",
+   "source": "AffairsCloud (27 Nov 2026)",
+   "url": "https://affairscloud.com/current-affairs-27-november-2026/"
+  },
+  {
+   "aud": "adults",
+   "cat": "Agreements",
+   "place": "New Delhi · India",
+   "title": "Jal Shakti and Skill Development ministries sign MoU to train 1 lakh 'Nal Jal Mitras'.",
+   "summary": "On 25 November 2026 the Department of Drinking Water and Sanitation (Ministry of Jal Shakti) signed an MoU with the Directorate General of Training (Ministry of Skill Development and Entrepreneurship). Under Jal Jeevan Mission 2.0, at least 1 lakh candidates will be trained and certified to operate and maintain village water supply systems. The estimated cost is ₹111.93 crore, funded by DDWS. The 165-hour course has 120 hours of classroom training and 45 hours of on-the-job training.",
+   "gk": "Jal Jeevan Mission was launched on 15 August 2019 to give every rural home a tap water connection. The Ministry of Jal Shakti was formed in 2019.",
+   "exam": "Remember: Nal Jal Mitra = DDWS-DGT MoU; 1 lakh trainees; ₹111.93 crore; 165-hour NSQF-aligned course under JJM 2.0.",
+   "source": "AffairsCloud (27 Nov 2026)",
+   "url": "https://affairscloud.com/current-affairs-27-november-2026/"
+  },
+  {
+   "aud": "adults",
+   "cat": "Banking",
+   "place": "New Delhi · India",
+   "title": "PNB signs MoU with Germany's Deutsche Bank to finance company acquisitions in India.",
+   "summary": "Punjab National Bank (PNB) signed an MoU with Deutsche Bank AG on 25 November 2026 for cooperation in financing share acquisitions in India, through underwriting, syndication and referrals. Under RBI's Acquisition Financing framework, effective 1 July 2026, Indian banks can fund up to 75% of the value of an eligible corporate acquisition, with the buyer funding the remaining 25%. Similar tie-ups exist between SBI and Japan's MUFG Bank, and between Bank of Baroda and Mizuho Bank.",
+   "gk": "PNB, called India's first Swadeshi bank, began operations on 12 April 1895 in Lahore and is now headquartered in New Delhi.",
+   "exam": "Remember: PNB-Deutsche Bank MoU (acquisition finance); RBI framework from 1 July 2026 allows bank funding up to 75% of acquisition value.",
+   "source": "AffairsCloud (27 Nov 2026)",
+   "url": "https://affairscloud.com/current-affairs-27-november-2026/"
+  }
+ ],
+ "quiz": [
+  {
+   "headline": 1,
+   "q": "Tunnel-14, which achieved its breakthrough, is part of which rail project?",
+   "options": [
+    "Udhampur-Srinagar-Baramulla",
+    "Rishikesh-Karnaprayag",
+    "Mumbai-Ahmedabad High Speed",
+    "Bilaspur-Manali-Leh"
+   ],
+   "answer": 1,
+   "explain": "The 6.59-km Tunnel-14 is on the Rishikesh-Karnaprayag line in Uttarakhand."
+  },
+  {
+   "headline": 2,
+   "q": "Who is the Union Minister of Parliamentary Affairs who spoke about the special sittings?",
+   "options": [
+    "Arjun Ram Meghwal",
+    "Kiren Rijiju",
+    "Om Birla",
+    "Piyush Goyal"
+   ],
+   "answer": 1,
+   "explain": "Kiren Rijiju asked MPs to take part in meaningful debate."
+  },
+  {
+   "headline": 3,
+   "q": "The student-led movement in Serbia has nominated a professor of which subject for president?",
+   "options": [
+    "History",
+    "Physics",
+    "Law",
+    "Chemistry"
+   ],
+   "answer": 3,
+   "explain": "Radomir Saicic teaches chemistry at Belgrade University."
+  },
+  {
+   "headline": 4,
+   "q": "Which two UN agencies published the 'Hunger Hotspots' report?",
+   "options": [
+    "WHO and UNICEF",
+    "UNESCO and UNDP",
+    "FAO and WFP",
+    "ILO and IMF"
+   ],
+   "answer": 2,
+   "explain": "The Food and Agriculture Organization and the World Food Programme publish it."
+  },
+  {
+   "headline": 5,
+   "q": "'Arka' engines that Bellatrix Aerospace will supply are what kind of propulsion system?",
+   "options": [
+    "Hall-effect electric propulsion",
+    "Solid rocket boosters",
+    "Cryogenic engines",
+    "Nuclear thermal engines"
+   ],
+   "answer": 0,
+   "explain": "Arka is a Hall-effect electric propulsion system for satellites."
+  },
+  {
+   "headline": 6,
+   "q": "How many points does a player need to win the 14-game World Chess Championship match?",
+   "options": [
+    "7",
+    "8",
+    "7.5",
+    "10"
+   ],
+   "answer": 2,
+   "explain": "The first to reach 7.5 points wins; 7-7 leads to tie-breaks."
+  },
+  {
+   "headline": 7,
+   "q": "Which ministry will implement the ₹11,000-crore CIE manufacturing scheme?",
+   "options": [
+    "Ministry of Heavy Industries",
+    "Ministry of Road Transport",
+    "Ministry of MSME",
+    "Ministry of Commerce"
+   ],
+   "answer": 0,
+   "explain": "The Ministry of Heavy Industries will run it from FY27 to FY34."
+  },
+  {
+   "headline": 8,
+   "q": "What is the combined outlay for continuing the Postal Operations and Estates Management schemes?",
+   "options": [
+    "₹1,141 crore",
+    "₹1,491 crore",
+    "₹11,000 crore",
+    "₹2,632 crore"
+   ],
+   "answer": 3,
+   "explain": "₹1,141 crore + ₹1,491 crore = ₹2,632 crore."
+  },
+  {
+   "headline": 9,
+   "q": "Under ESIC's new regulations, what is the monthly wage ceiling for coverage of ordinary employees?",
+   "options": [
+    "₹15,000",
+    "₹21,000",
+    "₹25,000",
+    "₹30,000"
+   ],
+   "answer": 1,
+   "explain": "₹21,000 for employees; ₹25,000 for persons with disabilities."
+  },
+  {
+   "headline": 10,
+   "q": "How many portals does the SAMAVESH platform bring together?",
+   "options": [
+    "12",
+    "22",
+    "33",
+    "44"
+   ],
+   "answer": 2,
+   "explain": "SAMAVESH integrates 33 portals of the Social Justice Ministry."
+  },
+  {
+   "headline": 11,
+   "q": "How many 'Nal Jal Mitras' are to be trained under the DDWS-DGT MoU?",
+   "options": [
+    "At least 1 lakh",
+    "10,000",
+    "5 lakh",
+    "1 crore"
+   ],
+   "answer": 0,
+   "explain": "At least 1 lakh candidates at a cost of ₹111.93 crore."
+  },
+  {
+   "headline": 12,
+   "q": "Under RBI's acquisition financing framework, banks can fund up to what share of an acquisition's value?",
+   "options": [
+    "50%",
+    "60%",
+    "90%",
+    "75%"
+   ],
+   "answer": 3,
+   "explain": "Banks can fund up to 75%; the buyer funds the other 25%."
+  }
+ ],
+ "ai": [
+  {
+   "aud": "students",
+   "place": "Jaipur · India",
+   "title": "Jaipur school hosts a national conclave where students draft AI-based policy ideas.",
+   "summary": "Neerja Modi School in Jaipur is hosting Pragya 2026, a national schools conclave on AI, humanities and public policy, on 28-29 November. Students present policy ideas to a jury and then turn them into prototype solutions. Topics include organ donation, farming problems, groundwater management and social welfare. The event is run with Public Policy India and the think tank STRIDE.",
+   "gk": "Jaipur, the capital of Rajasthan, is known as the Pink City. NEP 2020 encourages AI and computational thinking in school education.",
+   "source": "Business Standard / ANI (27 Nov 2026)",
+   "url": "https://www.business-standard.com/amp/content/press-releases-ani/neerja-modi-school-hosts-national-ai-conclave-to-advance-future-ready-education-126112700436_1.html",
+   "quiz": {
+    "q": "Which city is hosting the Pragya 2026 national schools conclave on AI and public policy?",
+    "options": [
+     "Bengaluru",
+     "Kolkata",
+     "Jaipur",
+     "Pune"
+    ],
+    "answer": 2,
+    "explain": "Neerja Modi School, Jaipur hosts it on 28-29 November."
+   }
+  },
+  {
+   "aud": "students",
+   "place": "Los Angeles · USA",
+   "title": "Los Angeles schools switch off Google's AI Overview summaries on student devices.",
+   "summary": "Los Angeles Unified, a school district with about half a million students, has turned off Google's AI Overview feature on school-issued devices. The district said the pause is to keep students' online experience safe and age-appropriate. Google says AI summaries are built into its search and cannot easily be separated. The case shows how schools are debating how much AI children should use.",
+   "gk": "AI stands for Artificial Intelligence. Google's AI chatbot is called Gemini.",
+   "source": "AP via KCRA (27 Nov 2026)",
+   "url": "https://www.kcra.com/article/as-google-threatens-to-cut-schools-search-access-los-angeles-blocks-ai-features/74551418",
+   "quiz": {
+    "q": "What did Los Angeles Unified switch off on student devices?",
+    "options": [
+     "All internet access",
+     "Google Maps",
+     "Google AI Overview summaries",
+     "School email"
+    ],
+    "answer": 2,
+    "explain": "LAUSD paused Google's AI Overview summaries for safety reasons."
+   }
+  },
+  {
+   "aud": "adults",
+   "place": "Bengaluru · India",
+   "title": "DIDAC India 2026 in Bengaluru puts AI-powered learning and teacher training in focus.",
+   "summary": "DIDAC India 2026, an education technology expo, was held in Bengaluru from 25 to 27 November. It focused on how AI and digital tools are changing education and preparing students for future jobs. Over 500 global brands showed AI learning tools, robotics and STEM products, and workshops covered curriculum updates and teacher training for digital classrooms. It is organised by the India Didactics Association.",
+   "gk": "Bengaluru is the capital of Karnataka. NEP 2020 is India's current National Education Policy.",
+   "exam": "Remember: DIDAC India 2026 = Bengaluru, 25-27 Nov; organised by the India Didactics Association; theme AI in learning and teacher training.",
+   "source": "NewsBytes (19 Nov 2026)",
+   "url": "https://www.newsbytesapp.com/news/business/didac-india-2026-in-bengaluru-to-spotlight-ai-education/tldr",
+   "quiz": {
+    "q": "In which city was DIDAC India 2026 held?",
+    "options": [
+     "Hyderabad",
+     "Bengaluru",
+     "Chennai",
+     "Delhi"
+    ],
+    "answer": 1,
+    "explain": "It ran in Bengaluru on 25-27 November 2026."
+   }
+  },
+  {
+   "aud": "adults",
+   "place": "Global",
+   "title": "Google report says AI helps learning most when teachers guide how students use it.",
+   "summary": "Google's November 2026 report 'AI in Education: From potential to practice' gathers research on AI in classrooms. One study it cites found that high-school students who used AI without guidance scored 17% lower on exams taken without AI, but teacher-designed guardrails removed that drop. In India, the Read Along app showed big gains in reading fluency in Hindi (114%) and Marathi (120%) compared with a control group. The report says AI tutoring set by teachers works better than optional use.",
+   "gk": "UNICEF is the UN agency for children. PISA is the OECD's international test of 15-year-old students.",
+   "exam": "Remember: Google AI in Education report (Nov 2026): unguided AI cut exam scores 17%; Read Along fluency gains 114% (Hindi), 120% (Marathi).",
+   "source": "Google (Nov 2026)",
+   "url": "https://services.google.com/fh/files/misc/ai_in_education_report_nov26.pdf",
+   "quiz": {
+    "q": "By how much did unguided AI use lower high-schoolers' unassisted exam scores, as per the study cited?",
+    "options": [
+     "7%",
+     "12%",
+     "27%",
+     "17%"
+    ],
+    "answer": 3,
+    "explain": "17% lower; teacher-designed guardrails removed the drop."
+   }
+  }
+ ],
+ "weather": {
+  "city": "Delhi-NCR",
+  "days": [
+   {
+    "date": "2026-11-28",
+    "condition": "Moderate fog at isolated places in the morning, then mainly clear",
+    "max": 25,
+    "min": 9
+   },
+   {
+    "date": "2026-11-29",
+    "condition": "Mist and moderate fog at places in the morning, then mainly clear",
+    "max": 25,
+    "min": 10
+   },
+   {
+    "date": "2026-11-30",
+    "condition": "Mist and moderate fog at places in the morning, then mainly clear",
+    "max": 24,
+    "min": 10
+   },
+   {
+    "date": "2026-12-01",
+    "condition": "Foggy morning, then partly cloudy",
+    "max": 23,
+    "min": 9
+   },
+   {
+    "date": "2026-12-02",
+    "condition": "Shallow fog in the morning, then partly cloudy",
+    "max": 23,
+    "min": 9
+   }
+  ],
+  "facts": [
+   {
+    "label": "Sunrise",
+    "value": "06:54"
+   },
+   {
+    "label": "Sunset",
+    "value": "about 17:24"
+   },
+   {
+    "label": "Latest observed max/min (Safdarjung, 26 Nov)",
+    "value": "27.2 °C / 9.0 °C (min 2.3 °C below normal); Ghaziabad 27.1 °C / 9.1 °C"
+   },
+   {
+    "label": "IMD warnings for Delhi",
+    "value": "None issued; no rain expected for the next 7 days"
+   }
+  ],
+  "note": "Dry days with chilly, foggy mornings. Days get slightly cooler from 30 November, with maximums falling to about 22-24 °C by early December. IMD gave ranges (e.g. max 24-26 °C, min 8-10 °C); the figures shown are mid-points, taken from IMD's Delhi bulletin issued on 26 Nov at 8:30 pm (the newest available this morning). 27 Nov's observed temperatures were not yet available.",
+  "regionSource": "Dynamite News citing IMD (27 Nov 2026)",
+  "regionUrl": "https://www.dynamitenews.com/national/india-weather-update-november-27-2026-fog-cold-rain-alert-today",
+  "regions": [
+   {
+    "icon": "fog",
+    "alert": true,
+    "name": "Punjab",
+    "outlook": "Yellow alert for fog in 12 districts."
+   },
+   {
+    "icon": "fog",
+    "alert": true,
+    "name": "Western Uttar Pradesh",
+    "outlook": "Dense fog warnings; Muzaffarnagar recorded the state's lowest minimum of 9.1 °C."
+   },
+   {
+    "icon": "fog",
+    "alert": true,
+    "name": "Himachal Pradesh",
+    "outlook": "Dense fog likely in Mandi, Hamirpur and Bilaspur until 2 December; dry weather."
+   },
+   {
+    "icon": "fog",
+    "name": "Jharkhand & Bihar",
+    "outlook": "Colder nights and fog in several districts; dry weather (Bihar dry till 3 December)."
+   },
+   {
+    "icon": "storm",
+    "alert": true,
+    "name": "Tamil Nadu",
+    "outlook": "Isolated heavy showers with thunderstorms and lightning possible."
+   },
+   {
+    "icon": "smog",
+    "name": "Delhi-NCR",
+    "outlook": "Air quality 'poor', with early-morning fog and calm winds trapping pollution."
+   }
+  ],
+  "source": "IMD Delhi daily weather report and forecast (issued 26 Nov 2026, 8:30 pm)",
+  "url": "https://mausam.imd.gov.in/newdelhi/mcdata/delhi_forecast.pdf"
+ },
+ "aqi": {
+  "asOf": "Friday 27 Nov 2026: Delhi = CPCB reading at 8 am; Ghaziabad, Noida, Gurugram and Faridabad = 27 Nov CPCB figures as reported by ETV Bharat (exact time not stated). The CPCB 4 pm bulletin of 27 Nov was not available.",
+  "cities": [
+   {
+    "name": "Ghaziabad",
+    "aqi": 253,
+    "home": true
+   },
+   {
+    "name": "Delhi",
+    "aqi": 220
+   },
+   {
+    "name": "Noida",
+    "aqi": 228
+   },
+   {
+    "name": "Gurugram",
+    "aqi": 210
+   },
+   {
+    "name": "Faridabad",
+    "aqi": 230
+   }
+  ],
+  "note": "All five cities were 'poor' (201-300), with Ghaziabad (253) the worst. In Delhi, DTU was the worst station (above 300), and 38 stations were above 200; Delhi's air had spiked to about 393 around 2 am before easing in the morning. In November so far Ghaziabad has had 20 'poor' and 5 'very poor' days. GRAP Stage II was in force across Delhi-NCR as last reported (26 Nov), and the early warning system expected air to turn 'very poor' around 28 Nov.",
+  "source": "ETV Bharat and Business Standard (citing CPCB), 27 Nov 2026",
+  "url": "https://www.etvbharat.com/en/bharat/pollution-remains-high-across-indian-cities-in-november-delhis-aqi-stays-below-severe-category-enn26112701358"
+ }
+}
